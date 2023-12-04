@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="etsize">52dp</dimen>
+    <dimen name="btnheight">52dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="inputsizesm">14dp</dimen>
+    <dimen name="paddingstart">10dp</dimen>
+</resources>

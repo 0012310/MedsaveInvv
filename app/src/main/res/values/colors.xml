@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="bluenew">#1878F1</color>
+    <color name="bluenDark">#353C94</color>
+    <color name="dull">#FF7C7575</color>
+    <color name="lightGrey">#ededed</color>
+    <color name="btnbg">#16C7C7</color>
+    <color name="newprimarycolor">#16C7C7</color>
+    <color name="transparent">#99FFFFFF</color>
+</resources>

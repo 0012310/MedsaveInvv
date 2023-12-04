@@ -1,0 +1,55 @@
+com.example.medsaveinv.app-drawerlayout-1.1.1-0 C:\Users\KV RANA\.gradle\caches\transforms-3\01bd85bf06a268fd9e02272796b79a59\transformed\drawerlayout-1.1.1\res
+com.example.medsaveinv.app-core-runtime-2.2.0-1 C:\Users\KV RANA\.gradle\caches\transforms-3\02b2901c905d86e57d81f870aff6b2e8\transformed\core-runtime-2.2.0\res
+com.example.medsaveinv.app-media-1.6.0-2 C:\Users\KV RANA\.gradle\caches\transforms-3\03918e5f0abb797450d21e1f2d347cbe\transformed\media-1.6.0\res
+com.example.medsaveinv.app-fragment-ktx-1.5.2-3 C:\Users\KV RANA\.gradle\caches\transforms-3\06aa51e8d8d8932a31537e35aa5e7b91\transformed\fragment-ktx-1.5.2\res
+com.example.medsaveinv.app-recyclerview-1.1.0-4 C:\Users\KV RANA\.gradle\caches\transforms-3\06f57822a32e750a7a87173a7f07367d\transformed\recyclerview-1.1.0\res
+com.example.medsaveinv.app-play-services-cast-21.3.0-5 C:\Users\KV RANA\.gradle\caches\transforms-3\07a19a60ee4348143f54ae51bb1d7f22\transformed\play-services-cast-21.3.0\res
+com.example.medsaveinv.app-activity-ktx-1.6.0-6 C:\Users\KV RANA\.gradle\caches\transforms-3\09772e65c8c755247c956973cfc64bd7\transformed\activity-ktx-1.6.0\res
+com.example.medsaveinv.app-dotsindicator-4.3-debug-7 C:\Users\KV RANA\.gradle\caches\transforms-3\13edb3983cfa96991d7e98acee0e4605\transformed\dotsindicator-4.3-debug\res
+com.example.medsaveinv.app-coordinatorlayout-1.1.0-8 C:\Users\KV RANA\.gradle\caches\transforms-3\18ed65936a0d6db3e09cbb4a166b4074\transformed\coordinatorlayout-1.1.0\res
+com.example.medsaveinv.app-play-services-cast-framework-21.3.0-9 C:\Users\KV RANA\.gradle\caches\transforms-3\2419c6be4e039e78f5aa200ce5bb7bbc\transformed\play-services-cast-framework-21.3.0\res
+com.example.medsaveinv.app-transition-1.4.1-10 C:\Users\KV RANA\.gradle\caches\transforms-3\25c0141167d9c374489cefe58eb47b7d\transformed\transition-1.4.1\res
+com.example.medsaveinv.app-appcompat-1.6.1-11 C:\Users\KV RANA\.gradle\caches\transforms-3\2a6c7d574ce7fb948870caff15d977e2\transformed\appcompat-1.6.1\res
+com.example.medsaveinv.app-constraintlayout-2.1.4-12 C:\Users\KV RANA\.gradle\caches\transforms-3\2d1d47853c714d1a02c65a4d27bd1812\transformed\constraintlayout-2.1.4\res
+com.example.medsaveinv.app-material-1.5.0-13 C:\Users\KV RANA\.gradle\caches\transforms-3\338be2afdc846b23b579ea676302373f\transformed\material-1.5.0\res
+com.example.medsaveinv.app-slidingpanelayout-1.2.0-14 C:\Users\KV RANA\.gradle\caches\transforms-3\35d4475ee2a8338c6777ad4c64c9be63\transformed\slidingpanelayout-1.2.0\res
+com.example.medsaveinv.app-play-services-base-18.1.0-15 C:\Users\KV RANA\.gradle\caches\transforms-3\560f8d3a8740b04d9d12d7d2bb558e04\transformed\play-services-base-18.1.0\res
+com.example.medsaveinv.app-cardview-1.0.0-16 C:\Users\KV RANA\.gradle\caches\transforms-3\5f52b60558325e174d6a26ae959b6dcf\transformed\cardview-1.0.0\res
+com.example.medsaveinv.app-lifecycle-viewmodel-savedstate-2.6.2-17 C:\Users\KV RANA\.gradle\caches\transforms-3\61844812321110703bb7cea0f98fe749\transformed\lifecycle-viewmodel-savedstate-2.6.2\res
+com.example.medsaveinv.app-circleimageview-3.1.0-18 C:\Users\KV RANA\.gradle\caches\transforms-3\6ab2451b5b1cf180ce0e44c00acce429\transformed\circleimageview-3.1.0\res
+com.example.medsaveinv.app-annotation-experimental-1.3.0-19 C:\Users\KV RANA\.gradle\caches\transforms-3\71191645b6a4c2fa1ac843c44cf59f4c\transformed\annotation-experimental-1.3.0\res
+com.example.medsaveinv.app-lifecycle-process-2.6.2-20 C:\Users\KV RANA\.gradle\caches\transforms-3\73509b3e763512c6885ed01eb6442485\transformed\lifecycle-process-2.6.2\res
+com.example.medsaveinv.app-core-1.13.0-alpha02-21 C:\Users\KV RANA\.gradle\caches\transforms-3\735f22e2c3dd913da36e1831092e0e19\transformed\core-1.13.0-alpha02\res
+com.example.medsaveinv.app-savedstate-ktx-1.2.1-22 C:\Users\KV RANA\.gradle\caches\transforms-3\73b290ef7c55f50b533831e5a17cfc00\transformed\savedstate-ktx-1.2.1\res
+com.example.medsaveinv.app-lifecycle-runtime-2.6.2-23 C:\Users\KV RANA\.gradle\caches\transforms-3\753b7ff49fc155e4b54dc436e876bbf7\transformed\lifecycle-runtime-2.6.2\res
+com.example.medsaveinv.app-lifecycle-runtime-ktx-2.6.2-24 C:\Users\KV RANA\.gradle\caches\transforms-3\7d0079734bbe5f418c3c8368e2caa73c\transformed\lifecycle-runtime-ktx-2.6.2\res
+com.example.medsaveinv.app-play-services-basement-18.1.0-25 C:\Users\KV RANA\.gradle\caches\transforms-3\7ef039db0b4b6cb84e3396a0df01ce6d\transformed\play-services-basement-18.1.0\res
+com.example.medsaveinv.app-core-ktx-1.13.0-alpha02-26 C:\Users\KV RANA\.gradle\caches\transforms-3\800b570a6eb84c28b516c9a5e7a314f5\transformed\core-ktx-1.13.0-alpha02\res
+com.example.medsaveinv.app-mediarouter-1.3.0-27 C:\Users\KV RANA\.gradle\caches\transforms-3\8290311c758f48cc332360669a46a520\transformed\mediarouter-1.3.0\res
+com.example.medsaveinv.app-navigation-ui-2.5.2-28 C:\Users\KV RANA\.gradle\caches\transforms-3\970f04da3e223fd1a012aa3b7c60e5af\transformed\navigation-ui-2.5.2\res
+com.example.medsaveinv.app-savedstate-1.2.1-29 C:\Users\KV RANA\.gradle\caches\transforms-3\99942309f2adf7870f60b4f4feda8df1\transformed\savedstate-1.2.1\res
+com.example.medsaveinv.app-lifecycle-livedata-core-ktx-2.6.2-30 C:\Users\KV RANA\.gradle\caches\transforms-3\9ab6e3788f8a1191526cc8ff7b1cbb6b\transformed\lifecycle-livedata-core-ktx-2.6.2\res
+com.example.medsaveinv.app-activity-1.6.0-31 C:\Users\KV RANA\.gradle\caches\transforms-3\9e3e440eebf0548edb0cedf43a4d9b44\transformed\activity-1.6.0\res
+com.example.medsaveinv.app-startup-runtime-1.1.1-32 C:\Users\KV RANA\.gradle\caches\transforms-3\9f766eff29b4c953aae1ed827c80af48\transformed\startup-runtime-1.1.1\res
+com.example.medsaveinv.app-navigation-runtime-2.5.2-33 C:\Users\KV RANA\.gradle\caches\transforms-3\a1ba17ad019c2bc5b470779d1eaf2598\transformed\navigation-runtime-2.5.2\res
+com.example.medsaveinv.app-navigation-common-2.5.2-34 C:\Users\KV RANA\.gradle\caches\transforms-3\a88653cb3e1d39cbdc21dcb1954493be\transformed\navigation-common-2.5.2\res
+com.example.medsaveinv.app-lifecycle-livedata-2.6.2-35 C:\Users\KV RANA\.gradle\caches\transforms-3\b303794025f02f74e1ba6404b5c214f4\transformed\lifecycle-livedata-2.6.2\res
+com.example.medsaveinv.app-viewpager2-1.0.0-36 C:\Users\KV RANA\.gradle\caches\transforms-3\b46be2f1363c01a38bd41aaa07007932\transformed\viewpager2-1.0.0\res
+com.example.medsaveinv.app-emoji2-1.2.0-37 C:\Users\KV RANA\.gradle\caches\transforms-3\cefe1227293e0603ff952f6902538294\transformed\emoji2-1.2.0\res
+com.example.medsaveinv.app-lifecycle-livedata-core-2.6.2-38 C:\Users\KV RANA\.gradle\caches\transforms-3\d4881d2006d1ffa6e307efe254af19c5\transformed\lifecycle-livedata-core-2.6.2\res
+com.example.medsaveinv.app-biometric-1.0.0-rc01-39 C:\Users\KV RANA\.gradle\caches\transforms-3\d7081a8944e802e25eb481d50dd10a46\transformed\biometric-1.0.0-rc01\res
+com.example.medsaveinv.app-lifecycle-viewmodel-2.6.2-40 C:\Users\KV RANA\.gradle\caches\transforms-3\dbf1ff7b69b6a0457921afdc155721de\transformed\lifecycle-viewmodel-2.6.2\res
+com.example.medsaveinv.app-navigation-fragment-2.5.2-41 C:\Users\KV RANA\.gradle\caches\transforms-3\e6891effa6a2254124dcf836a013e7c2\transformed\navigation-fragment-2.5.2\res
+com.example.medsaveinv.app-window-1.0.0-42 C:\Users\KV RANA\.gradle\caches\transforms-3\e80723ebf86c420e0480f163f12fe4db\transformed\window-1.0.0\res
+com.example.medsaveinv.app-emoji2-views-helper-1.2.0-43 C:\Users\KV RANA\.gradle\caches\transforms-3\e937c6b7298a6eef4ab9372246c10d89\transformed\emoji2-views-helper-1.2.0\res
+com.example.medsaveinv.app-appcompat-resources-1.6.1-44 C:\Users\KV RANA\.gradle\caches\transforms-3\e99d9e889076adcc1021ebe3a7df3c88\transformed\appcompat-resources-1.6.1\res
+com.example.medsaveinv.app-profileinstaller-1.3.0-45 C:\Users\KV RANA\.gradle\caches\transforms-3\ecc11acfc1efbb12d1bf7c103527e485\transformed\profileinstaller-1.3.0\res
+com.example.medsaveinv.app-fragment-1.5.2-46 C:\Users\KV RANA\.gradle\caches\transforms-3\ef3a802e91184e3a9901ff4d2931dd41\transformed\fragment-1.5.2\res
+com.example.medsaveinv.app-lifecycle-viewmodel-ktx-2.6.2-47 C:\Users\KV RANA\.gradle\caches\transforms-3\ef9e78c47084675b01b7c35d6fbae535\transformed\lifecycle-viewmodel-ktx-2.6.2\res
+com.example.medsaveinv.app-pngs-48 I:\Sonu Yadavv\Sonu Yadav\Out Source MediWheel\INV MED\MedsaveInv-master\app\build\generated\res\pngs\debug
+com.example.medsaveinv.app-resValues-49 I:\Sonu Yadavv\Sonu Yadav\Out Source MediWheel\INV MED\MedsaveInv-master\app\build\generated\res\resValues\debug
+com.example.medsaveinv.app-packageDebugResources-50 I:\Sonu Yadavv\Sonu Yadav\Out Source MediWheel\INV MED\MedsaveInv-master\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.medsaveinv.app-packageDebugResources-51 I:\Sonu Yadavv\Sonu Yadav\Out Source MediWheel\INV MED\MedsaveInv-master\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.medsaveinv.app-merged_res-52 I:\Sonu Yadavv\Sonu Yadav\Out Source MediWheel\INV MED\MedsaveInv-master\app\build\intermediates\merged_res\debug
+com.example.medsaveinv.app-debug-53 I:\Sonu Yadavv\Sonu Yadav\Out Source MediWheel\INV MED\MedsaveInv-master\app\src\debug\res
+com.example.medsaveinv.app-main-54 I:\Sonu Yadavv\Sonu Yadav\Out Source MediWheel\INV MED\MedsaveInv-master\app\src\main\res
