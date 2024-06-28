@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.medsaveinv.app-mergeDebugResources-50:/values-v16/values-v16.xml",
+            "outputFile": "med.Save.medsaveinv.app-mergeDebugResources-63:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\KV RANA\\.gradle\\caches\\transforms-3\\2a6c7d574ce7fb948870caff15d977e2\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\acer\\.gradle\\caches\\transforms-3\\ff02e5ed5d747fe9a016f35e207b5999\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -12,24 +12,6 @@
                         "endLines": "5",
                         "endColumns": "12",
                         "endOffsets": "223"
-                    },
-                    "to": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "121",
-                        "endLines": "6",
-                        "endColumns": "12",
-                        "endOffsets": "289"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\KV RANA\\.gradle\\caches\\transforms-3\\735f22e2c3dd913da36e1831092e0e19\\transformed\\core-1.13.0-alpha02\\res\\values-v16\\values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
                     }
                 }
             ]

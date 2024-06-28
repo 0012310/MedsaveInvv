@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".InvestigationSearchActivity">
+    tools:context="med.Save.medsaveinv.InvestigationSearchActivity">
 
 
     <include layout="@layout/header">
@@ -40,7 +40,6 @@
                 android:drawablePadding="6dp"
                 android:hint="Please enter file No"
                 android:padding="10dp"
-
                 android:textColor="@color/black"
                 android:textColorHint="@color/black" />
 

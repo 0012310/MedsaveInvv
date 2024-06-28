@@ -4,15 +4,15 @@
     "type": "PROCESSED_RES",
     "kind": "Directory"
   },
-  "applicationId": "com.example.medsaveinv",
+  "applicationId": "med.Save.medsaveinv",
   "variantName": "debug",
   "elements": [
     {
       "type": "SINGLE",
       "filters": [],
       "attributes": [],
-      "versionCode": 1,
-      "versionName": "1.0",
+      "versionCode": 2007,
+      "versionName": "2.0.0.7",
       "outputFile": "resources-debug.ap_"
     }
   ],

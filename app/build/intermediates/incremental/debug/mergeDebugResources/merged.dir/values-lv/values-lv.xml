@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
     <plurals name="mtrl_badge_content_description">
     <item quantity="zero">%d jaunu paziņojumu</item>
     <item quantity="one">%d jauns paziņojums</item>
@@ -32,8 +32,11 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Kopīgot ar:"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Kopīgot ar lietojumprogrammu <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Sakļaut"</string>
-    <string msgid="6241458715391513061" name="accessibility_fingerprint_dialog_help_area">"Palīdzības ziņojuma apgabals"</string>
+    <string name="bottomsheet_action_collapse">Sakļaut ekrāna apakšdaļas lapu</string>
+    <string name="bottomsheet_action_expand">Izvērst ekrāna apakšdaļas lapu</string>
     <string name="bottomsheet_action_expand_halfway">Izvērst līdz pusei</string>
+    <string name="bottomsheet_drag_handle_clicked">Tika veikts dubultskāriens uz vilkšanas tura</string>
+    <string name="bottomsheet_drag_handle_content_description">Vilkšanas turis</string>
     <string msgid="881409763997275156" name="call_notification_answer_action">"Atbildēt"</string>
     <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Video"</string>
     <string msgid="3229508546291798546" name="call_notification_decline_action">"Noraidīt"</string>
@@ -46,8 +49,6 @@
     <string name="cast_closed_captions">Slēgtie paraksti</string>
     <string name="cast_closed_captions_unavailable">Slēgtie paraksti nav pieejami</string>
     <string name="cast_connecting_to_device">Notiek savienojuma izveide ar: %1$s</string>
-    <string name="cast_device_chooser_searching_for_devices">Notiek ierīču meklēšana…</string>
-    <string name="cast_device_chooser_title">Apraide uz:</string>
     <string name="cast_disconnect">Pārtraukt savienojumu</string>
     <string name="cast_dynamic_group_name_format">%1$s + %2$d</string>
     <string name="cast_expanded_controller_ad_image_description">Attēls, kas tiek parādīts, kad Cast uztvērējā tiek atskaņota reklāma</string>
@@ -86,11 +87,6 @@
     <string name="cast_tracks_chooser_dialog_ok">Labi</string>
     <string name="cast_tracks_chooser_dialog_subtitles">Subtitri</string>
     <string name="cast_unmute">Ieslēgt skaņu</string>
-    <string name="cast_wifi_warning_description">Pārbaudiet, vai jūsu ierīce un apraides ierīce ir savienota ar vienu un to pašu Wi‑Fi tīklu. \n\n<a href="https://support.google.com/chromecastbuiltin/answer/3006709">Uzzināt vairāk</a></string>
-    <string name="cast_wifi_warning_title">Pārbaudiet savu Wi‑Fi tīklu \n</string>
-    <string name="cast_zero_devices_found">Netika atrasta neviena ierīce.\n</string>
-    <string name="cast_zero_devices_found_done_button_label">Gatavs</string>
-    <string name="cast_zero_devices_learn_more_description"><a href="https://support.google.com/chromecastbuiltin/answer/3006709">Uzziniet vairāk</a> par to, kā varat apraidīt saturu citās ierīcēs.</string>
     <string name="character_counter_content_description">Ievadītās rakstzīmes: %1$d no %2$d</string>
     <string name="character_counter_overflowed_content_description">Pārsniegts rakstzīmju skaita ierobežojums (%1$d no %2$d)</string>
     <string name="clear_text_end_icon_content_description">Notīrīt tekstu</string>
@@ -112,21 +108,25 @@
     <string name="common_open_on_phone">Atvērt tālrunī</string>
     <string name="common_signin_button_text">Pierakstīties</string>
     <string name="common_signin_button_text_long">Pierakstīties ar Google kontu</string>
-    <string msgid="4296851028928624518" name="confirm_device_credential_password">"Izmantot paroli"</string>
-    <string msgid="7497355367608150274" name="default_error_msg">"Nezināma kļūda"</string>
+    <string msgid="5912733858573823945" name="confirm_device_credential_password">"Izmantot paroli"</string>
+    <string msgid="4776854077120974966" name="default_error_msg">"Nezināma kļūda"</string>
     <string name="error_icon_content_description">Kļūda</string>
     <string name="exposed_dropdown_menu_content_description">Rādīt nolaižamo izvēlni</string>
-    <string msgid="5354590751262189738" name="fingerprint_dialog_touch_sensor">"Pieskarieties pirksta nospieduma sensoram"</string>
-    <string msgid="3976825677335166260" name="fingerprint_error_hw_not_available">"Pirksta nospieduma aparatūra nav pieejama."</string>
-    <string msgid="1176237289575184578" name="fingerprint_error_hw_not_present">"Šajā ierīcē nav pirksta nospieduma sensora"</string>
-    <string msgid="1651062876313169162" name="fingerprint_error_lockout">"Pārāk daudz mēģinājumu. Lūdzu, vēlāk mēģiniet vēlreiz."</string>
-    <string msgid="3350805046152877040" name="fingerprint_error_no_fingerprints">"Nav reģistrēts neviens pirksta nospiedums."</string>
-    <string msgid="3421037373085129417" name="fingerprint_error_user_canceled">"Lietotājs atcēla pirksta nospieduma darbību."</string>
-    <string msgid="5491287833813257925" name="fingerprint_not_recognized">"Nav atpazīts"</string>
-    <string msgid="7474799539658018076" name="generic_error_user_canceled">"Lietotājs atcēla autentificēšanu."</string>
+    <string msgid="1072308044213194243" name="fingerprint_dialog_touch_sensor">"Pieskarieties pirksta nospieduma sensoram"</string>
+    <string msgid="8216738333501875566" name="fingerprint_error_hw_not_available">"Pirksta nospieduma aparatūra nav pieejama."</string>
+    <string msgid="6306988885793029438" name="fingerprint_error_hw_not_present">"Šajā ierīcē nav pirksta nospieduma sensora"</string>
+    <string msgid="7291787166416782245" name="fingerprint_error_lockout">"Pārāk daudz mēģinājumu. Lūdzu, vēlāk mēģiniet vēlreiz."</string>
+    <string msgid="7520712796891883488" name="fingerprint_error_no_fingerprints">"Nav reģistrēts neviens pirksta nospiedums."</string>
+    <string msgid="7627716295344353987" name="fingerprint_error_user_canceled">"Lietotājs atcēla pirksta nospieduma darbību."</string>
+    <string msgid="3873359464293253009" name="fingerprint_not_recognized">"Nav atpazīts"</string>
+    <string msgid="3791785319221634505" name="generic_error_no_device_credential">"Nav iestatīts PIN, kombinācija vai parole."</string>
+    <string msgid="1807436368654974044" name="generic_error_no_keyguard">"Šajā ierīcē netiek atbalstīta autentifikācija ar PIN, kombināciju vai paroli."</string>
+    <string msgid="7309881387583143581" name="generic_error_user_canceled">"Lietotājs atcēla autentificēšanu."</string>
+    <string msgid="9119039724000326934" name="ic_media_route_learn_more_accessibility">"Uzziniet, kā veikt apraidi"</string>
     <string name="icon_content_description">Dialoglodziņa ikona</string>
     <string name="item_view_role_description">Cilne</string>
     <string name="material_clock_toggle_content_description">Atlasiet “AM” (priekšpusdienā) vai “PM” (pēcpusdienā).</string>
+    <string name="material_hour_24h_suffix">%1$s stundas</string>
     <string name="material_hour_selection">Atlasiet stundu</string>
     <string name="material_hour_suffix">plkst. %1$s</string>
     <string name="material_minute_selection">Atlasiet minūtes.</string>
@@ -144,8 +144,17 @@
     <string msgid="6629927151350192407" name="mr_cast_button_connecting">"Apraidīt: notiek savienojuma izveide"</string>
     <string msgid="8071109333469380363" name="mr_cast_button_disconnected">"Apraidīt: savienojums pārtraukts"</string>
     <string msgid="2175930138959078155" name="mr_cast_dialog_title_view_placeholder">"Nav informācijas"</string>
+    <string msgid="4257319068277776035" name="mr_chooser_looking_for_devices">"Notiek ierīču meklēšana…"</string>
     <string msgid="6114250663023140921" name="mr_chooser_searching">"Notiek ierīču meklēšana"</string>
     <string msgid="1419936397646839840" name="mr_chooser_title">"Apraidīt uz"</string>
+    <string msgid="3799500840179081429" name="mr_chooser_wifi_learn_more"><a href="https://support.google.com/chromecast/?p=trouble-finding-devices">"Uzzināt vairāk"</a></string>
+    <string msgid="2998902945608081567" name="mr_chooser_wifi_warning_description_car">"Otrai ierīcei ir jābūt savienotai ar to pašu Wi-Fi tīklu, ar kuru ir izveidots savienojums šajā automašīnā."</string>
+    <string msgid="2555886884770958244" name="mr_chooser_wifi_warning_description_phone">"Otrai ierīcei ir jābūt savienotai ar to pašu Wi-Fi tīklu, ar kuru ir izveidots savienojums šajā tālrunī."</string>
+    <string msgid="6038748488793588164" name="mr_chooser_wifi_warning_description_tablet">"Otrai ierīcei ir jābūt savienotai ar to pašu Wi-Fi tīklu, ar kuru ir izveidots savienojums šajā planšetdatorā."</string>
+    <string msgid="5845921667085074878" name="mr_chooser_wifi_warning_description_tv">"Otrai ierīcei ir jābūt savienotai ar to pašu Wi-Fi tīklu, ar kuru ir izveidots savienojums šajā televizorā."</string>
+    <string msgid="3459891599800041449" name="mr_chooser_wifi_warning_description_unknown">"Otrai ierīcei ir jābūt savienotai ar to pašu Wi-Fi tīklu, ar kuru ir izveidots savienojums šajā ierīcē."</string>
+    <string msgid="5255021372884233706" name="mr_chooser_wifi_warning_description_watch">"Otrai ierīcei ir jābūt savienotai ar to pašu Wi-Fi tīklu, ar kuru ir izveidots savienojums šajā pulkstenī."</string>
+    <string msgid="5213435473397442608" name="mr_chooser_zero_routes_found_title">"Nav pieejamu ierīču"</string>
     <string msgid="3330502667672708728" name="mr_controller_album_art">"Albuma noformējums"</string>
     <string msgid="9171231064758955152" name="mr_controller_casting_screen">"Notiek ekrāna apraide"</string>
     <string msgid="5684434439232634509" name="mr_controller_close_description">"Aizvērt"</string>
@@ -166,20 +175,25 @@
     <string msgid="4088331695424166162" name="mr_user_route_category_name">"Ierīces"</string>
     <string name="mtrl_badge_numberless_content_description">Jauns paziņojums</string>
     <string name="mtrl_chip_close_icon_content_description">Noņemt: %1$s</string>
-    <string name="mtrl_exceed_max_badge_number_content_description">Vairāk nekā %1$d jauni paziņojumi</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">Vairāk nekā %1$d jauni paziņojumi</string>
     <string name="mtrl_picker_a11y_next_month">Pāriet uz nākamo mēnesi</string>
     <string name="mtrl_picker_a11y_prev_month">Pāriet uz iepriekšējo mēnesi</string>
+    <string name="mtrl_picker_announce_current_range_selection">Sākuma datuma atlase: %1$s; beigu datuma atlase: %2$s</string>
     <string name="mtrl_picker_announce_current_selection">Pašreizējā atlase: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_announce_current_selection_none">nav</string>
+    <string name="mtrl_picker_cancel">Atcelt</string>
+    <string name="mtrl_picker_confirm">Labi</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Atlasiet datumu</string>
     <string name="mtrl_picker_date_header_unselected">Atlasītais datums</string>
     <string name="mtrl_picker_day_of_week_column_header">Dienu sleja: %1$s</string>
+    <string name="mtrl_picker_end_date_description">Beigu datums: %1$s</string>
     <string name="mtrl_picker_invalid_format">Nederīgs formāts.</string>
     <string name="mtrl_picker_invalid_format_example">Piemērs: %1$s</string>
     <string name="mtrl_picker_invalid_format_use">Izmantojiet: %1$s</string>
     <string name="mtrl_picker_invalid_range">Nederīgs diapazons.</string>
-    <string name="mtrl_picker_navigate_to_year_description">Pāriet uz šo gadu: %1$s</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">Pāriet uz pašreizējo gadu (%1$d)</string>
+    <string name="mtrl_picker_navigate_to_year_description">Pāriet uz šo gadu: %1$d</string>
     <string name="mtrl_picker_out_of_range">Ārpus diapazona: %1$s</string>
     <string name="mtrl_picker_range_header_only_end_selected">Sākuma datums–%1$s</string>
     <string name="mtrl_picker_range_header_only_start_selected">%1$s–beigu datums</string>
@@ -187,16 +201,20 @@
     <string name="mtrl_picker_range_header_title">Atlasiet diapazonu</string>
     <string name="mtrl_picker_range_header_unselected">Sākuma datums–beigu datums</string>
     <string name="mtrl_picker_save">Saglabāt</string>
+    <string name="mtrl_picker_start_date_description">Sākuma datums: %1$s</string>
     <string name="mtrl_picker_text_input_date_hint">Datums</string>
     <string name="mtrl_picker_text_input_date_range_end_hint">Beigu datums</string>
     <string name="mtrl_picker_text_input_date_range_start_hint">Sākuma datums</string>
     <string name="mtrl_picker_text_input_day_abbr">d</string>
     <string name="mtrl_picker_text_input_month_abbr">m</string>
     <string name="mtrl_picker_text_input_year_abbr">g</string>
+    <string name="mtrl_picker_today_description">Šodien (%1$s)</string>
     <string name="mtrl_picker_toggle_to_calendar_input_mode">Pārslēgties uz kalendāra ievades režīmu</string>
-    <string name="mtrl_picker_toggle_to_day_selection">Pieskarties, lai pārslēgtos uz dienas atlasīšanu</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Pieskarieties, lai pārslēgtos uz Kalendāra skatu</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Pārslēgties uz teksta ievades režīmu</string>
-    <string name="mtrl_picker_toggle_to_year_selection">Pieskarties, lai pārslēgtos uz gada atlasīšanu</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Pieskarieties, lai pārslēgtos uz gada skatu</string>
+    <string name="mtrl_timepicker_cancel">Atcelt</string>
+    <string name="mtrl_timepicker_confirm">Labi</string>
     <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Pārvietoties augšup"</string>
     <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Atvērt navigācijas atvilktni"</string>
     <string name="password_toggle_content_description">Rādīt paroli</string>

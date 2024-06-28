@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "593340333727",
+    "project_id": "medsaveinv",
+    "storage_bucket": "medsaveinv.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593340333727:android:32dad0ae07cddab70decaa",
+        "android_client_info": {
+          "package_name": "med.Save.medsaveinv"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHcLIpSnuRmjsZRbz5Jezeiq32oXaE0Mo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

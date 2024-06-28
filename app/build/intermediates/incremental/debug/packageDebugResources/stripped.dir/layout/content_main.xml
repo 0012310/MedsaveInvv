@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".DashBoradActivity">
+    tools:context="med.Save.medsaveinv.DashBoradActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -72,7 +72,18 @@
             android:text="Check File No"
             android:textColor="@color/white" />
 
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
     </LinearLayout>
+
+
+
 
 
 </LinearLayout>

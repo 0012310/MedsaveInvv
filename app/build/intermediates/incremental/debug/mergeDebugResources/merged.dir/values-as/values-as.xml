@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
     <plurals name="mtrl_badge_content_description">
     <item quantity="one">%d new notification</item>
     <item quantity="other">%d new notifications</item>
@@ -31,8 +31,11 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"ইয়াৰ জৰিয়তে শ্বেয়াৰ কৰক"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g>ৰ জৰিয়তে শ্বেয়াৰ কৰক"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"সংকোচন কৰক"</string>
-    <string msgid="6241458715391513061" name="accessibility_fingerprint_dialog_help_area">"সহায় বাৰ্তাৰ ক্ষেত্ৰ"</string>
+    <string name="bottomsheet_action_collapse">Collapse the bottom sheet</string>
+    <string name="bottomsheet_action_expand">Expand the bottom sheet</string>
     <string name="bottomsheet_action_expand_halfway">Expand halfway</string>
+    <string name="bottomsheet_drag_handle_clicked">Drag handle double-tapped</string>
+    <string name="bottomsheet_drag_handle_content_description">Drag handle</string>
     <string msgid="881409763997275156" name="call_notification_answer_action">"উত্তৰ দিয়ক"</string>
     <string msgid="8793775615905189152" name="call_notification_answer_video_action">"ভিডিঅ’"</string>
     <string msgid="3229508546291798546" name="call_notification_decline_action">"প্ৰত্যাখ্যান কৰক"</string>
@@ -45,8 +48,6 @@
     <string name="cast_closed_captions">ছাব-টাইটেল</string>
     <string name="cast_closed_captions_unavailable">ছাব-টাইটেল উপলব্ধ নহয়</string>
     <string name="cast_connecting_to_device">%1$sৰ সৈতে সংযোগ কৰি থকা হৈছে</string>
-    <string name="cast_device_chooser_searching_for_devices">ডিভাইচ বিচাৰি থকা হৈছে</string>
-    <string name="cast_device_chooser_title">ইয়াত কাষ্ট কৰক</string>
     <string name="cast_disconnect">সংযোগ বিচ্ছিন্ন কৰক</string>
     <string name="cast_dynamic_group_name_format">%1$s + %2$d</string>
     <string name="cast_expanded_controller_ad_image_description">কাষ্ট ৰিচিভাৰে বিজ্ঞাপন এটা প্লে\' কৰি থকা অৱস্থাত ছবিখন দেখুওৱা হ’ল</string>
@@ -85,11 +86,6 @@
     <string name="cast_tracks_chooser_dialog_ok">ঠিক আছে</string>
     <string name="cast_tracks_chooser_dialog_subtitles">ছাবটাইটেলসমূহ</string>
     <string name="cast_unmute">আনমিউট কৰক</string>
-    <string name="cast_wifi_warning_description">আপোনাৰ ডিভাইচটো আৰু কাষ্ট কৰা ডিভাইচটো একেটা ৱাই-ফাই নেটৱৰ্কত থকাটো নিশ্চিত কৰক। \n\n<a href="https://support.google.com/chromecastbuiltin/answer/3006709">অধিক জানক</a></string>
-    <string name="cast_wifi_warning_title">আপোনাৰ ৱাই-ফাই নেটৱৰ্ক পৰীক্ষা কৰক \n</string>
-    <string name="cast_zero_devices_found">কোনো ডিভাইচ বিচাৰি পোৱা নগ’ল।\n</string>
-    <string name="cast_zero_devices_found_done_button_label">কৰা হ’ল</string>
-    <string name="cast_zero_devices_learn_more_description">আপুনি আপোনাৰ সমল অন্য ডিভাইচসমূহলৈ কেনেকৈ কাষ্ট কৰিব পাৰে সেই বিষয়ে <a href="https://support.google.com/chromecastbuiltin/answer/3006709">অধিক জানক</a>।</string>
     <string name="character_counter_content_description">%2$dটাৰ ভিতৰত %1$dটা বৰ্ণ লিখা হৈছে</string>
     <string name="character_counter_overflowed_content_description">%2$dটাৰ ভিতৰত %1$dটা বৰ্ণৰ সীমা অতিক্ৰম কৰিছে</string>
     <string name="clear_text_end_icon_content_description">Clear text</string>
@@ -111,21 +107,25 @@
     <string name="common_open_on_phone">ফ\'নত খোলক</string>
     <string name="common_signin_button_text">ছাইন ইন কৰক</string>
     <string name="common_signin_button_text_long">Googleৰ জৰিয়তে ছাইন ইন কৰক</string>
-    <string msgid="4296851028928624518" name="confirm_device_credential_password">"পাছৱৰ্ড ব্যৱহাৰ কৰক"</string>
-    <string msgid="7497355367608150274" name="default_error_msg">"অজ্ঞাত আসোঁৱাহ"</string>
+    <string msgid="5912733858573823945" name="confirm_device_credential_password">"পাছৱৰ্ড ব্যৱহাৰ কৰক"</string>
+    <string msgid="4776854077120974966" name="default_error_msg">"অজ্ঞাত আসোঁৱাহ"</string>
     <string name="error_icon_content_description">Error</string>
     <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
-    <string msgid="5354590751262189738" name="fingerprint_dialog_touch_sensor">"ফিংগাৰপ্ৰিণ্ট ছেন্সৰটো স্পৰ্শ কৰক"</string>
-    <string msgid="3976825677335166260" name="fingerprint_error_hw_not_available">"ফিংগাৰপ্ৰিণ্ট হাৰ্ডৱেৰ নাই।"</string>
-    <string msgid="1176237289575184578" name="fingerprint_error_hw_not_present">"এই ডিভাইচটোত ফিংগাৰপ্ৰিণ্ট ছেন্সৰ নাই"</string>
-    <string msgid="1651062876313169162" name="fingerprint_error_lockout">"অতি বেছি চেষ্টা অনুগ্ৰহ কৰি পিছত আকৌ চেষ্টা কৰক।"</string>
-    <string msgid="3350805046152877040" name="fingerprint_error_no_fingerprints">"কোনো ফিংগাৰপ্ৰিণ্ট যোগ কৰা নহ\'ল।"</string>
-    <string msgid="3421037373085129417" name="fingerprint_error_user_canceled">"ব্যৱহাৰকাৰীয়ে ফিংগাৰপ্ৰিণ্টৰ দ্বাৰা বিশ্বাসযোগ্যতা প্ৰমাণীকৰণ কাৰ্য বাতিল কৰিছে।"</string>
-    <string msgid="5491287833813257925" name="fingerprint_not_recognized">"চিনাক্ত কৰিব পৰা নাই"</string>
-    <string msgid="7474799539658018076" name="generic_error_user_canceled">"বিশ্বাসযোগ্যতা প্ৰমাণীকৰণ ব্যৱহাৰকাৰীয়ে বাতিল কৰিছে।"</string>
+    <string msgid="1072308044213194243" name="fingerprint_dialog_touch_sensor">"ফিংগাৰপ্ৰিণ্ট ছেন্সৰটো স্পৰ্শ কৰক"</string>
+    <string msgid="8216738333501875566" name="fingerprint_error_hw_not_available">"ফিংগাৰপ্ৰিণ্ট হাৰ্ডৱেৰ নাই।"</string>
+    <string msgid="6306988885793029438" name="fingerprint_error_hw_not_present">"এই ডিভাইচটোত ফিংগাৰপ্ৰিণ্ট ছেন্সৰ নাই"</string>
+    <string msgid="7291787166416782245" name="fingerprint_error_lockout">"অতি বেছি চেষ্টা অনুগ্ৰহ কৰি পিছত আকৌ চেষ্টা কৰক।"</string>
+    <string msgid="7520712796891883488" name="fingerprint_error_no_fingerprints">"কোনো ফিংগাৰপ্ৰিণ্ট যোগ কৰা নহ\'ল।"</string>
+    <string msgid="7627716295344353987" name="fingerprint_error_user_canceled">"ব্যৱহাৰকাৰীয়ে ফিংগাৰপ্ৰিণ্টৰ দ্বাৰা বিশ্বাসযোগ্যতা প্ৰমাণীকৰণ কাৰ্য বাতিল কৰিছে।"</string>
+    <string msgid="3873359464293253009" name="fingerprint_not_recognized">"চিনাক্ত কৰিব পৰা নাই"</string>
+    <string msgid="3791785319221634505" name="generic_error_no_device_credential">"কোনো পিন, আৰ্হি অথবা পাছৱৰ্ড ছেট কৰা হোৱা নাই।"</string>
+    <string msgid="1807436368654974044" name="generic_error_no_keyguard">"এই ডিভাইচটোত পিন, আৰ্হি অথবা পাছৱৰ্ড ব্যৱহাৰ কৰিব নোৱাৰি।"</string>
+    <string msgid="7309881387583143581" name="generic_error_user_canceled">"বিশ্বাসযোগ্যতা প্ৰমাণীকৰণ ব্যৱহাৰকাৰীয়ে বাতিল কৰিছে।"</string>
+    <string msgid="9119039724000326934" name="ic_media_route_learn_more_accessibility">"কেনেকৈ কাষ্ট কৰিব লাগে জানক"</string>
     <string name="icon_content_description">Dialog Icon</string>
     <string name="item_view_role_description">Tab</string>
     <string name="material_clock_toggle_content_description">Select AM or PM</string>
+    <string name="material_hour_24h_suffix">%1$s hours</string>
     <string name="material_hour_selection">Select hour</string>
     <string name="material_hour_suffix">%1$s o\'clock</string>
     <string name="material_minute_selection">মিনিট বাছনি কৰক</string>
@@ -143,8 +143,17 @@
     <string msgid="6629927151350192407" name="mr_cast_button_connecting">"কাষ্ট কৰক। সংযোগ কৰি থকা হৈছে"</string>
     <string msgid="8071109333469380363" name="mr_cast_button_disconnected">"কাষ্ট কৰক। সংযোগ বিচ্ছিন্ন হৈ আছে"</string>
     <string msgid="2175930138959078155" name="mr_cast_dialog_title_view_placeholder">"কোনো তথ্য নাই"</string>
+    <string msgid="4257319068277776035" name="mr_chooser_looking_for_devices">"ডিভাইচ বিচাৰি থকা হৈছে..."</string>
     <string msgid="6114250663023140921" name="mr_chooser_searching">"ডিভাইচ বিচাৰি থকা হৈছে"</string>
     <string msgid="1419936397646839840" name="mr_chooser_title">"ইয়াত কাষ্ট কৰক"</string>
+    <string msgid="3799500840179081429" name="mr_chooser_wifi_learn_more"><a href="https://support.google.com/chromecast/?p=trouble-finding-devices">"অধিক জানক"</a></string>
+    <string msgid="2998902945608081567" name="mr_chooser_wifi_warning_description_car">"আনটো ডিভাইচ এই গাড়ীখনৰ সৈতে একেটা ৱাই-ফাই নেটৱৰ্কতে থকাটো নিশ্চিত কৰক"</string>
+    <string msgid="2555886884770958244" name="mr_chooser_wifi_warning_description_phone">"আনটো ডিভাইচ এই ফ’নটোৰ সৈতে একেটা ৱাই-ফাই নেটৱৰ্কতে থকাটো নিশ্চিত কৰক"</string>
+    <string msgid="6038748488793588164" name="mr_chooser_wifi_warning_description_tablet">"আনটো ডিভাইচ এই টেবলেটটোৰ সৈতে একেটা ৱাই-ফাই নেটৱৰ্কতে থকাটো নিশ্চিত কৰক"</string>
+    <string msgid="5845921667085074878" name="mr_chooser_wifi_warning_description_tv">"আনটো ডিভাইচ এই টিভিটোৰ সৈতে একেটা ৱাই-ফাই নেটৱৰ্কতে থকাটো নিশ্চিত কৰক"</string>
+    <string msgid="3459891599800041449" name="mr_chooser_wifi_warning_description_unknown">"আনটো ডিভাইচ এই ডিভাইচটোৰ সৈতে একেটা ৱাই-ফাই নেটৱৰ্কতে থকাটো নিশ্চিত কৰক"</string>
+    <string msgid="5255021372884233706" name="mr_chooser_wifi_warning_description_watch">"আনটো ডিভাইচ এই ঘড়ীটোৰ সৈতে একেটা ৱাই-ফাই নেটৱৰ্কতে থকাটো নিশ্চিত কৰক"</string>
+    <string msgid="5213435473397442608" name="mr_chooser_zero_routes_found_title">"কোনো ডিভাইচ উপলব্ধ নহয়"</string>
     <string msgid="3330502667672708728" name="mr_controller_album_art">"এলবাম আৰ্ট"</string>
     <string msgid="9171231064758955152" name="mr_controller_casting_screen">"স্ক্ৰীন কাষ্ট কৰি থকা হৈছে"</string>
     <string msgid="5684434439232634509" name="mr_controller_close_description">"বন্ধ কৰক"</string>
@@ -165,20 +174,25 @@
     <string msgid="4088331695424166162" name="mr_user_route_category_name">"ডিভাইচসমূহ"</string>
     <string name="mtrl_badge_numberless_content_description">New notification</string>
     <string name="mtrl_chip_close_icon_content_description">%1$sক আঁতৰাওক</string>
-    <string name="mtrl_exceed_max_badge_number_content_description">More than %1$d new notifications</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">More than %1$d new notifications</string>
     <string name="mtrl_picker_a11y_next_month">Change to next month</string>
     <string name="mtrl_picker_a11y_prev_month">Change to previous month</string>
+    <string name="mtrl_picker_announce_current_range_selection">Start date selection: %1$s – End date selection: %2$s</string>
     <string name="mtrl_picker_announce_current_selection">Current selection: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_announce_current_selection_none">none</string>
+    <string name="mtrl_picker_cancel">Cancel</string>
+    <string name="mtrl_picker_confirm">OK</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Select Date</string>
     <string name="mtrl_picker_date_header_unselected">Selected date</string>
     <string name="mtrl_picker_day_of_week_column_header">Column of days: %1$s</string>
+    <string name="mtrl_picker_end_date_description">End date %1$s</string>
     <string name="mtrl_picker_invalid_format">Invalid format.</string>
     <string name="mtrl_picker_invalid_format_example">Example: %1$s</string>
     <string name="mtrl_picker_invalid_format_use">Use: %1$s</string>
     <string name="mtrl_picker_invalid_range">Invalid range.</string>
-    <string name="mtrl_picker_navigate_to_year_description">Navigate to year %1$s</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">Navigate to current year %1$d</string>
+    <string name="mtrl_picker_navigate_to_year_description">Navigate to year %1$d</string>
     <string name="mtrl_picker_out_of_range">Out of range: %1$s</string>
     <string name="mtrl_picker_range_header_only_end_selected">Start date – %1$s</string>
     <string name="mtrl_picker_range_header_only_start_selected">%1$s – End date</string>
@@ -186,16 +200,20 @@
     <string name="mtrl_picker_range_header_title">Select Range</string>
     <string name="mtrl_picker_range_header_unselected">Start date – End date</string>
     <string name="mtrl_picker_save">Save</string>
+    <string name="mtrl_picker_start_date_description">Start date %1$s</string>
     <string name="mtrl_picker_text_input_date_hint">Date</string>
     <string name="mtrl_picker_text_input_date_range_end_hint">End date</string>
     <string name="mtrl_picker_text_input_date_range_start_hint">Start date</string>
     <string name="mtrl_picker_text_input_day_abbr">d</string>
     <string name="mtrl_picker_text_input_month_abbr">m</string>
     <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_today_description">Today %1$s</string>
     <string name="mtrl_picker_toggle_to_calendar_input_mode">Switch to calendar input mode</string>
-    <string name="mtrl_picker_toggle_to_day_selection">Tap to switch to selecting a day</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Tap to switch to Calendar view</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Switch to text input mode</string>
-    <string name="mtrl_picker_toggle_to_year_selection">Tap to switch to selecting a year</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Tap to switch to year view</string>
+    <string name="mtrl_timepicker_cancel">Cancel</string>
+    <string name="mtrl_timepicker_confirm">OK</string>
     <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"ওপৰলৈ যাওক"</string>
     <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"নেভিগেশ্বন ড্ৰৱাৰ খোলক"</string>
     <string name="password_toggle_content_description">পাছৱৰ্ড দেখুৱাওক</string>

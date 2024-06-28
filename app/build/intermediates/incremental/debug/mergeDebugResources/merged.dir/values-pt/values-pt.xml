@@ -27,7 +27,6 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Compartilhar com"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Compartilhar com <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Recolher"</string>
-    <string msgid="6241458715391513061" name="accessibility_fingerprint_dialog_help_area">"Área da mensagem de ajuda"</string>
     <string msgid="881409763997275156" name="call_notification_answer_action">"Atender"</string>
     <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Vídeo"</string>
     <string msgid="3229508546291798546" name="call_notification_decline_action">"Recusar"</string>
@@ -35,23 +34,35 @@
     <string msgid="6107532579223922871" name="call_notification_incoming_text">"Chamada recebida"</string>
     <string msgid="8623827134497363134" name="call_notification_ongoing_text">"Chamada em andamento"</string>
     <string msgid="59049573811482460" name="call_notification_screening_text">"Filtrando uma ligação recebida"</string>
-    <string msgid="4296851028928624518" name="confirm_device_credential_password">"Usar senha"</string>
-    <string msgid="7497355367608150274" name="default_error_msg">"Erro desconhecido"</string>
-    <string msgid="5354590751262189738" name="fingerprint_dialog_touch_sensor">"Toque no sensor de digital"</string>
-    <string msgid="3976825677335166260" name="fingerprint_error_hw_not_available">"Hardware de impressão digital não disponível."</string>
-    <string msgid="1176237289575184578" name="fingerprint_error_hw_not_present">"Este dispositivo não tem um sensor de impressão digital"</string>
-    <string msgid="1651062876313169162" name="fingerprint_error_lockout">"Muitas tentativas. Tente novamente mais tarde."</string>
-    <string msgid="3350805046152877040" name="fingerprint_error_no_fingerprints">"Nenhuma impressão digital registrada."</string>
-    <string msgid="3421037373085129417" name="fingerprint_error_user_canceled">"Operação de impressão digital cancelada pelo usuário."</string>
-    <string msgid="5491287833813257925" name="fingerprint_not_recognized">"Não reconhecido"</string>
-    <string msgid="7474799539658018076" name="generic_error_user_canceled">"Autenticação cancelada pelo usuário."</string>
+    <string msgid="5912733858573823945" name="confirm_device_credential_password">"Usar senha"</string>
+    <string msgid="4776854077120974966" name="default_error_msg">"Erro desconhecido"</string>
+    <string msgid="1072308044213194243" name="fingerprint_dialog_touch_sensor">"Toque no sensor de digital"</string>
+    <string msgid="8216738333501875566" name="fingerprint_error_hw_not_available">"Hardware de impressão digital não disponível."</string>
+    <string msgid="6306988885793029438" name="fingerprint_error_hw_not_present">"Este dispositivo não tem um sensor de impressão digital"</string>
+    <string msgid="7291787166416782245" name="fingerprint_error_lockout">"Muitas tentativas. Tente novamente mais tarde."</string>
+    <string msgid="7520712796891883488" name="fingerprint_error_no_fingerprints">"Nenhuma impressão digital registrada."</string>
+    <string msgid="7627716295344353987" name="fingerprint_error_user_canceled">"Operação de impressão digital cancelada pelo usuário."</string>
+    <string msgid="3873359464293253009" name="fingerprint_not_recognized">"Não reconhecido"</string>
+    <string msgid="3791785319221634505" name="generic_error_no_device_credential">"Nenhum PIN, padrão ou senha configurado."</string>
+    <string msgid="1807436368654974044" name="generic_error_no_keyguard">"Este dispositivo não é compatível com PIN, padrão ou senha."</string>
+    <string msgid="7309881387583143581" name="generic_error_user_canceled">"Autenticação cancelada pelo usuário."</string>
+    <string msgid="9119039724000326934" name="ic_media_route_learn_more_accessibility">"Aprenda a transmitir conteúdo"</string>
     <string msgid="2939063992730535343" name="mr_button_content_description">"Transmitir"</string>
     <string msgid="6073720094880410356" name="mr_cast_button_connected">"Transmitir. Conectado"</string>
     <string msgid="6629927151350192407" name="mr_cast_button_connecting">"Transmitir. Conectando"</string>
     <string msgid="8071109333469380363" name="mr_cast_button_disconnected">"Transmitir. Desconectado"</string>
     <string msgid="2175930138959078155" name="mr_cast_dialog_title_view_placeholder">"Nenhuma informação disponível"</string>
+    <string msgid="4257319068277776035" name="mr_chooser_looking_for_devices">"Procurando dispositivos…"</string>
     <string msgid="6114250663023140921" name="mr_chooser_searching">"Localizando dispositivos"</string>
     <string msgid="1419936397646839840" name="mr_chooser_title">"Transmitir para"</string>
+    <string msgid="3799500840179081429" name="mr_chooser_wifi_learn_more"><a href="https://support.google.com/chromecast/?p=trouble-finding-devices">"Saiba mais"</a></string>
+    <string msgid="2998902945608081567" name="mr_chooser_wifi_warning_description_car">"Conecte o outro dispositivo à mesma rede Wi-Fi que este carro"</string>
+    <string msgid="2555886884770958244" name="mr_chooser_wifi_warning_description_phone">"Conecte o outro dispositivo à mesma rede Wi-Fi que este smartphone"</string>
+    <string msgid="6038748488793588164" name="mr_chooser_wifi_warning_description_tablet">"Conecte o outro dispositivo à mesma rede Wi-Fi que este tablet"</string>
+    <string msgid="5845921667085074878" name="mr_chooser_wifi_warning_description_tv">"Conecte o outro dispositivo à mesma rede Wi-Fi que esta TV"</string>
+    <string msgid="3459891599800041449" name="mr_chooser_wifi_warning_description_unknown">"Conecte o outro dispositivo à mesma rede Wi-Fi que este dispositivo"</string>
+    <string msgid="5255021372884233706" name="mr_chooser_wifi_warning_description_watch">"Conecte o outro dispositivo à mesma rede Wi-Fi que este relógio"</string>
+    <string msgid="5213435473397442608" name="mr_chooser_zero_routes_found_title">"Nenhum dispositivo disponível"</string>
     <string msgid="3330502667672708728" name="mr_controller_album_art">"Arte do álbum"</string>
     <string msgid="9171231064758955152" name="mr_controller_casting_screen">"Transmitindo tela"</string>
     <string msgid="5684434439232634509" name="mr_controller_close_description">"Fechar"</string>

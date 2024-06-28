@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
     <plurals name="mtrl_badge_content_description">
     <item quantity="one">%d njoftim i ri</item>
     <item quantity="other">%d njoftime të reja</item>
@@ -31,8 +31,11 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Ndaje me"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Ndaje me <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Palos"</string>
-    <string msgid="6241458715391513061" name="accessibility_fingerprint_dialog_help_area">"Zona e mesazhit të ndihmës"</string>
+    <string name="bottomsheet_action_collapse">Palos fletën e poshtme</string>
+    <string name="bottomsheet_action_expand">Zgjero fletën e poshtme</string>
     <string name="bottomsheet_action_expand_halfway">Zgjeroje deri në gjysmë</string>
+    <string name="bottomsheet_drag_handle_clicked">Te doreza e zvarritjes u trokit dy herë</string>
+    <string name="bottomsheet_drag_handle_content_description">Doreza e zvarritjes</string>
     <string msgid="881409763997275156" name="call_notification_answer_action">"Përgjigju"</string>
     <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Video"</string>
     <string msgid="3229508546291798546" name="call_notification_decline_action">"Refuzo"</string>
@@ -45,8 +48,6 @@
     <string name="cast_closed_captions">Titrat</string>
     <string name="cast_closed_captions_unavailable">Titrat të padisponueshëm</string>
     <string name="cast_connecting_to_device">Po lidhet me %1$s</string>
-    <string name="cast_device_chooser_searching_for_devices">Po gjen pajisje</string>
-    <string name="cast_device_chooser_title">Transmeto te</string>
     <string name="cast_disconnect">Shkëput</string>
     <string name="cast_dynamic_group_name_format">%1$s + %2$d</string>
     <string name="cast_expanded_controller_ad_image_description">Imazhi shfaqet kur marrësi i transmetimit është duke luajtur një reklamë</string>
@@ -85,11 +86,6 @@
     <string name="cast_tracks_chooser_dialog_ok">Në rregull</string>
     <string name="cast_tracks_chooser_dialog_subtitles">Titrat</string>
     <string name="cast_unmute">Aktivizo audion</string>
-    <string name="cast_wifi_warning_description">Sigurohu që si pajisja jote ashtu edhe pajisja e transmetimit me teknologjinë \"cast\" të jenë në të njëjtin rrjet Wi-Fi. \n\n<a href="https://support.google.com/chromecastbuiltin/answer/3006709">Mëso më shumë</a></string>
-    <string name="cast_wifi_warning_title">Kontrollo rrjetin tënd Wi-Fi \n</string>
-    <string name="cast_zero_devices_found">Nuk u gjet asnjë pajisje.\n</string>
-    <string name="cast_zero_devices_found_done_button_label">U krye</string>
-    <string name="cast_zero_devices_learn_more_description"><a href="https://support.google.com/chromecastbuiltin/answer/3006709">Mëso më shumë</a> rreth mënyrës se si mund të transmetosh përmbajtje në pajisjet e tjera.</string>
     <string name="character_counter_content_description">Karakteret e futura: %1$d nga %2$d</string>
     <string name="character_counter_overflowed_content_description">Kufiri i karaktereve është kaluar: %1$d nga %2$d</string>
     <string name="clear_text_end_icon_content_description">Pastro tekstin</string>
@@ -111,21 +107,25 @@
     <string name="common_open_on_phone">Hape në telefon</string>
     <string name="common_signin_button_text">Identifikohu</string>
     <string name="common_signin_button_text_long">Identifikohu me Google</string>
-    <string msgid="4296851028928624518" name="confirm_device_credential_password">"Përdor fjalëkalimin"</string>
-    <string msgid="7497355367608150274" name="default_error_msg">"Gabim i panjohur"</string>
+    <string msgid="5912733858573823945" name="confirm_device_credential_password">"Përdor fjalëkalimin"</string>
+    <string msgid="4776854077120974966" name="default_error_msg">"Gabim i panjohur"</string>
     <string name="error_icon_content_description">Gabim</string>
     <string name="exposed_dropdown_menu_content_description">Shfaq menynë me lëshim poshtë</string>
-    <string msgid="5354590751262189738" name="fingerprint_dialog_touch_sensor">"Prek sensorin e gjurmës së gishtit"</string>
-    <string msgid="3976825677335166260" name="fingerprint_error_hw_not_available">"Hardueri i gjurmës së gishtit nuk mundësohet."</string>
-    <string msgid="1176237289575184578" name="fingerprint_error_hw_not_present">"Kjo pajisje nuk ka një sensor të gjurmës së gishtit"</string>
-    <string msgid="1651062876313169162" name="fingerprint_error_lockout">"Janë bërë shumë përpjekje. Provo përsëri më vonë."</string>
-    <string msgid="3350805046152877040" name="fingerprint_error_no_fingerprints">"Nuk ka asnjë gjurmë gishti të regjistruar."</string>
-    <string msgid="3421037373085129417" name="fingerprint_error_user_canceled">"Veprimi i gjurmës së gishtit u anulua nga përdoruesi."</string>
-    <string msgid="5491287833813257925" name="fingerprint_not_recognized">"Nuk njihet"</string>
-    <string msgid="7474799539658018076" name="generic_error_user_canceled">"Vërtetimi u anulua nga përdoruesi."</string>
+    <string msgid="1072308044213194243" name="fingerprint_dialog_touch_sensor">"Prek sensorin e gjurmës së gishtit"</string>
+    <string msgid="8216738333501875566" name="fingerprint_error_hw_not_available">"Hardueri i gjurmës së gishtit nuk mundësohet."</string>
+    <string msgid="6306988885793029438" name="fingerprint_error_hw_not_present">"Kjo pajisje nuk ka një sensor të gjurmës së gishtit"</string>
+    <string msgid="7291787166416782245" name="fingerprint_error_lockout">"Janë bërë shumë përpjekje. Provo përsëri më vonë."</string>
+    <string msgid="7520712796891883488" name="fingerprint_error_no_fingerprints">"Nuk ka asnjë gjurmë gishti të regjistruar."</string>
+    <string msgid="7627716295344353987" name="fingerprint_error_user_canceled">"Veprimi i gjurmës së gishtit u anulua nga përdoruesi."</string>
+    <string msgid="3873359464293253009" name="fingerprint_not_recognized">"Nuk njihet"</string>
+    <string msgid="3791785319221634505" name="generic_error_no_device_credential">"Nuk është vendosur kod PIN, motiv ose fjalëkalim."</string>
+    <string msgid="1807436368654974044" name="generic_error_no_keyguard">"Kjo pajisje nuk e mbështet kodin PIN, motivin ose fjalëkalimin."</string>
+    <string msgid="7309881387583143581" name="generic_error_user_canceled">"Vërtetimi u anulua nga përdoruesi."</string>
+    <string msgid="9119039724000326934" name="ic_media_route_learn_more_accessibility">"Mëso si të transmetosh"</string>
     <string name="icon_content_description">Ikona e dialogut</string>
     <string name="item_view_role_description">Tab</string>
     <string name="material_clock_toggle_content_description">Zgjidh paradite ose pasdite</string>
+    <string name="material_hour_24h_suffix">%1$s orë</string>
     <string name="material_hour_selection">Zgjidh orën</string>
     <string name="material_hour_suffix">%1$s fiks</string>
     <string name="material_minute_selection">Përzgjidh minutat</string>
@@ -143,8 +143,17 @@
     <string msgid="6629927151350192407" name="mr_cast_button_connecting">"Transmeto. Po lidhet"</string>
     <string msgid="8071109333469380363" name="mr_cast_button_disconnected">"Transmeto. Shkëputur"</string>
     <string msgid="2175930138959078155" name="mr_cast_dialog_title_view_placeholder">"Nuk jepet asnjë informacion"</string>
+    <string msgid="4257319068277776035" name="mr_chooser_looking_for_devices">"Po kërkon për pajisje..."</string>
     <string msgid="6114250663023140921" name="mr_chooser_searching">"Po kërkon pajisje"</string>
     <string msgid="1419936397646839840" name="mr_chooser_title">"Transmeto te"</string>
+    <string msgid="3799500840179081429" name="mr_chooser_wifi_learn_more"><a href="https://support.google.com/chromecast/?p=trouble-finding-devices">"Mëso më shumë"</a></string>
+    <string msgid="2998902945608081567" name="mr_chooser_wifi_warning_description_car">"Sigurohu që pajisja tjetër të jetë në të njëjtin rrjet Wi-Fi me këtë makinë"</string>
+    <string msgid="2555886884770958244" name="mr_chooser_wifi_warning_description_phone">"Sigurohu që pajisja tjetër të jetë në të njëjtin rrjet Wi-Fi me këtë telefon"</string>
+    <string msgid="6038748488793588164" name="mr_chooser_wifi_warning_description_tablet">"Sigurohu që pajisja tjetër të jetë në të njëjtin rrjet Wi-Fi me këtë tablet"</string>
+    <string msgid="5845921667085074878" name="mr_chooser_wifi_warning_description_tv">"Sigurohu që pajisja tjetër të jetë në të njëjtin rrjet Wi-Fi me këtë televizor"</string>
+    <string msgid="3459891599800041449" name="mr_chooser_wifi_warning_description_unknown">"Sigurohu që pajisja tjetër të jetë në të njëjtin rrjet Wi-Fi me këtë pajisje"</string>
+    <string msgid="5255021372884233706" name="mr_chooser_wifi_warning_description_watch">"Sigurohu që pajisja tjetër të jetë në të njëjtin rrjet Wi-Fi me këtë orë"</string>
+    <string msgid="5213435473397442608" name="mr_chooser_zero_routes_found_title">"Nuk ofrohet asnjë pajisje"</string>
     <string msgid="3330502667672708728" name="mr_controller_album_art">"Kopertina e albumit"</string>
     <string msgid="9171231064758955152" name="mr_controller_casting_screen">"Po transmeton ekranin"</string>
     <string msgid="5684434439232634509" name="mr_controller_close_description">"Mbyll"</string>
@@ -165,20 +174,25 @@
     <string msgid="4088331695424166162" name="mr_user_route_category_name">"Pajisjet"</string>
     <string name="mtrl_badge_numberless_content_description">Njoftim i ri</string>
     <string name="mtrl_chip_close_icon_content_description">Hiq %1$s</string>
-    <string name="mtrl_exceed_max_badge_number_content_description">Më shumë se %1$d njoftime të reja</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">Më shumë se %1$d njoftime të reja</string>
     <string name="mtrl_picker_a11y_next_month">Ndrysho te muaji i ardhshëm</string>
     <string name="mtrl_picker_a11y_prev_month">Ndrysho te muaji i kaluar</string>
+    <string name="mtrl_picker_announce_current_range_selection">Zgjedhja e datës së fillimit: %1$s - Zgjedhja e datës së përfundimit: %2$s</string>
     <string name="mtrl_picker_announce_current_selection">Zgjedhja aktuale: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_announce_current_selection_none">asnjë</string>
+    <string name="mtrl_picker_cancel">Anulo</string>
+    <string name="mtrl_picker_confirm">Në rregull</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Zgjidh datën</string>
     <string name="mtrl_picker_date_header_unselected">Data e zgjedhur</string>
     <string name="mtrl_picker_day_of_week_column_header">Kolona e ditëve: %1$s</string>
+    <string name="mtrl_picker_end_date_description">Data e mbarimit: %1$s</string>
     <string name="mtrl_picker_invalid_format">Format i pavlefshëm.</string>
     <string name="mtrl_picker_invalid_format_example">Shembull: %1$s</string>
     <string name="mtrl_picker_invalid_format_use">Përdor: %1$s</string>
     <string name="mtrl_picker_invalid_range">Gamë e pavlefshme.</string>
-    <string name="mtrl_picker_navigate_to_year_description">Navigo te viti %1$s</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">Navigo te viti aktual %1$d</string>
+    <string name="mtrl_picker_navigate_to_year_description">Navigo te viti %1$d</string>
     <string name="mtrl_picker_out_of_range">Jashtë gamës: %1$s</string>
     <string name="mtrl_picker_range_header_only_end_selected">Data e fillimit – %1$s</string>
     <string name="mtrl_picker_range_header_only_start_selected">%1$s – data e përfundimit</string>
@@ -186,16 +200,20 @@
     <string name="mtrl_picker_range_header_title">Zgjidh gamën</string>
     <string name="mtrl_picker_range_header_unselected">Data e fillimit - data e përfundimit</string>
     <string name="mtrl_picker_save">Ruaj</string>
+    <string name="mtrl_picker_start_date_description">Data e fillimit: %1$s</string>
     <string name="mtrl_picker_text_input_date_hint">Data</string>
     <string name="mtrl_picker_text_input_date_range_end_hint">Data e përfundimit</string>
     <string name="mtrl_picker_text_input_date_range_start_hint">Data e fillimit</string>
     <string name="mtrl_picker_text_input_day_abbr">d</string>
     <string name="mtrl_picker_text_input_month_abbr">m</string>
     <string name="mtrl_picker_text_input_year_abbr">v</string>
+    <string name="mtrl_picker_today_description">Sot %1$s</string>
     <string name="mtrl_picker_toggle_to_calendar_input_mode">Kalo te modaliteti i \"Hyrjes së kalendarit\"</string>
-    <string name="mtrl_picker_toggle_to_day_selection">Trokit për të kaluar te zgjedhja e një dite</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Trokit për t\'u kthyer te pamja e \"Kalendarit\"</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Kalo te modaliteti i \"Hyrjes së tekstit\"</string>
-    <string name="mtrl_picker_toggle_to_year_selection">Trokit për të kaluar te zgjedhja e një viti</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Trokit për t\'u kthyer te pamja vjetore</string>
+    <string name="mtrl_timepicker_cancel">Anulo</string>
+    <string name="mtrl_timepicker_confirm">Në rregull</string>
     <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Ngjitu lart"</string>
     <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Hap sirtarin e navigimit"</string>
     <string name="password_toggle_content_description">Shfaq fjalëkalimin</string>

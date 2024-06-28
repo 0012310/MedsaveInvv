@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".DirectActivity">
+    tools:context="med.Save.medsaveinv.DirectActivity">
 
     <RelativeLayout
         android:id="@+id/rll"
@@ -187,7 +187,6 @@
             android:layout_width="match_parent"
             android:layout_height="52dp"
             android:layout_margin="10dp"
-            android:layout_marginBottom="8dp"
             android:background="@drawable/btnbackground"
             android:text="Upload"
             android:textColor="@color/white"

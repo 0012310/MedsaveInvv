@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
     <plurals name="mtrl_badge_content_description">
     <item quantity="one">%d новае апавяшчэнне</item>
     <item quantity="few">%d новыя апавяшчэнні</item>
@@ -33,8 +33,11 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Абагуліць праз"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Абагуліць праз праграму \"<ns1:g id="APPLICATION_NAME">%s</ns1:g>\""</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Згарнуць"</string>
-    <string msgid="6241458715391513061" name="accessibility_fingerprint_dialog_help_area">"Поле даведачнага паведамлення"</string>
+    <string name="bottomsheet_action_collapse">Згарнуць ніжні аркуш</string>
+    <string name="bottomsheet_action_expand">Разгарнуць ніжні аркуш</string>
     <string name="bottomsheet_action_expand_halfway">Разгарнуць напалову</string>
+    <string name="bottomsheet_drag_handle_clicked">Маркер перацягвання націснуты двойчы</string>
+    <string name="bottomsheet_drag_handle_content_description">Маркер перацягвання</string>
     <string msgid="881409763997275156" name="call_notification_answer_action">"Адказаць"</string>
     <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Відэа"</string>
     <string msgid="3229508546291798546" name="call_notification_decline_action">"Адхіліць"</string>
@@ -47,8 +50,6 @@
     <string name="cast_closed_captions">Субцітры</string>
     <string name="cast_closed_captions_unavailable">Субцітры недаступныя</string>
     <string name="cast_connecting_to_device">Падключэнне да прылады %1$s</string>
-    <string name="cast_device_chooser_searching_for_devices">Пошук прылад</string>
-    <string name="cast_device_chooser_title">Трансліраваць на прыладу</string>
     <string name="cast_disconnect">Адключыць</string>
     <string name="cast_dynamic_group_name_format">%1$s + %2$d</string>
     <string name="cast_expanded_controller_ad_image_description">Відарыс, які адлюстроўваецца ў той час, калі на прыёмніку Cast прайграецца рэклама</string>
@@ -87,13 +88,8 @@
     <string name="cast_tracks_chooser_dialog_ok">ОК</string>
     <string name="cast_tracks_chooser_dialog_subtitles">Субцітры</string>
     <string name="cast_unmute">Уключыць гук</string>
-    <string name="cast_wifi_warning_description">Пераканайцеся, што ваша прылада і прылада для трансляцыі падключаны да адной і той жа сеткі Wi-Fi. \n\n<a href="https://support.google.com/chromecastbuiltin/answer/3006709">Даведацца больш</a></string>
-    <string name="cast_wifi_warning_title">Праверце сваю сетку Wi-Fi \n</string>
-    <string name="cast_zero_devices_found">Прылады не знойдзены.\n</string>
-    <string name="cast_zero_devices_found_done_button_label">Гатова</string>
-    <string name="cast_zero_devices_learn_more_description"><a href="https://support.google.com/chromecastbuiltin/answer/3006709">Даведайцеся больш</a> пра спосабы трансляцыі змесціва на іншыя прылады.</string>
     <string name="character_counter_content_description">Уведзена сімвалаў: %1$d з %2$d</string>
-    <string name="character_counter_overflowed_content_description">Ліміт сімвалаў перавышаны: %1$d з %2$d</string>
+    <string name="character_counter_overflowed_content_description">Абмежаванне колькасці сімвалаў перавышана: %1$d з %2$d</string>
     <string name="clear_text_end_icon_content_description">Ачысціць тэкст</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Уключыць</string>
     <string msgid="227660514972886228" name="common_google_play_services_enable_text">%1$s не будзе працаваць, пакуль вы не ўключыце службы Google Play.</string>
@@ -113,21 +109,25 @@
     <string name="common_open_on_phone">Адкрыць на тэлефоне</string>
     <string name="common_signin_button_text">Увайсцi</string>
     <string name="common_signin_button_text_long">Увайсці праз Google</string>
-    <string msgid="4296851028928624518" name="confirm_device_credential_password">"Выкарыстаць пароль"</string>
-    <string msgid="7497355367608150274" name="default_error_msg">"Невядомая памылка"</string>
+    <string msgid="5912733858573823945" name="confirm_device_credential_password">"Выкарыстаць пароль"</string>
+    <string msgid="4776854077120974966" name="default_error_msg">"Невядомая памылка"</string>
     <string name="error_icon_content_description">Памылка</string>
     <string name="exposed_dropdown_menu_content_description">Паказаць выпадное меню</string>
-    <string msgid="5354590751262189738" name="fingerprint_dialog_touch_sensor">"Дакраніцеся да сканера адбіткаў пальцаў"</string>
-    <string msgid="3976825677335166260" name="fingerprint_error_hw_not_available">"Апаратныя сродкі для зняцця адбіткаў пальцаў недаступныя."</string>
-    <string msgid="1176237289575184578" name="fingerprint_error_hw_not_present">"На гэтай прыладзе няма сканера адбіткаў пальцаў"</string>
-    <string msgid="1651062876313169162" name="fingerprint_error_lockout">"Занадта шмат спроб. Паўтарыце спробу пазней."</string>
-    <string msgid="3350805046152877040" name="fingerprint_error_no_fingerprints">"Адбіткі пальцаў не зарэгістраваны."</string>
-    <string msgid="3421037373085129417" name="fingerprint_error_user_canceled">"Аўтэнтыфікацыя па адбітках пальцаў скасавана карыстальнікам."</string>
-    <string msgid="5491287833813257925" name="fingerprint_not_recognized">"Не распазнана"</string>
-    <string msgid="7474799539658018076" name="generic_error_user_canceled">"Аўтэнтыфікацыя скасавана карыстальнікам."</string>
+    <string msgid="1072308044213194243" name="fingerprint_dialog_touch_sensor">"Дакраніцеся да сканера адбіткаў пальцаў"</string>
+    <string msgid="8216738333501875566" name="fingerprint_error_hw_not_available">"Апаратныя сродкі для зняцця адбіткаў пальцаў недаступныя."</string>
+    <string msgid="6306988885793029438" name="fingerprint_error_hw_not_present">"На гэтай прыладзе няма сканера адбіткаў пальцаў"</string>
+    <string msgid="7291787166416782245" name="fingerprint_error_lockout">"Занадта шмат спроб. Паўтарыце спробу пазней."</string>
+    <string msgid="7520712796891883488" name="fingerprint_error_no_fingerprints">"Адбіткі пальцаў не зарэгістраваны."</string>
+    <string msgid="7627716295344353987" name="fingerprint_error_user_canceled">"Аўтэнтыфікацыя па адбітках пальцаў скасавана карыстальнікам."</string>
+    <string msgid="3873359464293253009" name="fingerprint_not_recognized">"Не распазнана"</string>
+    <string msgid="3791785319221634505" name="generic_error_no_device_credential">"Не заданы PIN-код, узор разблакіроўкі ці пароль."</string>
+    <string msgid="1807436368654974044" name="generic_error_no_keyguard">"Гэта прылада не падтрымлівае PIN-код, узор разблакіроўкі ці пароль."</string>
+    <string msgid="7309881387583143581" name="generic_error_user_canceled">"Аўтэнтыфікацыя скасавана карыстальнікам."</string>
+    <string msgid="9119039724000326934" name="ic_media_route_learn_more_accessibility">"Як пачаць трансляцыю"</string>
     <string name="icon_content_description">Значок дыялогавага акна</string>
     <string name="item_view_role_description">Укладка</string>
     <string name="material_clock_toggle_content_description">Выберыце AM (да паўдня) або PM (пасля паўдня)</string>
+    <string name="material_hour_24h_suffix">%1$s гадз</string>
     <string name="material_hour_selection">Выберыце гадзіну</string>
     <string name="material_hour_suffix">%1$s гадз</string>
     <string name="material_minute_selection">Выберыце хвіліны</string>
@@ -145,8 +145,17 @@
     <string msgid="6629927151350192407" name="mr_cast_button_connecting">"Трансліраваць. Ідзе падключэнне"</string>
     <string msgid="8071109333469380363" name="mr_cast_button_disconnected">"Трансліраваць. Адключана"</string>
     <string msgid="2175930138959078155" name="mr_cast_dialog_title_view_placeholder">"Інфармацыя адсутнічае"</string>
+    <string msgid="4257319068277776035" name="mr_chooser_looking_for_devices">"Ідзе пошук прылад…"</string>
     <string msgid="6114250663023140921" name="mr_chooser_searching">"Пошук прылад"</string>
     <string msgid="1419936397646839840" name="mr_chooser_title">"Трансліраваць на прыладу"</string>
+    <string msgid="3799500840179081429" name="mr_chooser_wifi_learn_more"><a href="https://support.google.com/chromecast/?p=trouble-finding-devices">"Даведацца больш"</a></string>
+    <string msgid="2998902945608081567" name="mr_chooser_wifi_warning_description_car">"Упэўніцеся, што другая прылада падключана да той жа сеткі Wi-Fi, што і аўтамабіль"</string>
+    <string msgid="2555886884770958244" name="mr_chooser_wifi_warning_description_phone">"Упэўніцеся, што другая прылада падключана да той жа сеткі Wi-Fi, што і тэлефон"</string>
+    <string msgid="6038748488793588164" name="mr_chooser_wifi_warning_description_tablet">"Упэўніцеся, што другая прылада падключана да той жа сеткі Wi-Fi, што і планшэт"</string>
+    <string msgid="5845921667085074878" name="mr_chooser_wifi_warning_description_tv">"Упэўніцеся, што другая прылада падключана да той жа сеткі Wi-Fi, што і тэлевізар"</string>
+    <string msgid="3459891599800041449" name="mr_chooser_wifi_warning_description_unknown">"Упэўніцеся, што другая прылада падключана да той жа сеткі Wi-Fi, што і гэта"</string>
+    <string msgid="5255021372884233706" name="mr_chooser_wifi_warning_description_watch">"Упэўніцеся, што другая прылада падключана да той жа сеткі Wi-Fi, што і гадзіннік"</string>
+    <string msgid="5213435473397442608" name="mr_chooser_zero_routes_found_title">"Няма даступных прылад"</string>
     <string msgid="3330502667672708728" name="mr_controller_album_art">"Вокладка альбома"</string>
     <string msgid="9171231064758955152" name="mr_controller_casting_screen">"Трансліруецца змесціва экрана"</string>
     <string msgid="5684434439232634509" name="mr_controller_close_description">"Закрыць"</string>
@@ -167,20 +176,25 @@
     <string msgid="4088331695424166162" name="mr_user_route_category_name">"Прылады"</string>
     <string name="mtrl_badge_numberless_content_description">Новае апавяшчэнне</string>
     <string name="mtrl_chip_close_icon_content_description">Выдаліць %1$s</string>
-    <string name="mtrl_exceed_max_badge_number_content_description">Колькасць новых апавяшчэнняў перавысіла %1$d</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">Колькасць новых апавяшчэнняў перавысіла %1$d</string>
     <string name="mtrl_picker_a11y_next_month">Перайсці да наступнага месяца</string>
     <string name="mtrl_picker_a11y_prev_month">Перайсці да папярэдняга месяца</string>
+    <string name="mtrl_picker_announce_current_range_selection">Выбраная дата пачатку: %1$s, выбраная дата заканчэння: %2$s</string>
     <string name="mtrl_picker_announce_current_selection">Бягучае вылучэнне: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_announce_current_selection_none">не выбрана</string>
+    <string name="mtrl_picker_cancel">Скасаваць</string>
+    <string name="mtrl_picker_confirm">ОК</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Выберыце дату</string>
     <string name="mtrl_picker_date_header_unselected">Выбраная дата</string>
     <string name="mtrl_picker_day_of_week_column_header">Слупок дзён: %1$s</string>
+    <string name="mtrl_picker_end_date_description">Дата заканчэння: %1$s</string>
     <string name="mtrl_picker_invalid_format">Няправільны фармат.</string>
     <string name="mtrl_picker_invalid_format_example">Прыклад: %1$s</string>
     <string name="mtrl_picker_invalid_format_use">Неабходны фармат: %1$s</string>
     <string name="mtrl_picker_invalid_range">Няправільны дыяпазон.</string>
-    <string name="mtrl_picker_navigate_to_year_description">Перайсці ў %1$s год</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">Перайсці да бягучага года %1$d</string>
+    <string name="mtrl_picker_navigate_to_year_description">Перайсці ў %1$d год</string>
     <string name="mtrl_picker_out_of_range">Па-за межамі дыяпазону: %1$s</string>
     <string name="mtrl_picker_range_header_only_end_selected">Дата пачатку – %1$s</string>
     <string name="mtrl_picker_range_header_only_start_selected">%1$s – дата заканчэння</string>
@@ -188,16 +202,20 @@
     <string name="mtrl_picker_range_header_title">Выберыце дыяпазон дат</string>
     <string name="mtrl_picker_range_header_unselected">Дата пачатку – дата заканчэння</string>
     <string name="mtrl_picker_save">Захаваць</string>
+    <string name="mtrl_picker_start_date_description">Дата пачатку: %1$s</string>
     <string name="mtrl_picker_text_input_date_hint">Дата</string>
     <string name="mtrl_picker_text_input_date_range_end_hint">Дата заканчэння</string>
     <string name="mtrl_picker_text_input_date_range_start_hint">Дата пачатку</string>
     <string name="mtrl_picker_text_input_day_abbr">д</string>
     <string name="mtrl_picker_text_input_month_abbr">м</string>
     <string name="mtrl_picker_text_input_year_abbr">г</string>
+    <string name="mtrl_picker_today_description">Сёння %1$s</string>
     <string name="mtrl_picker_toggle_to_calendar_input_mode">Пераключыцца ў рэжым уводу \"Каляндар\"</string>
-    <string name="mtrl_picker_toggle_to_day_selection">Дакраніцеся, каб пераключыцца на выбар дня</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Націсніце, каб пераключыцца на прагляд календара</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Пераключыцца ў рэжым уводу \"Тэкст\"</string>
-    <string name="mtrl_picker_toggle_to_year_selection">Дакраніцеся, каб пераключыцца на выбар года</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Націсніце, каб пераключыцца на агляд года</string>
+    <string name="mtrl_timepicker_cancel">Скасаваць</string>
+    <string name="mtrl_timepicker_confirm">ОК</string>
     <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Перайсці ўверх"</string>
     <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Адкрыць высоўнае меню навігацыі"</string>
     <string name="password_toggle_content_description">Паказаць пароль</string>

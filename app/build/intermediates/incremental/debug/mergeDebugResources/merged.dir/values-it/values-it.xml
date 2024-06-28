@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
     <plurals name="mtrl_badge_content_description">
     <item quantity="one">%d nuova notifica</item>
     <item quantity="other">%d nuove notifiche</item>
@@ -31,8 +31,11 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Condividi con"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Condividi tramite <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Comprimi"</string>
-    <string msgid="6241458715391513061" name="accessibility_fingerprint_dialog_help_area">"Area dei messaggi di assistenza"</string>
+    <string name="bottomsheet_action_collapse">Comprimi riquadro inferiore</string>
+    <string name="bottomsheet_action_expand">Espandi riquadro inferiore</string>
     <string name="bottomsheet_action_expand_halfway">Espandi a metà</string>
+    <string name="bottomsheet_drag_handle_clicked">Doppio tocco su punto di trascinamento</string>
+    <string name="bottomsheet_drag_handle_content_description">Punto di trascinamento</string>
     <string msgid="881409763997275156" name="call_notification_answer_action">"Rispondi"</string>
     <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Video"</string>
     <string msgid="3229508546291798546" name="call_notification_decline_action">"Rifiuta"</string>
@@ -45,8 +48,6 @@
     <string name="cast_closed_captions">Sottotitoli codificati</string>
     <string name="cast_closed_captions_unavailable">Sottotitoli codificati non disponibili</string>
     <string name="cast_connecting_to_device">Collegamento a %1$s</string>
-    <string name="cast_device_chooser_searching_for_devices">Ricerca di dispositivi</string>
-    <string name="cast_device_chooser_title">Trasmetti a</string>
     <string name="cast_disconnect">Disconnetti</string>
     <string name="cast_dynamic_group_name_format">%1$s + %2$d</string>
     <string name="cast_expanded_controller_ad_image_description">Immagine mostrata mentre il ricevitore Cast riproduce un annuncio</string>
@@ -85,11 +86,6 @@
     <string name="cast_tracks_chooser_dialog_ok">OK</string>
     <string name="cast_tracks_chooser_dialog_subtitles">Sottotitoli</string>
     <string name="cast_unmute">Riattiva audio</string>
-    <string name="cast_wifi_warning_description">Assicurati che il tuo dispositivo e quello di trasmissione siano collegati alla stessa rete Wi-Fi. \n\n<a href="https://support.google.com/chromecastbuiltin/answer/3006709">Scopri di più</a></string>
-    <string name="cast_wifi_warning_title">Controlla la rete Wi-Fi \n</string>
-    <string name="cast_zero_devices_found">Nessun dispositivo trovato.\n</string>
-    <string name="cast_zero_devices_found_done_button_label">Fine</string>
-    <string name="cast_zero_devices_learn_more_description"><a href="https://support.google.com/chromecastbuiltin/answer/3006709">Scopri di più</a> su come trasmettere i tuoi contenuti ad altri dispositivi.</string>
     <string name="character_counter_content_description">%1$d caratteri inserirti su %2$d</string>
     <string name="character_counter_overflowed_content_description">Sono presenti %2$d caratteri in più rispetto al limite di %1$d</string>
     <string name="clear_text_end_icon_content_description">Cancella testo</string>
@@ -111,21 +107,25 @@
     <string name="common_open_on_phone">Apri sul telefono</string>
     <string name="common_signin_button_text">Accedi</string>
     <string name="common_signin_button_text_long">Accedi con Google</string>
-    <string msgid="4296851028928624518" name="confirm_device_credential_password">"Utilizza password"</string>
-    <string msgid="7497355367608150274" name="default_error_msg">"Errore sconosciuto"</string>
+    <string msgid="5912733858573823945" name="confirm_device_credential_password">"Utilizza password"</string>
+    <string msgid="4776854077120974966" name="default_error_msg">"Errore sconosciuto"</string>
     <string name="error_icon_content_description">Errore</string>
     <string name="exposed_dropdown_menu_content_description">Mostra il menu a discesa</string>
-    <string msgid="5354590751262189738" name="fingerprint_dialog_touch_sensor">"Tocca sensore impronte digitali"</string>
-    <string msgid="3976825677335166260" name="fingerprint_error_hw_not_available">"Hardware per l\'impronta digitale non disponibile."</string>
-    <string msgid="1176237289575184578" name="fingerprint_error_hw_not_present">"Questo dispositivo non è dotato di sensore di impronte digitali"</string>
-    <string msgid="1651062876313169162" name="fingerprint_error_lockout">"È stato effettuato un numero eccessivo di tentativi. Riprova più tardi."</string>
-    <string msgid="3350805046152877040" name="fingerprint_error_no_fingerprints">"Nessuna impronta digitale registrata."</string>
-    <string msgid="3421037373085129417" name="fingerprint_error_user_canceled">"Operazione di autenticazione dell\'impronta digitale annullata dall\'utente."</string>
-    <string msgid="5491287833813257925" name="fingerprint_not_recognized">"Non riconosciuta"</string>
-    <string msgid="7474799539658018076" name="generic_error_user_canceled">"Autenticazione annullata dall\'utente."</string>
+    <string msgid="1072308044213194243" name="fingerprint_dialog_touch_sensor">"Tocca sensore impronte"</string>
+    <string msgid="8216738333501875566" name="fingerprint_error_hw_not_available">"Hardware per l\'impronta non disponibile."</string>
+    <string msgid="6306988885793029438" name="fingerprint_error_hw_not_present">"Questo dispositivo non è dotato di sensore di impronte"</string>
+    <string msgid="7291787166416782245" name="fingerprint_error_lockout">"È stato effettuato un numero eccessivo di tentativi. Riprova più tardi."</string>
+    <string msgid="7520712796891883488" name="fingerprint_error_no_fingerprints">"Nessuna impronta digitale registrata."</string>
+    <string msgid="7627716295344353987" name="fingerprint_error_user_canceled">"Operazione di autenticazione dell\'impronta annullata dall\'utente."</string>
+    <string msgid="3873359464293253009" name="fingerprint_not_recognized">"Non riconosciuta"</string>
+    <string msgid="3791785319221634505" name="generic_error_no_device_credential">"Non hai impostato PIN, sequenza o password."</string>
+    <string msgid="1807436368654974044" name="generic_error_no_keyguard">"Questo dispositivo non supporta il PIN, la sequenza o la password."</string>
+    <string msgid="7309881387583143581" name="generic_error_user_canceled">"Autenticazione annullata dall\'utente."</string>
+    <string msgid="9119039724000326934" name="ic_media_route_learn_more_accessibility">"Scopri come trasmettere contenuti"</string>
     <string name="icon_content_description">Icona della finestra di dialogo</string>
     <string name="item_view_role_description">Scheda</string>
     <string name="material_clock_toggle_content_description">Seleziona AM o PM</string>
+    <string name="material_hour_24h_suffix">%1$s ore</string>
     <string name="material_hour_selection">Seleziona l\'ora</string>
     <string name="material_hour_suffix">%1$s in punto</string>
     <string name="material_minute_selection">Seleziona i minuti</string>
@@ -143,8 +143,17 @@
     <string msgid="6629927151350192407" name="mr_cast_button_connecting">"Trasmetti. Connessione"</string>
     <string msgid="8071109333469380363" name="mr_cast_button_disconnected">"Trasmetti. Disconnesso"</string>
     <string msgid="2175930138959078155" name="mr_cast_dialog_title_view_placeholder">"Nessuna informazione disponibile"</string>
+    <string msgid="4257319068277776035" name="mr_chooser_looking_for_devices">"Ricerca di dispositivi in corso…"</string>
     <string msgid="6114250663023140921" name="mr_chooser_searching">"Ricerca di dispositivi"</string>
     <string msgid="1419936397646839840" name="mr_chooser_title">"Trasmetti a"</string>
+    <string msgid="3799500840179081429" name="mr_chooser_wifi_learn_more"><a href="https://support.google.com/chromecast/?p=trouble-finding-devices">"Scopri di più"</a></string>
+    <string msgid="2998902945608081567" name="mr_chooser_wifi_warning_description_car">"Assicurati che l\'altro dispositivo sia connesso alla stessa rete Wi-Fi di questa auto"</string>
+    <string msgid="2555886884770958244" name="mr_chooser_wifi_warning_description_phone">"Assicurati che l\'altro dispositivo sia connesso alla stessa rete Wi-Fi di questo smartphone"</string>
+    <string msgid="6038748488793588164" name="mr_chooser_wifi_warning_description_tablet">"Assicurati che l\'altro dispositivo sia connesso alla stessa rete Wi-Fi di questo tablet"</string>
+    <string msgid="5845921667085074878" name="mr_chooser_wifi_warning_description_tv">"Assicurati che l\'altro dispositivo sia connesso alla stessa rete Wi-Fi di questa TV"</string>
+    <string msgid="3459891599800041449" name="mr_chooser_wifi_warning_description_unknown">"Assicurati che l\'altro dispositivo sia connesso alla stessa rete Wi-Fi di questo dispositivo"</string>
+    <string msgid="5255021372884233706" name="mr_chooser_wifi_warning_description_watch">"Assicurati che l\'altro dispositivo sia connesso alla stessa rete Wi-Fi di questo orologio"</string>
+    <string msgid="5213435473397442608" name="mr_chooser_zero_routes_found_title">"Nessun dispositivo disponibile"</string>
     <string msgid="3330502667672708728" name="mr_controller_album_art">"Copertina dell\'album"</string>
     <string msgid="9171231064758955152" name="mr_controller_casting_screen">"Trasmissione dello schermo attiva"</string>
     <string msgid="5684434439232634509" name="mr_controller_close_description">"Chiudi"</string>
@@ -157,7 +166,7 @@
     <string msgid="1253345086594430054" name="mr_controller_play">"Riproduci"</string>
     <string msgid="5497722768305745508" name="mr_controller_stop">"Interrompi"</string>
     <string msgid="804210341192624074" name="mr_controller_stop_casting">"Interrompi trasmissione"</string>
-    <string msgid="2955862765169128170" name="mr_controller_volume_slider">"Dispositivo di scorrimento del volume"</string>
+    <string msgid="2955862765169128170" name="mr_controller_volume_slider">"Cursore del volume"</string>
     <string msgid="4115858704575247342" name="mr_dialog_default_group_name">"Gruppo"</string>
     <string msgid="4307018456678388936" name="mr_dialog_groupable_header">"Aggiungi un dispositivo"</string>
     <string msgid="6068257520605505468" name="mr_dialog_transferable_header">"Riproduci su un gruppo"</string>
@@ -165,20 +174,25 @@
     <string msgid="4088331695424166162" name="mr_user_route_category_name">"Dispositivi"</string>
     <string name="mtrl_badge_numberless_content_description">Nuova notifica</string>
     <string name="mtrl_chip_close_icon_content_description">Rimuovi %1$s</string>
-    <string name="mtrl_exceed_max_badge_number_content_description">Più di %1$d nuove notifiche</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">Più di %1$d nuove notifiche</string>
     <string name="mtrl_picker_a11y_next_month">Passa al mese successivo</string>
     <string name="mtrl_picker_a11y_prev_month">Passa al mese precedente</string>
+    <string name="mtrl_picker_announce_current_range_selection">Selezione della data di inizio: %1$s. Selezione della data di fine: %2$s</string>
     <string name="mtrl_picker_announce_current_selection">Selezione attuale: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_announce_current_selection_none">Nessuna selezione</string>
+    <string name="mtrl_picker_cancel">Annulla</string>
+    <string name="mtrl_picker_confirm">OK</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Seleziona data</string>
     <string name="mtrl_picker_date_header_unselected">Data selezionata</string>
     <string name="mtrl_picker_day_of_week_column_header">Colonna dei giorni: %1$s</string>
+    <string name="mtrl_picker_end_date_description">Data di fine: %1$s</string>
     <string name="mtrl_picker_invalid_format">Formato non valido.</string>
     <string name="mtrl_picker_invalid_format_example">Esempio: %1$s</string>
     <string name="mtrl_picker_invalid_format_use">Usa: %1$s</string>
     <string name="mtrl_picker_invalid_range">Intervallo non valido.</string>
-    <string name="mtrl_picker_navigate_to_year_description">Vai all\'anno %1$s</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">Vai all\'anno corrente %1$d</string>
+    <string name="mtrl_picker_navigate_to_year_description">Vai all\'anno %1$d</string>
     <string name="mtrl_picker_out_of_range">Non compresa nell\'intervallo: %1$s</string>
     <string name="mtrl_picker_range_header_only_end_selected">Data di inizio - %1$s</string>
     <string name="mtrl_picker_range_header_only_start_selected">%1$s - Data di fine</string>
@@ -186,16 +200,20 @@
     <string name="mtrl_picker_range_header_title">Seleziona intervallo</string>
     <string name="mtrl_picker_range_header_unselected">Data di inizio - Data di fine</string>
     <string name="mtrl_picker_save">Salva</string>
+    <string name="mtrl_picker_start_date_description">Data di inizio: %1$s</string>
     <string name="mtrl_picker_text_input_date_hint">Data</string>
     <string name="mtrl_picker_text_input_date_range_end_hint">Data di fine</string>
     <string name="mtrl_picker_text_input_date_range_start_hint">Data di inizio</string>
     <string name="mtrl_picker_text_input_day_abbr">g</string>
     <string name="mtrl_picker_text_input_month_abbr">m</string>
     <string name="mtrl_picker_text_input_year_abbr">a</string>
+    <string name="mtrl_picker_today_description">Oggi %1$s</string>
     <string name="mtrl_picker_toggle_to_calendar_input_mode">Passa alla modalità di immissione Calendario</string>
-    <string name="mtrl_picker_toggle_to_day_selection">Tocca per passare alla selezione di un giorno</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Tocca per passare alla visualizzazione Calendario</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Passa alla modalità di immissione Testo</string>
-    <string name="mtrl_picker_toggle_to_year_selection">Tocca per passare alla selezione di un anno</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Tocca per passare alla visualizzazione Anno</string>
+    <string name="mtrl_timepicker_cancel">Annulla</string>
+    <string name="mtrl_timepicker_confirm">OK</string>
     <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Torna indietro"</string>
     <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Apri riquadro di navigazione"</string>
     <string name="password_toggle_content_description">Mostra password</string>

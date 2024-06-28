@@ -1,16 +1,16 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.medsaveinv.app-mergeDebugResources-50:/values-h320dp-port-v13/values-h320dp-port-v13.xml",
+            "outputFile": "med.Save.medsaveinv.app-mergeDebugResources-63:/values-h320dp-port-v13/values-h320dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\KV RANA\\.gradle\\caches\\transforms-3\\338be2afdc846b23b579ea676302373f\\transformed\\material-1.5.0\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
+                    "source": "C:\\Users\\acer\\.gradle\\caches\\transforms-3\\fb6d343be0a70c9627dc45718e7c8c3e\\transformed\\material-1.11.0\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",
-                        "endColumns": "75",
-                        "endOffsets": "126"
+                        "endColumns": "63",
+                        "endOffsets": "114"
                     }
                 }
             ]
