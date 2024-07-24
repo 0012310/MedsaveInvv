@@ -68,5 +68,5 @@ dependencies {
 
     implementation ("com.google.android.gms:play-services-location:21.0.1")
 
-    // Accer Latest 25 July 24
+    // Accer Latest 25 July 24  // done from dell
 }
