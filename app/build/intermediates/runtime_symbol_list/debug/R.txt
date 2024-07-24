@@ -4421,6 +4421,7 @@ int id tvHosName 0x7f0902d2
 int id tvHospital 0x7f0902d3
 int id tvHospitalAddress 0x7f0902d4
 int id tvHospitalPhone 0x7f0902d5
+int id tvLocation 0x7f0902fe
 int id tvName 0x7f0902d6
 int id tvObservationData 0x7f0902d7
 int id tvPatienFileNo 0x7f0902d8

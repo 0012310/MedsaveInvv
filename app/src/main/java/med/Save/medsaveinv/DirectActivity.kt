@@ -9,6 +9,8 @@ import android.content.Intent
 import android.content.pm.PackageManager
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
+import android.location.Geocoder
+import android.location.Location
 import android.net.Uri
 import android.os.Bundle
 import android.os.Environment
@@ -36,6 +38,8 @@ import com.android.volley.Request
 import com.android.volley.RequestQueue
 import com.android.volley.toolbox.JsonObjectRequest
 import com.android.volley.toolbox.Volley
+import com.google.android.gms.location.FusedLocationProviderClient
+import com.google.android.gms.location.LocationServices
 
 import med.Save.medsaveinv.DataBase.SharedPreferenceUtils
 import com.google.android.material.bottomsheet.BottomSheetDialog
@@ -47,6 +51,7 @@ import java.io.FileOutputStream
 import java.io.IOException
 import java.text.SimpleDateFormat
 import java.util.Date
+import java.util.Locale
 
 
 @Suppress("DEPRECATION")
@@ -67,6 +72,7 @@ class DirectActivity : AppCompatActivity() {
     private var latestPhoto: String = ""
     private var docType: String = ""
     lateinit var imageClicked: ImageView
+    lateinit var tvLocation: TextView
 
     lateinit var btnMore: Button
     lateinit var btnMulti: Button
@@ -86,8 +92,11 @@ class DirectActivity : AppCompatActivity() {
 
     var position = 0
     var PICK_CODE = 100
+    var REQUEST_LOCATION_PERMISSION = 111
 
     val images = ArrayList<Uri>()
+
+    private lateinit var fusedLocationClient: FusedLocationProviderClient
 
     // Here new code for upload images
 
@@ -105,16 +114,6 @@ class DirectActivity : AppCompatActivity() {
     private fun displayImages(image: List<Uri>) {
         btnUploadMulti.visibility = View.VISIBLE
         for (imageUri in image) {
-
-            /*    val imageView = ImageView(this)
-                imageView.layoutParams = ViewGroup.LayoutParams(100,100)
-                imageView.scaleType = ImageView.ScaleType.CENTER_CROP
-                imageView.setPadding(8, 8, 8, 8)
-                imagess.add(imageUri)
-                // Load the image using Picasso
-                Picasso.get().load(imageUri).into(imageView)
-                imageContainer.addView(imageView)*/
-
             val imageViewmulti = ImageView(this)
             imageViewmulti.layoutParams = LinearLayout.LayoutParams(100, 100)
             imageViewmulti.setImageURI(imageUri)
@@ -174,22 +173,6 @@ class DirectActivity : AppCompatActivity() {
 
         btnUploadMulti.setOnClickListener {
             mProgressDialog?.show()
-
-            /*     for (i in 0 until images.size) {
-                     Handler().postDelayed(
-                         {
-                             val bitmap =
-                                 MediaStore.Images.Media.getBitmap(contentResolver, images.get(i))
-                             val stream = ByteArrayOutputStream()
-                             bitmap.compress(Bitmap.CompressFormat.JPEG, 15, stream)
-                             val bytes = stream.toByteArray()
-                             latestPhoto = Base64.encodeToString(bytes, Base64.DEFAULT)
-                             callApitoUlpadMultipleImages(i, latestPhoto)
-                         }, 5000
-                     )
-
-                 }*/
-
             callFun(0)
 
         }
@@ -200,14 +183,6 @@ class DirectActivity : AppCompatActivity() {
         }
 
         btnMulti.setOnClickListener {
-//            images.clear()
-//            val intent = Intent(Intent.ACTION_OPEN_DOCUMENT)
-//            intent.putExtra(Intent.EXTRA_ALLOW_MULTIPLE, true)
-//            intent.addCategory(Intent.CATEGORY_OPENABLE)
-//            intent.type = "image/*"
-//            startActivityForResult(intent, PICK_CODE)
-
-
             val intent = Intent(Intent.ACTION_OPEN_DOCUMENT).apply {
                 addCategory(Intent.CATEGORY_OPENABLE)
                 type = "image/*"
@@ -223,6 +198,7 @@ class DirectActivity : AppCompatActivity() {
         imagearrow = findViewById(R.id.imagearrow)
         imagearrow.setOnClickListener {
             imageClicked.visibility = View.VISIBLE
+            tvLocation.visibility = View.VISIBLE
             llObvious.visibility = View.VISIBLE
             if (llObvious.getVisibility() == View.VISIBLE) {
                 if (tvObservationData.text.toString() == "") {
@@ -233,7 +209,6 @@ class DirectActivity : AppCompatActivity() {
                         .show()
                 } else {
                     callUploadImageApi("SelfImage")
-                    // callAPI_SaveInc()
                 }
             }
 
@@ -252,25 +227,94 @@ class DirectActivity : AppCompatActivity() {
         CallCustomDialog("Plain")
         docType = "Plain"
         imageClicked = findViewById(R.id.imageClicked)
+        tvLocation = findViewById(R.id.tvLocation)
         spinnerObviousStatus = findViewById(R.id.spinnerObviousStatus)
         setAdapterIdAdapter(ubvStatus)
 
-        /*   showToast(
-               sharedPreferences.getStringValue("latitudeinv", "") +
-                       sharedPreferences.getStringValue("longitudeinv", "")
-           )*/
+        fusedLocationClient = LocationServices.getFusedLocationProviderClient(this)
+        checkPermissionsLocation()
 
+    }
+
+    private fun checkPermissionsLocation() {
+        if (ActivityCompat.checkSelfPermission(
+                this,
+                Manifest.permission.ACCESS_FINE_LOCATION
+            ) != PackageManager.PERMISSION_GRANTED
+        ) {
+            ActivityCompat.requestPermissions(
+                this,
+                arrayOf(Manifest.permission.ACCESS_FINE_LOCATION),
+                REQUEST_LOCATION_PERMISSION
+            )
+        } else {
+            // Permissions already granted, get the location
+            getLastLocation()
+        }
+    }
+
+    private fun getLastLocation() {
+        if (ActivityCompat.checkSelfPermission(
+                this,
+                Manifest.permission.ACCESS_FINE_LOCATION
+            ) != PackageManager.PERMISSION_GRANTED
+        ) {
+            requestPermissionsLocation()
+            return
+        }
+        fusedLocationClient.lastLocation.addOnSuccessListener { location: Location? ->
+            location?.let {
+                val lat = location.latitude
+                val lon = location.longitude
+
+                val geocoder = Geocoder(this, Locale.getDefault())
+                val addresses = geocoder.getFromLocation(lat, lon, 1)
+                val address = addresses?.get(0)?.getAddressLine(0)
+                tvLocation.text = address
+                //   Toast.makeText(this, ""+address, Toast.LENGTH_SHORT).show()
+
+
+            }
+        }
+    }
+
+
+    private fun requestPermissionsLocation(): Boolean {
+        return ContextCompat.checkSelfPermission(
+            this,
+            Manifest.permission.CAMERA
+        ) == PackageManager.PERMISSION_GRANTED &&
+                ContextCompat.checkSelfPermission(
+                    this,
+                    Manifest.permission.ACCESS_FINE_LOCATION
+                ) == PackageManager.PERMISSION_GRANTED &&
+                ContextCompat.checkSelfPermission(
+                    this,
+                    Manifest.permission.WRITE_EXTERNAL_STORAGE
+                ) == PackageManager.PERMISSION_GRANTED
     }
 
 
     private fun callFun(i: Int) {
         btnUploadMulti.visibility = View.GONE
-        val bitmap =
-            MediaStore.Images.Media.getBitmap(contentResolver, images.get(i))
+
+//        val bitmap = MediaStore.Images.Media.getBitmap(contentResolver, images.get(i))
+//        val stream = ByteArrayOutputStream()
+//        bitmap.compress(Bitmap.CompressFormat.JPEG, 30, stream)
+//        val bytes = stream.toByteArray()
+//        latestPhoto = Base64.encodeToString(bytes, Base64.DEFAULT)
+
+
+        val bitmap = MediaStore.Images.Media.getBitmap(contentResolver, images.get(i))
+        val aspectRatio = bitmap.width.toFloat() / bitmap.height.toFloat()
+        val width = 800 // or any desired width
+        val height = (width / aspectRatio).toInt()
+        val resizedBitmap = Bitmap.createScaledBitmap(bitmap, width, height, false)
         val stream = ByteArrayOutputStream()
-        bitmap.compress(Bitmap.CompressFormat.JPEG, 10, stream)
+        resizedBitmap.compress(Bitmap.CompressFormat.JPEG, 30, stream)
         val bytes = stream.toByteArray()
         latestPhoto = Base64.encodeToString(bytes, Base64.DEFAULT)
+        stream.close()
         callApitoUlpadMultipleImages(i, latestPhoto)
     }
 
@@ -360,10 +404,11 @@ class DirectActivity : AppCompatActivity() {
                         showToast("Record Already Exists.")
                         CallUpdateDialoge("Confirm! Do you want to continue Survey")
                     } else if (msg.equals("Save")) {
-                        showToast(
-                            sharedPreferences.getStringValue("latitudeinv", "") +
-                                    sharedPreferences.getStringValue("longitudeinv", "")
-                        )
+
+//                            showToast(
+//                                sharedPreferences.getStringValue("latitudeinv", "") +
+//                                        sharedPreferences.getStringValue("longitudeinv", "")
+//                            )
                         showToast("Record Successfully Saved")
                         CallUpdateDialoge("Confirm! Do you want to continue Survey")
                     } else {
@@ -461,7 +506,8 @@ class DirectActivity : AppCompatActivity() {
 
                 } else {
 
-                    Toast.makeText(this, "No Data found of that File No", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, "No Data found of that File No", Toast.LENGTH_SHORT)
+                        .show()
 
                 }
 
@@ -473,7 +519,9 @@ class DirectActivity : AppCompatActivity() {
 
         jsonObjectRequest.setShouldCache(false)
         jsonObjectRequest.retryPolicy = DefaultRetryPolicy(
-            10000, DefaultRetryPolicy.DEFAULT_MAX_RETRIES, DefaultRetryPolicy.DEFAULT_BACKOFF_MULT
+            10000,
+            DefaultRetryPolicy.DEFAULT_MAX_RETRIES,
+            DefaultRetryPolicy.DEFAULT_BACKOFF_MULT
         )
         requestQueue.add(jsonObjectRequest)
     }
@@ -485,27 +533,29 @@ class DirectActivity : AppCompatActivity() {
 
     private fun setAdapterIdAdapter(ubvStatus: Array<String>) {
 
-        val inputTypeAdapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, ubvStatus)
+        val inputTypeAdapter =
+            ArrayAdapter(this, android.R.layout.simple_spinner_item, ubvStatus)
         inputTypeAdapter.setDropDownViewResource(android.R.layout.simple_list_item_1)
 
         spinnerObviousStatus.adapter = inputTypeAdapter
-        spinnerObviousStatus.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
-            override fun onItemSelected(
-                parent: AdapterView<*>?, view: View?, position: Int, id: Long
-            ) {
-                when (spinnerObviousStatus.selectedItem) {
-                    "Approved" -> {
+        spinnerObviousStatus.onItemSelectedListener =
+            object : AdapterView.OnItemSelectedListener {
+                override fun onItemSelected(
+                    parent: AdapterView<*>?, view: View?, position: Int, id: Long
+                ) {
+                    when (spinnerObviousStatus.selectedItem) {
+                        "Approved" -> {
+                        }
+
+                        "Rejected" -> {
+
+                        }
+
                     }
-
-                    "Rejected" -> {
-
-                    }
-
                 }
-            }
 
-            override fun onNothingSelected(parent: AdapterView<*>?) {}
-        }
+                override fun onNothingSelected(parent: AdapterView<*>?) {}
+            }
 
 
     }
@@ -534,12 +584,12 @@ class DirectActivity : AppCompatActivity() {
 
     private fun captureImage() {
         if (ContextCompat.checkSelfPermission(
-                this, Manifest.permission.CAMERA
+                this,
+                Manifest.permission.CAMERA
             ) != PackageManager.PERMISSION_GRANTED
         ) {
             ActivityCompat.requestPermissions(
-                this,
-                arrayOf(
+                this, arrayOf(
                     Manifest.permission.CAMERA,
                     Manifest.permission.WRITE_EXTERNAL_STORAGE
                 ),
@@ -553,7 +603,7 @@ class DirectActivity : AppCompatActivity() {
                     if (photoFile != null) {
                         val photoURI = FileProvider.getUriForFile(
                             this,
-                            "com.example.medsaveinv.fileprovider",
+                            "med.Save.medsaveinv.fileprovider",
                             photoFile!!
                         )
                         takePictureIntent.putExtra(MediaStore.EXTRA_OUTPUT, photoURI)
@@ -577,59 +627,6 @@ class DirectActivity : AppCompatActivity() {
 
     }
 
-    private fun cameraIntent() {
-        /*  if (checkSelfPermission(Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
-              requestPermissions(
-                  arrayOf(
-                      Manifest.permission.CAMERA, Manifest.permission.WRITE_EXTERNAL_STORAGE
-                  ), MY_CAMERA_PERMISSION_CODE
-              )
-          }
-          else {
-              val cameraIntent = Intent(MediaStore.ACTION_IMAGE_CAPTURE)
-              if (cameraIntent.resolveActivity(packageManager) != null) {
-                  startActivityForResult(cameraIntent, CAMERA_REQUEST)
-              } else {
-                  Toast.makeText(this, "No Camera Found", Toast.LENGTH_SHORT).show()
-              }
-          }*/
-
-
-        if (ContextCompat.checkSelfPermission(
-                this, android.Manifest.permission.CAMERA
-            ) != PackageManager.PERMISSION_GRANTED
-        ) {
-            ActivityCompat.requestPermissions(
-                this,
-                arrayOf(
-                    android.Manifest.permission.CAMERA,
-                    android.Manifest.permission.WRITE_EXTERNAL_STORAGE
-                ),
-                0
-            )
-        } else {
-            val takePictureIntent = Intent(MediaStore.ACTION_IMAGE_CAPTURE)
-            if (takePictureIntent.resolveActivity(packageManager) != null) {
-                try {
-                    photoFile = createImageFile()
-                    if (photoFile != null) {
-                        val photoURI = FileProvider.getUriForFile(
-                            this,
-                            "com.example.medsaveinv.fileprovider",
-                            photoFile!!
-                        )
-                        takePictureIntent.putExtra(MediaStore.EXTRA_OUTPUT, photoURI)
-                        startActivityForResult(takePictureIntent, CAPTURE_IMAGE_REQUEST)
-                    }
-                } catch (ex: Exception) {
-                    displayMessage(baseContext, ex.message.toString())
-                }
-
-            } else {
-                displayMessage(baseContext, "Null")
-            }
-        }
-    }
 
     @Throws(IOException::class)
     private fun createImageFile(): File {
@@ -870,15 +867,20 @@ class DirectActivity : AppCompatActivity() {
         if (requestCode == CAPTURE_IMAGE_REQUEST && resultCode == Activity.RESULT_OK) {
             val myBitmap = BitmapFactory.decodeFile(photoFile!!.absolutePath)
             imageClicked.setImageBitmap(myBitmap)
+            if (requestPermissionsLocation()) {
+                getLastLocation()
+            }
+
+
             if (docType == "MoreDocumnets") {
                 val bytes = ByteArrayOutputStream()
-                myBitmap.compress(Bitmap.CompressFormat.JPEG, 10, bytes)
+                myBitmap.compress(Bitmap.CompressFormat.JPEG, 30, bytes)
                 val byteArr = bytes.toByteArray()
                 latestPhoto = Base64.encodeToString(byteArr, Base64.DEFAULT)
                 callApitoUploadMoreDocImageClick(myBitmap, latestPhoto)
             } else {
                 val bytes = ByteArrayOutputStream()
-                myBitmap.compress(Bitmap.CompressFormat.JPEG, 10, bytes)
+                myBitmap.compress(Bitmap.CompressFormat.JPEG, 30, bytes)
                 val byteArr = bytes.toByteArray()
                 latestPhoto = Base64.encodeToString(byteArr, Base64.DEFAULT)
                 imagearrow.visibility = View.VISIBLE
@@ -890,9 +892,10 @@ class DirectActivity : AppCompatActivity() {
             if (data != null) {
                 if (docType == "MoreDocumnets") {
                     try {
-                        val bitmap = MediaStore.Images.Media.getBitmap(contentResolver, data.data)
+                        val bitmap =
+                            MediaStore.Images.Media.getBitmap(contentResolver, data.data)
                         val stream = ByteArrayOutputStream()
-                        bitmap.compress(Bitmap.CompressFormat.JPEG, 10, stream)
+                        bitmap.compress(Bitmap.CompressFormat.JPEG, 30, stream)
                         val bytes = stream.toByteArray()
                         latestPhoto = Base64.encodeToString(bytes, Base64.DEFAULT)
                         //      callDialog(latestPhoto)
@@ -902,9 +905,10 @@ class DirectActivity : AppCompatActivity() {
                     callApitoUploadMoreDocImageGallery(data.data, latestPhoto)
                 } else {
                     try {
-                        val bitmap = MediaStore.Images.Media.getBitmap(contentResolver, data.data)
+                        val bitmap =
+                            MediaStore.Images.Media.getBitmap(contentResolver, data.data)
                         val stream = ByteArrayOutputStream()
-                        bitmap.compress(Bitmap.CompressFormat.JPEG, 10, stream)
+                        bitmap.compress(Bitmap.CompressFormat.JPEG, 30, stream)
 
                         val bytes = stream.toByteArray()
                         latestPhoto = Base64.encodeToString(bytes, Base64.DEFAULT)
@@ -917,8 +921,7 @@ class DirectActivity : AppCompatActivity() {
                 }
 
             }
-        }
-        else if (requestCode == PICK_CODE && resultCode == RESULT_OK) {
+        } else if (requestCode == PICK_CODE && resultCode == RESULT_OK) {
             if (resultCode == Activity.RESULT_OK) {
                 if (data?.clipData != null) {
                     btnUploadMulti.visibility = View.VISIBLE
@@ -956,6 +959,8 @@ class DirectActivity : AppCompatActivity() {
             } else {
                 showToast("Result Not OK")
             }
+        } else if (requestCode == REQUEST_LOCATION_PERMISSION && resultCode == RESULT_OK) {
+            getLastLocation()
         }
 
     }

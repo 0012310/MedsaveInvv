@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:2:1-116:12
-INJECTED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:2:1-116:12
-INJECTED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:2:1-116:12
-INJECTED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:2:1-116:12
+ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:2:1-124:12
+INJECTED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:2:1-124:12
+INJECTED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:2:1-124:12
+INJECTED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:2:1-124:12
 MERGED from [androidx.databinding:viewbinding:8.1.0] C:\Users\acer\.gradle\caches\transforms-3\af7bf8e1b498762255eac9f20e283b19\transformed\viewbinding-8.1.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:firebase-crashlytics:18.6.4] C:\Users\acer\.gradle\caches\transforms-3\fbcae3780e5ba7632b23da20de7c6123\transformed\firebase-crashlytics-18.6.4\AndroidManifest.xml:2:1-24:12
 MERGED from [androidx.navigation:navigation-common:2.7.7] C:\Users\acer\.gradle\caches\transforms-3\88c65b2954c4278820929bf03586c12a\transformed\navigation-common-2.7.7\AndroidManifest.xml:17:1-22:12
@@ -189,9 +189,17 @@ uses-feature#android.hardware.camera.autofocus
 ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:38:5-70
 	android:name
 		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:38:19-67
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:42:5-80
+	android:name
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:42:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:46:5-79
+	android:name
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:46:22-77
 application
-ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:40:5-110:19
-INJECTED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:40:5-110:19
+ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:48:5-118:19
+INJECTED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:48:5-118:19
 MERGED from [com.google.firebase:firebase-crashlytics:18.6.4] C:\Users\acer\.gradle\caches\transforms-3\fbcae3780e5ba7632b23da20de7c6123\transformed\firebase-crashlytics-18.6.4\AndroidManifest.xml:11:5-22:19
 MERGED from [com.google.firebase:firebase-crashlytics:18.6.4] C:\Users\acer\.gradle\caches\transforms-3\fbcae3780e5ba7632b23da20de7c6123\transformed\firebase-crashlytics-18.6.4\AndroidManifest.xml:11:5-22:19
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\acer\.gradle\caches\transforms-3\fb6d343be0a70c9627dc45718e7c8c3e\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
@@ -267,141 +275,141 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ac
 	android:extractNativeLibs
 		INJECTED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml
 	android:largeHeap
-		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:47:9-33
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:55:9-33
 	android:icon
-		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:45:9-41
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:53:9-41
 	android:networkSecurityConfig
-		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:48:9-69
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:56:9-69
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.0] C:\Users\acer\.gradle\caches\transforms-3\76a5e7442e32538b8c492b8d46248b0b\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:49:9-35
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:57:9-35
 	android:label
-		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:46:9-41
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:54:9-41
 	android:hardwareAccelerated
-		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:44:9-44
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:52:9-44
 	android:fullBackupContent
-		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:43:9-54
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:51:9-54
 	tools:targetApi
-		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:52:9-29
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:60:9-29
 	android:allowBackup
-		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:41:9-36
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:49:9-36
 	android:theme
-		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:50:9-48
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:58:9-48
 	android:dataExtractionRules
-		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:42:9-65
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:50:9-65
 	android:usesCleartextTraffic
-		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:51:9-44
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:59:9-44
 activity#med.Save.medsaveinv.TestActivity
-ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:53:9-57:20
+ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:61:9-65:20
 	android:exported
-		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:55:13-36
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:63:13-36
 	android:name
-		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:54:13-60
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:62:13-60
 activity#med.Save.medsaveinv.DirectActivity
-ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:58:9-62:56
+ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:66:9-70:56
 	android:screenOrientation
-		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:61:13-49
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:69:13-49
 	android:exported
-		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:60:13-37
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:68:13-37
 	tools:ignore
-		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:62:13-53
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:70:13-53
 	android:name
-		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:59:13-62
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:67:13-62
 activity#med.Save.medsaveinv.SurveyFormActivity
-ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:63:9-67:56
+ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:71:9-75:56
 	android:screenOrientation
-		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:66:13-49
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:74:13-49
 	android:exported
-		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:65:13-37
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:73:13-37
 	tools:ignore
-		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:67:13-53
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:75:13-53
 	android:name
-		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:64:13-66
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:72:13-66
 activity#med.Save.medsaveinv.InvestigationSearchActivity
-ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:68:9-72:56
+ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:76:9-80:56
 	android:screenOrientation
-		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:71:13-49
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:79:13-49
 	android:exported
-		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:70:13-37
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:78:13-37
 	tools:ignore
-		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:72:13-53
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:80:13-53
 	android:name
-		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:69:13-75
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:77:13-75
 activity#med.Save.medsaveinv.LoginActivity
-ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:73:9-78:56
+ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:81:9-86:56
 	android:screenOrientation
-		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:76:13-49
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:84:13-49
 	android:windowSoftInputMode
-		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:77:13-55
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:85:13-55
 	android:exported
-		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:75:13-37
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:83:13-37
 	tools:ignore
-		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:78:13-53
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:86:13-53
 	android:name
-		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:74:13-61
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:82:13-61
 activity#med.Save.medsaveinv.SplashActivity
-ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:79:9-89:20
+ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:87:9-97:20
 	android:screenOrientation
-		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:82:13-49
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:90:13-49
 	android:exported
-		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:81:13-36
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:89:13-36
 	tools:ignore
-		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:83:13-53
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:91:13-53
 	android:name
-		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:80:13-62
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:88:13-62
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:84:13-88:29
+ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:92:13-96:29
 action#android.intent.action.MAIN
-ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:85:17-69
+ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:93:17-69
 	android:name
-		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:85:25-66
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:93:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:87:17-77
+ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:95:17-77
 	android:name
-		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:87:27-74
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:95:27-74
 activity#med.Save.medsaveinv.DashBoradActivity
-ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:90:9-94:56
+ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:98:9-102:56
 	android:screenOrientation
-		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:93:13-49
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:101:13-49
 	android:exported
-		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:92:13-36
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:100:13-36
 	tools:ignore
-		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:94:13-53
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:102:13-53
 	android:name
-		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:91:13-65
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:99:13-65
 activity#med.Save.medsaveinv.MainActivity
-ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:95:9-99:56
+ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:103:9-107:56
 	android:screenOrientation
-		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:98:13-49
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:106:13-49
 	android:exported
-		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:97:13-36
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:105:13-36
 	tools:ignore
-		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:99:13-53
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:107:13-53
 	android:name
-		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:96:13-60
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:104:13-60
 provider#androidx.core.content.FileProvider
-ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:101:9-109:20
+ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:109:9-117:20
 	android:grantUriPermissions
-		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:105:13-47
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:113:13-47
 	android:authorities
-		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:103:13-70
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:111:13-67
 	android:exported
-		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:104:13-37
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:112:13-37
 	android:name
-		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:102:13-62
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:110:13-62
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:106:13-108:54
+ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:114:13-116:54
 	android:resource
-		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:108:17-51
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:116:17-51
 	android:name
-		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:107:17-67
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:115:17-67
 meta-data#firebase_crashlytics_collection_enabled
-ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:112:5-114:33
+ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:120:5-122:33
 	android:value
-		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:114:9-30
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:122:9-30
 	android:name
-		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:113:9-63
+		ADDED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:121:9-63
 uses-sdk
 INJECTED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml

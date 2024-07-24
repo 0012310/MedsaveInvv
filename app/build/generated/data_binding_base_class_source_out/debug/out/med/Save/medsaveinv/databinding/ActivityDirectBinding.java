@@ -65,6 +65,9 @@ public final class ActivityDirectBinding implements ViewBinding {
   public final Spinner spinnerObviousStatus;
 
   @NonNull
+  public final TextView tvLocation;
+
+  @NonNull
   public final EditText tvObservationData;
 
   @NonNull
@@ -79,8 +82,8 @@ public final class ActivityDirectBinding implements ViewBinding {
       @NonNull ImageView imagearrow, @NonNull ImageView imgBack, @NonNull LinearLayout layout,
       @NonNull LinearLayout layoutmulti, @NonNull LinearLayout llObvious,
       @NonNull RelativeLayout rll, @NonNull ScrollView scroll,
-      @NonNull Spinner spinnerObviousStatus, @NonNull EditText tvObservationData,
-      @NonNull TextView tvRetry, @NonNull TextView tvTitle) {
+      @NonNull Spinner spinnerObviousStatus, @NonNull TextView tvLocation,
+      @NonNull EditText tvObservationData, @NonNull TextView tvRetry, @NonNull TextView tvTitle) {
     this.rootView = rootView;
     this.btnMore = btnMore;
     this.btnMulti = btnMulti;
@@ -95,6 +98,7 @@ public final class ActivityDirectBinding implements ViewBinding {
     this.rll = rll;
     this.scroll = scroll;
     this.spinnerObviousStatus = spinnerObviousStatus;
+    this.tvLocation = tvLocation;
     this.tvObservationData = tvObservationData;
     this.tvRetry = tvRetry;
     this.tvTitle = tvTitle;
@@ -205,6 +209,12 @@ public final class ActivityDirectBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.tvLocation;
+      TextView tvLocation = ViewBindings.findChildViewById(rootView, id);
+      if (tvLocation == null) {
+        break missingId;
+      }
+
       id = R.id.tvObservationData;
       EditText tvObservationData = ViewBindings.findChildViewById(rootView, id);
       if (tvObservationData == null) {
@@ -225,7 +235,7 @@ public final class ActivityDirectBinding implements ViewBinding {
 
       return new ActivityDirectBinding((LinearLayout) rootView, btnMore, btnMulti, btnUploadAll,
           btnUploadMulti, imageClicked, imagearrow, imgBack, layout, layoutmulti, llObvious, rll,
-          scroll, spinnerObviousStatus, tvObservationData, tvRetry, tvTitle);
+          scroll, spinnerObviousStatus, tvLocation, tvObservationData, tvRetry, tvTitle);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

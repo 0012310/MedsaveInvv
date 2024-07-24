@@ -104,7 +104,7 @@ class SplashActivity : AppCompatActivity(), LocationListener {
                     ) {
                         //  getLatLong()
                         waitAndGo()
-                        Toast.makeText(this, "Permission Granted", Toast.LENGTH_SHORT).show()
+                      //  Toast.makeText(this, "Permission Granted", Toast.LENGTH_SHORT).show()
 
                     }
 

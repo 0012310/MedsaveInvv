@@ -129,8 +129,6 @@ class DashBoradActivity : AppCompatActivity(), NavigationView.OnNavigationItemSe
         }
         getLocation()
 
-
-        //  callAppforList()
     }
 
     override fun onResume() {

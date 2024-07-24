@@ -106,8 +106,6 @@ class InvestigationSearchActivity : AppCompatActivity() {
         }
 
 
-      //  Toast.makeText(this, "" + isFrom, Toast.LENGTH_SHORT).show()
-
         imagearrow.setOnClickListener {
             if (validateMobEmail()) {
                 if (ststusText == "Investigation Already Done.") {

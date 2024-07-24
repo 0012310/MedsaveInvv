@@ -1,82 +1,86 @@
 [
     {
-        "merged": "med.Save.medsaveinv.app-mergeDebugResources-64:/layout/content_main.xml",
-        "source": "med.Save.medsaveinv.app-main-67:/layout/content_main.xml"
+        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.0\\med.Save.medsaveinv.app-mergeDebugResources-64:\\layout\\fragment_first.xml",
+        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.0\\med.Save.medsaveinv.app-main-67:\\layout\\fragment_first.xml"
     },
     {
-        "merged": "med.Save.medsaveinv.app-mergeDebugResources-64:/layout/forbase64.xml",
-        "source": "med.Save.medsaveinv.app-main-67:/layout/forbase64.xml"
+        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.0\\med.Save.medsaveinv.app-mergeDebugResources-64:\\layout\\activity_crop_image2.xml",
+        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.0\\med.Save.medsaveinv.app-main-67:\\layout\\activity_crop_image2.xml"
     },
     {
-        "merged": "med.Save.medsaveinv.app-mergeDebugResources-64:/layout/activity_main.xml",
-        "source": "med.Save.medsaveinv.app-main-67:/layout/activity_main.xml"
+        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.0\\med.Save.medsaveinv.app-mergeDebugResources-64:\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.0\\med.Save.medsaveinv.app-main-67:\\layout\\activity_splash.xml"
     },
     {
-        "merged": "med.Save.medsaveinv.app-mergeDebugResources-64:/layout/header.xml",
-        "source": "med.Save.medsaveinv.app-main-67:/layout/header.xml"
+        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.0\\med.Save.medsaveinv.app-mergeDebugResources-64:\\layout\\forbase64.xml",
+        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.0\\med.Save.medsaveinv.app-main-67:\\layout\\forbase64.xml"
     },
     {
-        "merged": "med.Save.medsaveinv.app-mergeDebugResources-64:/layout/activity_survey_form.xml",
-        "source": "med.Save.medsaveinv.app-main-67:/layout/activity_survey_form.xml"
+        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.0\\med.Save.medsaveinv.app-mergeDebugResources-64:\\layout\\app_bar_main.xml",
+        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.0\\med.Save.medsaveinv.app-main-67:\\layout\\app_bar_main.xml"
     },
     {
-        "merged": "med.Save.medsaveinv.app-mergeDebugResources-64:/layout/activity_dash_borad.xml",
-        "source": "med.Save.medsaveinv.app-main-67:/layout/activity_dash_borad.xml"
+        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.0\\med.Save.medsaveinv.app-mergeDebugResources-64:\\layout\\activity_crop_image.xml",
+        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.0\\med.Save.medsaveinv.app-main-67:\\layout\\activity_crop_image.xml"
     },
     {
-        "merged": "med.Save.medsaveinv.app-mergeDebugResources-64:/layout/content_survey_form.xml",
-        "source": "med.Save.medsaveinv.app-main-67:/layout/content_survey_form.xml"
+        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.0\\med.Save.medsaveinv.app-mergeDebugResources-64:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.0\\med.Save.medsaveinv.app-main-67:\\layout\\activity_main.xml"
     },
     {
-        "merged": "med.Save.medsaveinv.app-mergeDebugResources-64:/layout/fragment_second.xml",
-        "source": "med.Save.medsaveinv.app-main-67:/layout/fragment_second.xml"
+        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.0\\med.Save.medsaveinv.app-mergeDebugResources-64:\\layout\\fragment_second.xml",
+        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.0\\med.Save.medsaveinv.app-main-67:\\layout\\fragment_second.xml"
     },
     {
-        "merged": "med.Save.medsaveinv.app-mergeDebugResources-64:/layout/drawer.xml",
-        "source": "med.Save.medsaveinv.app-main-67:/layout/drawer.xml"
+        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.0\\med.Save.medsaveinv.app-mergeDebugResources-64:\\layout\\activity_survey_form.xml",
+        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.0\\med.Save.medsaveinv.app-main-67:\\layout\\activity_survey_form.xml"
     },
     {
-        "merged": "med.Save.medsaveinv.app-mergeDebugResources-64:/layout/fragment_first.xml",
-        "source": "med.Save.medsaveinv.app-main-67:/layout/fragment_first.xml"
+        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.0\\med.Save.medsaveinv.app-mergeDebugResources-64:\\layout\\drawer.xml",
+        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.0\\med.Save.medsaveinv.app-main-67:\\layout\\drawer.xml"
     },
     {
-        "merged": "med.Save.medsaveinv.app-mergeDebugResources-64:/layout/app_bar_main.xml",
-        "source": "med.Save.medsaveinv.app-main-67:/layout/app_bar_main.xml"
+        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.0\\med.Save.medsaveinv.app-mergeDebugResources-64:\\layout\\header.xml",
+        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.0\\med.Save.medsaveinv.app-main-67:\\layout\\header.xml"
     },
     {
-        "merged": "med.Save.medsaveinv.app-mergeDebugResources-64:/layout/activity_investigation_search.xml",
-        "source": "med.Save.medsaveinv.app-main-67:/layout/activity_investigation_search.xml"
-    },
-    {
-        "merged": "med.Save.medsaveinv.app-mergeDebugResources-64:/layout/custom_rec.xml",
-        "source": "med.Save.medsaveinv.app-main-67:/layout/custom_rec.xml"
-    },
-    {
-        "merged": "med.Save.medsaveinv.app-mergeDebugResources-64:/layout/activity_test.xml",
-        "source": "med.Save.medsaveinv.app-main-67:/layout/activity_test.xml"
+        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.0\\med.Save.medsaveinv.app-mergeDebugResources-64:\\layout\\custom_rec.xml",
+        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.0\\med.Save.medsaveinv.app-main-67:\\layout\\custom_rec.xml"
     },
     {
         "merged": "med.Save.medsaveinv.app-mergeDebugResources-64:/layout/activity_direct.xml",
         "source": "med.Save.medsaveinv.app-main-67:/layout/activity_direct.xml"
     },
     {
-        "merged": "med.Save.medsaveinv.app-mergeDebugResources-64:/layout/activity_login.xml",
-        "source": "med.Save.medsaveinv.app-main-67:/layout/activity_login.xml"
+        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.0\\med.Save.medsaveinv.app-mergeDebugResources-64:\\layout\\activity_direct.xml",
+        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.0\\med.Save.medsaveinv.app-main-67:\\layout\\activity_direct.xml"
     },
     {
-        "merged": "med.Save.medsaveinv.app-mergeDebugResources-64:/layout/activity_crop_image2.xml",
-        "source": "med.Save.medsaveinv.app-main-67:/layout/activity_crop_image2.xml"
+        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.0\\med.Save.medsaveinv.app-mergeDebugResources-64:\\layout\\activity_test.xml",
+        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.0\\med.Save.medsaveinv.app-main-67:\\layout\\activity_test.xml"
     },
     {
-        "merged": "med.Save.medsaveinv.app-mergeDebugResources-64:/layout/custom_dialog.xml",
-        "source": "med.Save.medsaveinv.app-main-67:/layout/custom_dialog.xml"
+        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.0\\med.Save.medsaveinv.app-mergeDebugResources-64:\\layout\\custom_dialog.xml",
+        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.0\\med.Save.medsaveinv.app-main-67:\\layout\\custom_dialog.xml"
     },
     {
-        "merged": "med.Save.medsaveinv.app-mergeDebugResources-64:/layout/activity_splash.xml",
-        "source": "med.Save.medsaveinv.app-main-67:/layout/activity_splash.xml"
+        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.0\\med.Save.medsaveinv.app-mergeDebugResources-64:\\layout\\content_main.xml",
+        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.0\\med.Save.medsaveinv.app-main-67:\\layout\\content_main.xml"
     },
     {
-        "merged": "med.Save.medsaveinv.app-mergeDebugResources-64:/layout/activity_crop_image.xml",
-        "source": "med.Save.medsaveinv.app-main-67:/layout/activity_crop_image.xml"
+        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.0\\med.Save.medsaveinv.app-mergeDebugResources-64:\\layout\\activity_dash_borad.xml",
+        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.0\\med.Save.medsaveinv.app-main-67:\\layout\\activity_dash_borad.xml"
+    },
+    {
+        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.0\\med.Save.medsaveinv.app-mergeDebugResources-64:\\layout\\content_survey_form.xml",
+        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.0\\med.Save.medsaveinv.app-main-67:\\layout\\content_survey_form.xml"
+    },
+    {
+        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.0\\med.Save.medsaveinv.app-mergeDebugResources-64:\\layout\\activity_investigation_search.xml",
+        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.0\\med.Save.medsaveinv.app-main-67:\\layout\\activity_investigation_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\acer\\.gradle\\daemon\\8.0\\med.Save.medsaveinv.app-mergeDebugResources-64:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\acer\\.gradle\\daemon\\8.0\\med.Save.medsaveinv.app-main-67:\\layout\\activity_login.xml"
     }
 ]
