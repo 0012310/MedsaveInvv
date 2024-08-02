@@ -2,6 +2,8 @@ package med.Save.medsaveinv
 
 import android.app.DatePickerDialog
 import android.app.ProgressDialog
+import android.app.TimePickerDialog
+import android.icu.text.SimpleDateFormat
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.TextUtils
@@ -26,6 +28,8 @@ import java.io.File
 import java.io.FileOutputStream
 import java.io.IOException
 import java.util.Calendar
+import java.util.Date
+import java.util.Locale
 
 class SurveyFormActivity : AppCompatActivity() {
     var mProgressDialog: ProgressDialog? = null
@@ -91,6 +95,7 @@ class SurveyFormActivity : AppCompatActivity() {
     lateinit var etRoomRent: EditText
     lateinit var etReqAmount: EditText
     lateinit var etAmoutByTpa: EditText
+    lateinit var newDate: TextView
 
 
     lateinit var spinnerDoc_IDCard: Spinner
@@ -228,7 +233,12 @@ class SurveyFormActivity : AppCompatActivity() {
                 etRoomRent.requestFocus()
                 etRoomRent.setError("Please Enter Room Rent")
                 showToast("Please Enter Room Rent")
-            } else {
+            }else if(newDate.text.toString().isBlank()){
+                newDate.setError("Please Select Date")
+                showToast("Please Select Date")
+            }
+
+            else {
                 callApiformain()
 
             }
@@ -339,6 +349,7 @@ class SurveyFormActivity : AppCompatActivity() {
 
             postData.put("FileNo", sharedPreferences.getStringValue("fileNo", ""))
             postData.put("flag", "main")
+            postData.put("INVDate", newDate.text.toString())
             Log.d("survey_Req_main", postData.toString())
             osw?.write("survey_Req_main  $postData\n".toByteArray())
         } catch (e: JSONException) {
@@ -584,6 +595,12 @@ class SurveyFormActivity : AppCompatActivity() {
         etRoomRent = findViewById(R.id.etRoomRent)
         etReqAmount = findViewById(R.id.etReqAmount)
         etAmoutByTpa = findViewById(R.id.etAmoutByTpa)
+        newDate = findViewById(R.id.newDate)
+
+        newDate.setOnClickListener {
+            showDateTimePicker()
+        }
+
 
         etDateofAddmission.setOnClickListener {
             if (etDateofAddmission.text.isNullOrBlank()) {
@@ -596,8 +613,27 @@ class SurveyFormActivity : AppCompatActivity() {
                 callDatePicker("DOE")
             }
 
+
+
         }
     }
+
+    private fun showDateTimePicker() {
+        val calendar = Calendar.getInstance()
+        val year = calendar.get(Calendar.YEAR)
+        val month = calendar.get(Calendar.MONTH)
+        val day = calendar.get(Calendar.DAY_OF_MONTH)
+
+        DatePickerDialog(this, { _, selectedYear, selectedMonth, selectedDay ->
+            val selectedDate = "$selectedDay/${selectedMonth + 1}/$selectedYear"
+
+            val dateFormat = SimpleDateFormat("HH:mm:ss", Locale.getDefault())
+            val currentTime = dateFormat.format(Date())
+
+            newDate.text = "$selectedDate $currentTime"
+        }, year, month, day).show()
+    }
+
 
     private fun callDatePicker(msg: String) {
         val c = Calendar.getInstance()
@@ -611,7 +647,6 @@ class SurveyFormActivity : AppCompatActivity() {
                 if (msg.equals("DOA")) {
                     etDateofAddmission.setText("" + dayOfMonth + "/" + month + "/" + year)
                 } else {
-
                     etDateofDis.setText("" + dayOfMonth + "/" + month + "/" + year)
                 }
 

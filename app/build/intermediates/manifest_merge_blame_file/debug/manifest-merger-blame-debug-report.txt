@@ -9,531 +9,530 @@
 9        android:targetSdkVersion="34" />
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:5:5-67
-11-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:5:22-64
+11-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:5:5-67
+11-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:5:22-64
 12
 13    <uses-feature
-13-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:7:5-9:36
+13-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:7:5-9:36
 14        android:name="android.hardware.camera"
-14-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:8:9-47
+14-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:8:9-47
 15        android:required="false" />
-15-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:9:9-33
+15-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:9:9-33
 16
 17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-17-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:11:5-79
-17-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:11:22-76
+17-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:11:5-79
+17-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:11:22-76
 18    <uses-permission android:name="android.permission.CAMERA" />
-18-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:12:5-65
-18-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:12:22-62
+18-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:12:5-65
+18-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:12:22-62
 19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-19-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:13:5-15:45
-19-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:14:9-63
+19-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:13:5-15:45
+19-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:14:9-63
 20    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
-20-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:16:5-77
-20-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:16:22-74
+20-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:16:5-77
+20-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:16:22-74
 21    <uses-permission
-21-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:17:5-20:40
+21-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:17:5-20:40
 22        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
-22-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:18:9-65
+22-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:18:9-65
 23        android:maxSdkVersion="32" />
-23-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:19:9-35
+23-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:19:9-35
 24
 25    <uses-feature
-25-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:7:5-9:36
+25-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:7:5-9:36
 26        android:name="android.hardware.camera"
-26-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:8:9-47
+26-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:8:9-47
 27        android:required="false" />
-27-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:9:9-33
+27-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:9:9-33
 28
 29    <uses-permission android:name="android.permission.CAMERA" />
-29-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:12:5-65
-29-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:12:22-62
+29-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:12:5-65
+29-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:12:22-62
 30    <uses-permission
-30-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:17:5-20:40
+30-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:17:5-20:40
 31        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
-31-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:18:9-65
+31-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:18:9-65
 32        android:maxSdkVersion="32" />
-32-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:19:9-35
+32-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:19:9-35
 33    <uses-permission
-33-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:17:5-20:40
+33-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:17:5-20:40
 34        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
-34-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:18:9-65
+34-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:18:9-65
 35        android:maxSdkVersion="32" />
-35-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:19:9-35
+35-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:19:9-35
 36    <uses-permission android:name="android.permission.CAMERA" />
-36-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:12:5-65
-36-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:12:22-62
+36-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:12:5-65
+36-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:12:22-62
 37
 38    <uses-feature android:name="android.hardware.camera.autofocus" />
-38-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:38:5-70
-38-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:38:19-67
+38-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:38:5-70
+38-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:38:19-67
 39
 40    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-40-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:13:5-15:45
-40-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:14:9-63
+40-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:13:5-15:45
+40-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:14:9-63
 41    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-41-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:42:5-80
-41-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:42:22-78
+41-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:42:5-80
+41-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:42:22-78
 42    <uses-permission
-42-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:17:5-20:40
+42-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:17:5-20:40
 43        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
-43-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:18:9-65
+43-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:18:9-65
 44        android:maxSdkVersion="32" />
-44-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:19:9-35
+44-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:19:9-35
 45    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-45-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:46:5-79
-45-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:46:22-77
+45-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:46:5-79
+45-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:46:22-77
 46
 47    <meta-data
-47-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:120:5-122:33
+47-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:120:5-122:33
 48        android:name="firebase_crashlytics_collection_enabled"
-48-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:121:9-63
+48-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:121:9-63
 49        android:value="false" />
-49-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:122:9-30
+49-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:122:9-30
 50
 51    <uses-permission android:name="android.permission.WAKE_LOCK" />
-51-->[com.google.android.gms:play-services-measurement-api:21.6.2] C:\Users\acer\.gradle\caches\transforms-3\43623bb95b862dc6440898f1b932927a\transformed\play-services-measurement-api-21.6.2\AndroidManifest.xml:24:5-68
-51-->[com.google.android.gms:play-services-measurement-api:21.6.2] C:\Users\acer\.gradle\caches\transforms-3\43623bb95b862dc6440898f1b932927a\transformed\play-services-measurement-api-21.6.2\AndroidManifest.xml:24:22-65
+51-->[com.google.android.gms:play-services-measurement-api:21.6.2] C:\Users\KV RANA\.gradle\caches\transforms-3\43623bb95b862dc6440898f1b932927a\transformed\play-services-measurement-api-21.6.2\AndroidManifest.xml:24:5-68
+51-->[com.google.android.gms:play-services-measurement-api:21.6.2] C:\Users\KV RANA\.gradle\caches\transforms-3\43623bb95b862dc6440898f1b932927a\transformed\play-services-measurement-api-21.6.2\AndroidManifest.xml:24:22-65
 52    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
-52-->[com.google.android.gms:play-services-measurement-api:21.6.2] C:\Users\acer\.gradle\caches\transforms-3\43623bb95b862dc6440898f1b932927a\transformed\play-services-measurement-api-21.6.2\AndroidManifest.xml:25:5-79
-52-->[com.google.android.gms:play-services-measurement-api:21.6.2] C:\Users\acer\.gradle\caches\transforms-3\43623bb95b862dc6440898f1b932927a\transformed\play-services-measurement-api-21.6.2\AndroidManifest.xml:25:22-76
+52-->[com.google.android.gms:play-services-measurement-api:21.6.2] C:\Users\KV RANA\.gradle\caches\transforms-3\43623bb95b862dc6440898f1b932927a\transformed\play-services-measurement-api-21.6.2\AndroidManifest.xml:25:5-79
+52-->[com.google.android.gms:play-services-measurement-api:21.6.2] C:\Users\KV RANA\.gradle\caches\transforms-3\43623bb95b862dc6440898f1b932927a\transformed\play-services-measurement-api-21.6.2\AndroidManifest.xml:25:22-76
 53    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
-53-->[com.google.android.gms:play-services-measurement-api:21.6.2] C:\Users\acer\.gradle\caches\transforms-3\43623bb95b862dc6440898f1b932927a\transformed\play-services-measurement-api-21.6.2\AndroidManifest.xml:26:5-88
-53-->[com.google.android.gms:play-services-measurement-api:21.6.2] C:\Users\acer\.gradle\caches\transforms-3\43623bb95b862dc6440898f1b932927a\transformed\play-services-measurement-api-21.6.2\AndroidManifest.xml:26:22-85
+53-->[com.google.android.gms:play-services-measurement-api:21.6.2] C:\Users\KV RANA\.gradle\caches\transforms-3\43623bb95b862dc6440898f1b932927a\transformed\play-services-measurement-api-21.6.2\AndroidManifest.xml:26:5-88
+53-->[com.google.android.gms:play-services-measurement-api:21.6.2] C:\Users\KV RANA\.gradle\caches\transforms-3\43623bb95b862dc6440898f1b932927a\transformed\play-services-measurement-api-21.6.2\AndroidManifest.xml:26:22-85
 54    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
-54-->[com.google.android.gms:play-services-measurement-api:21.6.2] C:\Users\acer\.gradle\caches\transforms-3\43623bb95b862dc6440898f1b932927a\transformed\play-services-measurement-api-21.6.2\AndroidManifest.xml:27:5-82
-54-->[com.google.android.gms:play-services-measurement-api:21.6.2] C:\Users\acer\.gradle\caches\transforms-3\43623bb95b862dc6440898f1b932927a\transformed\play-services-measurement-api-21.6.2\AndroidManifest.xml:27:22-79
+54-->[com.google.android.gms:play-services-measurement-api:21.6.2] C:\Users\KV RANA\.gradle\caches\transforms-3\43623bb95b862dc6440898f1b932927a\transformed\play-services-measurement-api-21.6.2\AndroidManifest.xml:27:5-82
+54-->[com.google.android.gms:play-services-measurement-api:21.6.2] C:\Users\KV RANA\.gradle\caches\transforms-3\43623bb95b862dc6440898f1b932927a\transformed\play-services-measurement-api-21.6.2\AndroidManifest.xml:27:22-79
 55    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- This permission is required to start foreground services in Android P. -->
-55-->[com.google.android.gms:play-services-measurement:21.6.2] C:\Users\acer\.gradle\caches\transforms-3\bb54daee9cae379de68e27f46d8dc619\transformed\play-services-measurement-21.6.2\AndroidManifest.xml:26:5-110
-55-->[com.google.android.gms:play-services-measurement:21.6.2] C:\Users\acer\.gradle\caches\transforms-3\bb54daee9cae379de68e27f46d8dc619\transformed\play-services-measurement-21.6.2\AndroidManifest.xml:26:22-107
+55-->[com.google.android.gms:play-services-measurement:21.6.2] C:\Users\KV RANA\.gradle\caches\transforms-3\bb54daee9cae379de68e27f46d8dc619\transformed\play-services-measurement-21.6.2\AndroidManifest.xml:26:5-110
+55-->[com.google.android.gms:play-services-measurement:21.6.2] C:\Users\KV RANA\.gradle\caches\transforms-3\bb54daee9cae379de68e27f46d8dc619\transformed\play-services-measurement-21.6.2\AndroidManifest.xml:26:22-107
 56    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-56-->[com.google.android.gms:play-services-cast-framework:21.4.0] C:\Users\acer\.gradle\caches\transforms-3\110e4711e793f8846d7bda6a37b97831\transformed\play-services-cast-framework-21.4.0\AndroidManifest.xml:12:5-77
-56-->[com.google.android.gms:play-services-cast-framework:21.4.0] C:\Users\acer\.gradle\caches\transforms-3\110e4711e793f8846d7bda6a37b97831\transformed\play-services-cast-framework-21.4.0\AndroidManifest.xml:12:22-74
+56-->[com.google.android.gms:play-services-cast-framework:21.4.0] C:\Users\KV RANA\.gradle\caches\transforms-3\110e4711e793f8846d7bda6a37b97831\transformed\play-services-cast-framework-21.4.0\AndroidManifest.xml:12:5-77
+56-->[com.google.android.gms:play-services-cast-framework:21.4.0] C:\Users\KV RANA\.gradle\caches\transforms-3\110e4711e793f8846d7bda6a37b97831\transformed\play-services-cast-framework-21.4.0\AndroidManifest.xml:12:22-74
 57
 58    <queries>
-58-->[com.google.android.gms:play-services-cast-framework:21.4.0] C:\Users\acer\.gradle\caches\transforms-3\110e4711e793f8846d7bda6a37b97831\transformed\play-services-cast-framework-21.4.0\AndroidManifest.xml:14:5-16:15
+58-->[com.google.android.gms:play-services-cast-framework:21.4.0] C:\Users\KV RANA\.gradle\caches\transforms-3\110e4711e793f8846d7bda6a37b97831\transformed\play-services-cast-framework-21.4.0\AndroidManifest.xml:14:5-16:15
 59        <package android:name="com.google.android.gms.policy_cast_dynamite" />
-59-->[com.google.android.gms:play-services-cast-framework:21.4.0] C:\Users\acer\.gradle\caches\transforms-3\110e4711e793f8846d7bda6a37b97831\transformed\play-services-cast-framework-21.4.0\AndroidManifest.xml:15:9-79
-59-->[com.google.android.gms:play-services-cast-framework:21.4.0] C:\Users\acer\.gradle\caches\transforms-3\110e4711e793f8846d7bda6a37b97831\transformed\play-services-cast-framework-21.4.0\AndroidManifest.xml:15:18-76
+59-->[com.google.android.gms:play-services-cast-framework:21.4.0] C:\Users\KV RANA\.gradle\caches\transforms-3\110e4711e793f8846d7bda6a37b97831\transformed\play-services-cast-framework-21.4.0\AndroidManifest.xml:15:9-79
+59-->[com.google.android.gms:play-services-cast-framework:21.4.0] C:\Users\KV RANA\.gradle\caches\transforms-3\110e4711e793f8846d7bda6a37b97831\transformed\play-services-cast-framework-21.4.0\AndroidManifest.xml:15:18-76
 60    </queries>
 61
 62    <uses-permission android:name="android.permission.USE_BIOMETRIC" /> <!-- suppress DeprecatedClassUsageInspection -->
-62-->[androidx.biometric:biometric:1.1.0] C:\Users\acer\.gradle\caches\transforms-3\21b5e9e736c46dd32e616bc5b919e081\transformed\biometric-1.1.0\AndroidManifest.xml:24:5-72
-62-->[androidx.biometric:biometric:1.1.0] C:\Users\acer\.gradle\caches\transforms-3\21b5e9e736c46dd32e616bc5b919e081\transformed\biometric-1.1.0\AndroidManifest.xml:24:22-69
+62-->[androidx.biometric:biometric:1.1.0] C:\Users\KV RANA\.gradle\caches\transforms-3\21b5e9e736c46dd32e616bc5b919e081\transformed\biometric-1.1.0\AndroidManifest.xml:24:5-72
+62-->[androidx.biometric:biometric:1.1.0] C:\Users\KV RANA\.gradle\caches\transforms-3\21b5e9e736c46dd32e616bc5b919e081\transformed\biometric-1.1.0\AndroidManifest.xml:24:22-69
 63    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
-63-->[androidx.biometric:biometric:1.1.0] C:\Users\acer\.gradle\caches\transforms-3\21b5e9e736c46dd32e616bc5b919e081\transformed\biometric-1.1.0\AndroidManifest.xml:27:5-74
-63-->[androidx.biometric:biometric:1.1.0] C:\Users\acer\.gradle\caches\transforms-3\21b5e9e736c46dd32e616bc5b919e081\transformed\biometric-1.1.0\AndroidManifest.xml:27:22-71
+63-->[androidx.biometric:biometric:1.1.0] C:\Users\KV RANA\.gradle\caches\transforms-3\21b5e9e736c46dd32e616bc5b919e081\transformed\biometric-1.1.0\AndroidManifest.xml:27:5-74
+63-->[androidx.biometric:biometric:1.1.0] C:\Users\KV RANA\.gradle\caches\transforms-3\21b5e9e736c46dd32e616bc5b919e081\transformed\biometric-1.1.0\AndroidManifest.xml:27:22-71
 64
 65    <permission
-65-->[androidx.core:core:1.13.0] C:\Users\acer\.gradle\caches\transforms-3\76a5e7442e32538b8c492b8d46248b0b\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+65-->[androidx.core:core:1.13.0] C:\Users\KV RANA\.gradle\caches\transforms-3\76a5e7442e32538b8c492b8d46248b0b\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
 66        android:name="med.Save.medsaveinv.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-66-->[androidx.core:core:1.13.0] C:\Users\acer\.gradle\caches\transforms-3\76a5e7442e32538b8c492b8d46248b0b\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+66-->[androidx.core:core:1.13.0] C:\Users\KV RANA\.gradle\caches\transforms-3\76a5e7442e32538b8c492b8d46248b0b\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
 67        android:protectionLevel="signature" />
-67-->[androidx.core:core:1.13.0] C:\Users\acer\.gradle\caches\transforms-3\76a5e7442e32538b8c492b8d46248b0b\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+67-->[androidx.core:core:1.13.0] C:\Users\KV RANA\.gradle\caches\transforms-3\76a5e7442e32538b8c492b8d46248b0b\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
 68
 69    <uses-permission android:name="med.Save.medsaveinv.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-69-->[androidx.core:core:1.13.0] C:\Users\acer\.gradle\caches\transforms-3\76a5e7442e32538b8c492b8d46248b0b\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
-69-->[androidx.core:core:1.13.0] C:\Users\acer\.gradle\caches\transforms-3\76a5e7442e32538b8c492b8d46248b0b\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+69-->[androidx.core:core:1.13.0] C:\Users\KV RANA\.gradle\caches\transforms-3\76a5e7442e32538b8c492b8d46248b0b\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+69-->[androidx.core:core:1.13.0] C:\Users\KV RANA\.gradle\caches\transforms-3\76a5e7442e32538b8c492b8d46248b0b\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
 70
 71    <application
-71-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:48:5-118:19
+71-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:48:5-118:19
 72        android:allowBackup="false"
-72-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:49:9-36
+72-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:49:9-36
 73        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-73-->[androidx.core:core:1.13.0] C:\Users\acer\.gradle\caches\transforms-3\76a5e7442e32538b8c492b8d46248b0b\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+73-->[androidx.core:core:1.13.0] C:\Users\KV RANA\.gradle\caches\transforms-3\76a5e7442e32538b8c492b8d46248b0b\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
 74        android:dataExtractionRules="@xml/data_extraction_rules"
-74-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:50:9-65
+74-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:50:9-65
 75        android:debuggable="true"
 76        android:extractNativeLibs="false"
 77        android:fullBackupContent="@xml/backup_rules"
-77-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:51:9-54
+77-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:51:9-54
 78        android:hardwareAccelerated="false"
-78-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:52:9-44
+78-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:52:9-44
 79        android:icon="@drawable/appicon"
-79-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:53:9-41
+79-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:53:9-41
 80        android:label="@string/app_name"
-80-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:54:9-41
+80-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:54:9-41
 81        android:largeHeap="true"
-81-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:55:9-33
+81-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:55:9-33
 82        android:networkSecurityConfig="@xml/network_security_config"
-82-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:56:9-69
+82-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:56:9-69
 83        android:supportsRtl="true"
-83-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:57:9-35
-84        android:testOnly="true"
-85        android:theme="@style/Theme.MedsaveInv"
-85-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:58:9-48
-86        android:usesCleartextTraffic="true" >
-86-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:59:9-44
-87        <activity
-87-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:61:9-65:20
-88            android:name="med.Save.medsaveinv.TestActivity"
-88-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:62:13-60
-89            android:exported="true" >
-89-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:63:13-36
-90        </activity>
-91        <activity
-91-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:66:9-70:56
-92            android:name="med.Save.medsaveinv.DirectActivity"
-92-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:67:13-62
-93            android:exported="false"
-93-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:68:13-37
-94            android:screenOrientation="portrait" />
-94-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:69:13-49
-95        <activity
-95-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:71:9-75:56
-96            android:name="med.Save.medsaveinv.SurveyFormActivity"
-96-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:72:13-66
-97            android:exported="false"
-97-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:73:13-37
-98            android:screenOrientation="portrait" />
-98-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:74:13-49
-99        <activity
-99-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:76:9-80:56
-100            android:name="med.Save.medsaveinv.InvestigationSearchActivity"
-100-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:77:13-75
-101            android:exported="false"
-101-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:78:13-37
-102            android:screenOrientation="portrait" />
-102-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:79:13-49
-103        <activity
-103-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:81:9-86:56
-104            android:name="med.Save.medsaveinv.LoginActivity"
-104-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:82:13-61
-105            android:exported="false"
-105-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:83:13-37
-106            android:screenOrientation="portrait"
-106-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:84:13-49
-107            android:windowSoftInputMode="adjustResize" />
-107-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:85:13-55
-108        <activity
-108-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:87:9-97:20
-109            android:name="med.Save.medsaveinv.SplashActivity"
-109-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:88:13-62
-110            android:exported="true"
-110-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:89:13-36
-111            android:screenOrientation="portrait" >
-111-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:90:13-49
-112            <intent-filter>
-112-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:92:13-96:29
-113                <action android:name="android.intent.action.MAIN" />
-113-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:93:17-69
-113-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:93:25-66
-114
-115                <category android:name="android.intent.category.LAUNCHER" />
-115-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:95:17-77
-115-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:95:27-74
-116            </intent-filter>
-117        </activity>
-118        <activity
-118-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:98:9-102:56
-119            android:name="med.Save.medsaveinv.DashBoradActivity"
-119-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:99:13-65
-120            android:exported="true"
-120-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:100:13-36
-121            android:screenOrientation="portrait" />
-121-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:101:13-49
-122        <activity
-122-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:103:9-107:56
-123            android:name="med.Save.medsaveinv.MainActivity"
-123-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:104:13-60
-124            android:exported="true"
-124-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:105:13-36
-125            android:screenOrientation="portrait" />
-125-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:106:13-49
-126
-127        <provider
-127-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:109:9-117:20
-128            android:name="androidx.core.content.FileProvider"
-128-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:110:13-62
-129            android:authorities="med.Save.medsaveinv.fileprovider"
-129-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:111:13-67
-130            android:exported="false"
-130-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:112:13-37
-131            android:grantUriPermissions="true" >
-131-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:113:13-47
-132            <meta-data
-132-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:114:13-116:54
-133                android:name="android.support.FILE_PROVIDER_PATHS"
-133-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:115:17-67
-134                android:resource="@xml/file_paths" />
-134-->D:\Karmveer Singh Rana\INV\MedsaveInv-master\MedsaveInv-master\app\src\main\AndroidManifest.xml:116:17-51
-135        </provider>
-136
-137        <service
-137-->[com.google.firebase:firebase-crashlytics:18.6.4] C:\Users\acer\.gradle\caches\transforms-3\fbcae3780e5ba7632b23da20de7c6123\transformed\firebase-crashlytics-18.6.4\AndroidManifest.xml:12:9-21:19
-138            android:name="com.google.firebase.components.ComponentDiscoveryService"
-138-->[com.google.firebase:firebase-crashlytics:18.6.4] C:\Users\acer\.gradle\caches\transforms-3\fbcae3780e5ba7632b23da20de7c6123\transformed\firebase-crashlytics-18.6.4\AndroidManifest.xml:13:13-84
-139            android:directBootAware="true"
-139-->[com.google.firebase:firebase-common:20.4.2] C:\Users\acer\.gradle\caches\transforms-3\ffd0009314af9ad780968b3ecb20efb9\transformed\firebase-common-20.4.2\AndroidManifest.xml:32:13-43
-140            android:exported="false" >
-140-->[com.google.firebase:firebase-crashlytics:18.6.4] C:\Users\acer\.gradle\caches\transforms-3\fbcae3780e5ba7632b23da20de7c6123\transformed\firebase-crashlytics-18.6.4\AndroidManifest.xml:14:13-37
-141            <meta-data
-141-->[com.google.firebase:firebase-crashlytics:18.6.4] C:\Users\acer\.gradle\caches\transforms-3\fbcae3780e5ba7632b23da20de7c6123\transformed\firebase-crashlytics-18.6.4\AndroidManifest.xml:15:13-17:85
-142                android:name="com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar"
-142-->[com.google.firebase:firebase-crashlytics:18.6.4] C:\Users\acer\.gradle\caches\transforms-3\fbcae3780e5ba7632b23da20de7c6123\transformed\firebase-crashlytics-18.6.4\AndroidManifest.xml:16:17-126
-143                android:value="com.google.firebase.components.ComponentRegistrar" />
-143-->[com.google.firebase:firebase-crashlytics:18.6.4] C:\Users\acer\.gradle\caches\transforms-3\fbcae3780e5ba7632b23da20de7c6123\transformed\firebase-crashlytics-18.6.4\AndroidManifest.xml:17:17-82
-144            <meta-data
-144-->[com.google.firebase:firebase-crashlytics:18.6.4] C:\Users\acer\.gradle\caches\transforms-3\fbcae3780e5ba7632b23da20de7c6123\transformed\firebase-crashlytics-18.6.4\AndroidManifest.xml:18:13-20:85
-145                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
-145-->[com.google.firebase:firebase-crashlytics:18.6.4] C:\Users\acer\.gradle\caches\transforms-3\fbcae3780e5ba7632b23da20de7c6123\transformed\firebase-crashlytics-18.6.4\AndroidManifest.xml:19:17-115
-146                android:value="com.google.firebase.components.ComponentRegistrar" />
-146-->[com.google.firebase:firebase-crashlytics:18.6.4] C:\Users\acer\.gradle\caches\transforms-3\fbcae3780e5ba7632b23da20de7c6123\transformed\firebase-crashlytics-18.6.4\AndroidManifest.xml:20:17-82
-147            <meta-data
-147-->[com.google.firebase:firebase-sessions:1.2.4] C:\Users\acer\.gradle\caches\transforms-3\d770023691240508f346107e1c88bfc4\transformed\firebase-sessions-1.2.4\AndroidManifest.xml:29:13-31:85
-148                android:name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar"
-148-->[com.google.firebase:firebase-sessions:1.2.4] C:\Users\acer\.gradle\caches\transforms-3\d770023691240508f346107e1c88bfc4\transformed\firebase-sessions-1.2.4\AndroidManifest.xml:30:17-117
-149                android:value="com.google.firebase.components.ComponentRegistrar" />
-149-->[com.google.firebase:firebase-sessions:1.2.4] C:\Users\acer\.gradle\caches\transforms-3\d770023691240508f346107e1c88bfc4\transformed\firebase-sessions-1.2.4\AndroidManifest.xml:31:17-82
-150            <meta-data
-150-->[com.google.android.gms:play-services-measurement-api:21.6.2] C:\Users\acer\.gradle\caches\transforms-3\43623bb95b862dc6440898f1b932927a\transformed\play-services-measurement-api-21.6.2\AndroidManifest.xml:37:13-39:85
-151                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-151-->[com.google.android.gms:play-services-measurement-api:21.6.2] C:\Users\acer\.gradle\caches\transforms-3\43623bb95b862dc6440898f1b932927a\transformed\play-services-measurement-api-21.6.2\AndroidManifest.xml:38:17-139
-152                android:value="com.google.firebase.components.ComponentRegistrar" />
-152-->[com.google.android.gms:play-services-measurement-api:21.6.2] C:\Users\acer\.gradle\caches\transforms-3\43623bb95b862dc6440898f1b932927a\transformed\play-services-measurement-api-21.6.2\AndroidManifest.xml:39:17-82
-153            <meta-data
-153-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\acer\.gradle\caches\transforms-3\1eb05524e2cc5d8bf92b46dae7be1cd5\transformed\firebase-installations-17.2.0\AndroidManifest.xml:15:13-17:85
-154                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
-154-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\acer\.gradle\caches\transforms-3\1eb05524e2cc5d8bf92b46dae7be1cd5\transformed\firebase-installations-17.2.0\AndroidManifest.xml:16:17-130
-155                android:value="com.google.firebase.components.ComponentRegistrar" />
-155-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\acer\.gradle\caches\transforms-3\1eb05524e2cc5d8bf92b46dae7be1cd5\transformed\firebase-installations-17.2.0\AndroidManifest.xml:17:17-82
-156            <meta-data
-156-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\acer\.gradle\caches\transforms-3\1eb05524e2cc5d8bf92b46dae7be1cd5\transformed\firebase-installations-17.2.0\AndroidManifest.xml:18:13-20:85
-157                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-157-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\acer\.gradle\caches\transforms-3\1eb05524e2cc5d8bf92b46dae7be1cd5\transformed\firebase-installations-17.2.0\AndroidManifest.xml:19:17-127
-158                android:value="com.google.firebase.components.ComponentRegistrar" />
-158-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\acer\.gradle\caches\transforms-3\1eb05524e2cc5d8bf92b46dae7be1cd5\transformed\firebase-installations-17.2.0\AndroidManifest.xml:20:17-82
-159            <meta-data
-159-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\acer\.gradle\caches\transforms-3\fd698361980bfe7544958754a12960b3\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
-160                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
-160-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\acer\.gradle\caches\transforms-3\fd698361980bfe7544958754a12960b3\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
-161                android:value="com.google.firebase.components.ComponentRegistrar" />
-161-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\acer\.gradle\caches\transforms-3\fd698361980bfe7544958754a12960b3\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
-162            <meta-data
-162-->[com.google.firebase:firebase-common:20.4.2] C:\Users\acer\.gradle\caches\transforms-3\ffd0009314af9ad780968b3ecb20efb9\transformed\firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
-163                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
-163-->[com.google.firebase:firebase-common:20.4.2] C:\Users\acer\.gradle\caches\transforms-3\ffd0009314af9ad780968b3ecb20efb9\transformed\firebase-common-20.4.2\AndroidManifest.xml:36:17-109
-164                android:value="com.google.firebase.components.ComponentRegistrar" />
-164-->[com.google.firebase:firebase-common:20.4.2] C:\Users\acer\.gradle\caches\transforms-3\ffd0009314af9ad780968b3ecb20efb9\transformed\firebase-common-20.4.2\AndroidManifest.xml:37:17-82
-165            <meta-data
-165-->[com.google.firebase:firebase-datatransport:18.1.8] C:\Users\acer\.gradle\caches\transforms-3\d35b2818b1caaef375d7e9a7d206f5e8\transformed\firebase-datatransport-18.1.8\AndroidManifest.xml:27:13-29:85
-166                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
-166-->[com.google.firebase:firebase-datatransport:18.1.8] C:\Users\acer\.gradle\caches\transforms-3\d35b2818b1caaef375d7e9a7d206f5e8\transformed\firebase-datatransport-18.1.8\AndroidManifest.xml:28:17-115
-167                android:value="com.google.firebase.components.ComponentRegistrar" />
-167-->[com.google.firebase:firebase-datatransport:18.1.8] C:\Users\acer\.gradle\caches\transforms-3\d35b2818b1caaef375d7e9a7d206f5e8\transformed\firebase-datatransport-18.1.8\AndroidManifest.xml:29:17-82
-168        </service>
-169        <service
-169-->[com.google.firebase:firebase-sessions:1.2.4] C:\Users\acer\.gradle\caches\transforms-3\d770023691240508f346107e1c88bfc4\transformed\firebase-sessions-1.2.4\AndroidManifest.xml:22:9-25:40
-170            android:name="com.google.firebase.sessions.SessionLifecycleService"
-170-->[com.google.firebase:firebase-sessions:1.2.4] C:\Users\acer\.gradle\caches\transforms-3\d770023691240508f346107e1c88bfc4\transformed\firebase-sessions-1.2.4\AndroidManifest.xml:23:13-80
-171            android:enabled="true"
-171-->[com.google.firebase:firebase-sessions:1.2.4] C:\Users\acer\.gradle\caches\transforms-3\d770023691240508f346107e1c88bfc4\transformed\firebase-sessions-1.2.4\AndroidManifest.xml:24:13-35
-172            android:exported="false" />
-172-->[com.google.firebase:firebase-sessions:1.2.4] C:\Users\acer\.gradle\caches\transforms-3\d770023691240508f346107e1c88bfc4\transformed\firebase-sessions-1.2.4\AndroidManifest.xml:25:13-37
-173
-174        <property
-174-->[com.google.android.gms:play-services-measurement-api:21.6.2] C:\Users\acer\.gradle\caches\transforms-3\43623bb95b862dc6440898f1b932927a\transformed\play-services-measurement-api-21.6.2\AndroidManifest.xml:30:9-32:61
-175            android:name="android.adservices.AD_SERVICES_CONFIG"
-175-->[com.google.android.gms:play-services-measurement-api:21.6.2] C:\Users\acer\.gradle\caches\transforms-3\43623bb95b862dc6440898f1b932927a\transformed\play-services-measurement-api-21.6.2\AndroidManifest.xml:31:13-65
-176            android:resource="@xml/ga_ad_services_config" />
-176-->[com.google.android.gms:play-services-measurement-api:21.6.2] C:\Users\acer\.gradle\caches\transforms-3\43623bb95b862dc6440898f1b932927a\transformed\play-services-measurement-api-21.6.2\AndroidManifest.xml:32:13-58
-177
-178        <provider
-178-->[com.google.firebase:firebase-common:20.4.2] C:\Users\acer\.gradle\caches\transforms-3\ffd0009314af9ad780968b3ecb20efb9\transformed\firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
-179            android:name="com.google.firebase.provider.FirebaseInitProvider"
-179-->[com.google.firebase:firebase-common:20.4.2] C:\Users\acer\.gradle\caches\transforms-3\ffd0009314af9ad780968b3ecb20efb9\transformed\firebase-common-20.4.2\AndroidManifest.xml:24:13-77
-180            android:authorities="med.Save.medsaveinv.firebaseinitprovider"
-180-->[com.google.firebase:firebase-common:20.4.2] C:\Users\acer\.gradle\caches\transforms-3\ffd0009314af9ad780968b3ecb20efb9\transformed\firebase-common-20.4.2\AndroidManifest.xml:25:13-72
-181            android:directBootAware="true"
-181-->[com.google.firebase:firebase-common:20.4.2] C:\Users\acer\.gradle\caches\transforms-3\ffd0009314af9ad780968b3ecb20efb9\transformed\firebase-common-20.4.2\AndroidManifest.xml:26:13-43
-182            android:exported="false"
-182-->[com.google.firebase:firebase-common:20.4.2] C:\Users\acer\.gradle\caches\transforms-3\ffd0009314af9ad780968b3ecb20efb9\transformed\firebase-common-20.4.2\AndroidManifest.xml:27:13-37
-183            android:initOrder="100" />
-183-->[com.google.firebase:firebase-common:20.4.2] C:\Users\acer\.gradle\caches\transforms-3\ffd0009314af9ad780968b3ecb20efb9\transformed\firebase-common-20.4.2\AndroidManifest.xml:28:13-36
-184
-185        <receiver
-185-->[com.google.android.gms:play-services-measurement:21.6.2] C:\Users\acer\.gradle\caches\transforms-3\bb54daee9cae379de68e27f46d8dc619\transformed\play-services-measurement-21.6.2\AndroidManifest.xml:29:9-33:20
-186            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-186-->[com.google.android.gms:play-services-measurement:21.6.2] C:\Users\acer\.gradle\caches\transforms-3\bb54daee9cae379de68e27f46d8dc619\transformed\play-services-measurement-21.6.2\AndroidManifest.xml:30:13-85
-187            android:enabled="true"
-187-->[com.google.android.gms:play-services-measurement:21.6.2] C:\Users\acer\.gradle\caches\transforms-3\bb54daee9cae379de68e27f46d8dc619\transformed\play-services-measurement-21.6.2\AndroidManifest.xml:31:13-35
-188            android:exported="false" >
-188-->[com.google.android.gms:play-services-measurement:21.6.2] C:\Users\acer\.gradle\caches\transforms-3\bb54daee9cae379de68e27f46d8dc619\transformed\play-services-measurement-21.6.2\AndroidManifest.xml:32:13-37
-189        </receiver>
-190
-191        <service
-191-->[com.google.android.gms:play-services-measurement:21.6.2] C:\Users\acer\.gradle\caches\transforms-3\bb54daee9cae379de68e27f46d8dc619\transformed\play-services-measurement-21.6.2\AndroidManifest.xml:35:9-38:40
-192            android:name="com.google.android.gms.measurement.AppMeasurementService"
-192-->[com.google.android.gms:play-services-measurement:21.6.2] C:\Users\acer\.gradle\caches\transforms-3\bb54daee9cae379de68e27f46d8dc619\transformed\play-services-measurement-21.6.2\AndroidManifest.xml:36:13-84
-193            android:enabled="true"
-193-->[com.google.android.gms:play-services-measurement:21.6.2] C:\Users\acer\.gradle\caches\transforms-3\bb54daee9cae379de68e27f46d8dc619\transformed\play-services-measurement-21.6.2\AndroidManifest.xml:37:13-35
-194            android:exported="false" />
-194-->[com.google.android.gms:play-services-measurement:21.6.2] C:\Users\acer\.gradle\caches\transforms-3\bb54daee9cae379de68e27f46d8dc619\transformed\play-services-measurement-21.6.2\AndroidManifest.xml:38:13-37
-195        <service
-195-->[com.google.android.gms:play-services-measurement:21.6.2] C:\Users\acer\.gradle\caches\transforms-3\bb54daee9cae379de68e27f46d8dc619\transformed\play-services-measurement-21.6.2\AndroidManifest.xml:39:9-43:72
-196            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-196-->[com.google.android.gms:play-services-measurement:21.6.2] C:\Users\acer\.gradle\caches\transforms-3\bb54daee9cae379de68e27f46d8dc619\transformed\play-services-measurement-21.6.2\AndroidManifest.xml:40:13-87
-197            android:enabled="true"
-197-->[com.google.android.gms:play-services-measurement:21.6.2] C:\Users\acer\.gradle\caches\transforms-3\bb54daee9cae379de68e27f46d8dc619\transformed\play-services-measurement-21.6.2\AndroidManifest.xml:41:13-35
-198            android:exported="false"
-198-->[com.google.android.gms:play-services-measurement:21.6.2] C:\Users\acer\.gradle\caches\transforms-3\bb54daee9cae379de68e27f46d8dc619\transformed\play-services-measurement-21.6.2\AndroidManifest.xml:42:13-37
-199            android:permission="android.permission.BIND_JOB_SERVICE" />
-199-->[com.google.android.gms:play-services-measurement:21.6.2] C:\Users\acer\.gradle\caches\transforms-3\bb54daee9cae379de68e27f46d8dc619\transformed\play-services-measurement-21.6.2\AndroidManifest.xml:43:13-69
-200
-201        <uses-library
-201-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\acer\.gradle\caches\transforms-3\2b307cc8d4323bccca83a46f505743eb\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:23:9-25:40
-202            android:name="android.ext.adservices"
-202-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\acer\.gradle\caches\transforms-3\2b307cc8d4323bccca83a46f505743eb\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:24:13-50
-203            android:required="false" />
-203-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\acer\.gradle\caches\transforms-3\2b307cc8d4323bccca83a46f505743eb\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:25:13-37
-204
-205        <receiver
-205-->[com.google.android.gms:play-services-cast-framework:21.4.0] C:\Users\acer\.gradle\caches\transforms-3\110e4711e793f8846d7bda6a37b97831\transformed\play-services-cast-framework-21.4.0\AndroidManifest.xml:19:9-21:40
-206            android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver"
-206-->[com.google.android.gms:play-services-cast-framework:21.4.0] C:\Users\acer\.gradle\caches\transforms-3\110e4711e793f8846d7bda6a37b97831\transformed\play-services-cast-framework-21.4.0\AndroidManifest.xml:20:13-91
-207            android:exported="false" />
-207-->[com.google.android.gms:play-services-cast-framework:21.4.0] C:\Users\acer\.gradle\caches\transforms-3\110e4711e793f8846d7bda6a37b97831\transformed\play-services-cast-framework-21.4.0\AndroidManifest.xml:21:13-37
-208
-209        <service
-209-->[com.google.android.gms:play-services-cast-framework:21.4.0] C:\Users\acer\.gradle\caches\transforms-3\110e4711e793f8846d7bda6a37b97831\transformed\play-services-cast-framework-21.4.0\AndroidManifest.xml:23:9-25:40
-210            android:name="com.google.android.gms.cast.framework.ReconnectionService"
-210-->[com.google.android.gms:play-services-cast-framework:21.4.0] C:\Users\acer\.gradle\caches\transforms-3\110e4711e793f8846d7bda6a37b97831\transformed\play-services-cast-framework-21.4.0\AndroidManifest.xml:24:13-85
-211            android:exported="false" />
-211-->[com.google.android.gms:play-services-cast-framework:21.4.0] C:\Users\acer\.gradle\caches\transforms-3\110e4711e793f8846d7bda6a37b97831\transformed\play-services-cast-framework-21.4.0\AndroidManifest.xml:25:13-37
-212
-213        <activity
-213-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\acer\.gradle\caches\transforms-3\31c1a73aca54d5cc6f2615f2aa5cc35a\transformed\play-services-base-18.3.0\AndroidManifest.xml:20:9-22:45
-214            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-214-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\acer\.gradle\caches\transforms-3\31c1a73aca54d5cc6f2615f2aa5cc35a\transformed\play-services-base-18.3.0\AndroidManifest.xml:20:19-85
-215            android:exported="false"
-215-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\acer\.gradle\caches\transforms-3\31c1a73aca54d5cc6f2615f2aa5cc35a\transformed\play-services-base-18.3.0\AndroidManifest.xml:22:19-43
-216            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-216-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\acer\.gradle\caches\transforms-3\31c1a73aca54d5cc6f2615f2aa5cc35a\transformed\play-services-base-18.3.0\AndroidManifest.xml:21:19-78
-217
-218        <meta-data
-218-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\acer\.gradle\caches\transforms-3\9fac5631ee5e941fe5301bf3f4c3bd1b\transformed\play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
-219            android:name="com.google.android.gms.version"
-219-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\acer\.gradle\caches\transforms-3\9fac5631ee5e941fe5301bf3f4c3bd1b\transformed\play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
-220            android:value="@integer/google_play_services_version" />
-220-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\acer\.gradle\caches\transforms-3\9fac5631ee5e941fe5301bf3f4c3bd1b\transformed\play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
-221
-222        <provider
-222-->[androidx.emoji2:emoji2:1.2.0] C:\Users\acer\.gradle\caches\transforms-3\1ae0b85c62c3b15a988538c8a169a247\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-223            android:name="androidx.startup.InitializationProvider"
-223-->[androidx.emoji2:emoji2:1.2.0] C:\Users\acer\.gradle\caches\transforms-3\1ae0b85c62c3b15a988538c8a169a247\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-224            android:authorities="med.Save.medsaveinv.androidx-startup"
-224-->[androidx.emoji2:emoji2:1.2.0] C:\Users\acer\.gradle\caches\transforms-3\1ae0b85c62c3b15a988538c8a169a247\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-225            android:exported="false" >
-225-->[androidx.emoji2:emoji2:1.2.0] C:\Users\acer\.gradle\caches\transforms-3\1ae0b85c62c3b15a988538c8a169a247\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-226            <meta-data
-226-->[androidx.emoji2:emoji2:1.2.0] C:\Users\acer\.gradle\caches\transforms-3\1ae0b85c62c3b15a988538c8a169a247\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-227                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-227-->[androidx.emoji2:emoji2:1.2.0] C:\Users\acer\.gradle\caches\transforms-3\1ae0b85c62c3b15a988538c8a169a247\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-228                android:value="androidx.startup" />
-228-->[androidx.emoji2:emoji2:1.2.0] C:\Users\acer\.gradle\caches\transforms-3\1ae0b85c62c3b15a988538c8a169a247\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-229            <meta-data
-229-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\acer\.gradle\caches\transforms-3\0ead152d252527d1ae21d7e800144469\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
-230                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-230-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\acer\.gradle\caches\transforms-3\0ead152d252527d1ae21d7e800144469\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
-231                android:value="androidx.startup" />
-231-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\acer\.gradle\caches\transforms-3\0ead152d252527d1ae21d7e800144469\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
-232            <meta-data
-232-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\acer\.gradle\caches\transforms-3\f92e7929540b57eb51211e4cba59a659\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
-233                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-233-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\acer\.gradle\caches\transforms-3\f92e7929540b57eb51211e4cba59a659\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
-234                android:value="androidx.startup" />
-234-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\acer\.gradle\caches\transforms-3\f92e7929540b57eb51211e4cba59a659\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
-235        </provider>
-236
-237        <uses-library
-237-->[androidx.window:window:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\814bef9a78b9ae2da35dad19e5124f8b\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
-238            android:name="androidx.window.extensions"
-238-->[androidx.window:window:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\814bef9a78b9ae2da35dad19e5124f8b\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
-239            android:required="false" />
-239-->[androidx.window:window:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\814bef9a78b9ae2da35dad19e5124f8b\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
-240        <uses-library
-240-->[androidx.window:window:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\814bef9a78b9ae2da35dad19e5124f8b\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
-241            android:name="androidx.window.sidecar"
-241-->[androidx.window:window:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\814bef9a78b9ae2da35dad19e5124f8b\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
-242            android:required="false" />
-242-->[androidx.window:window:1.0.0] C:\Users\acer\.gradle\caches\transforms-3\814bef9a78b9ae2da35dad19e5124f8b\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
-243
-244        <service
-244-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\acer\.gradle\caches\transforms-3\518e60ad8619c528bb1c0dd780112fe5\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:28:9-34:19
-245            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-245-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\acer\.gradle\caches\transforms-3\518e60ad8619c528bb1c0dd780112fe5\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:29:13-103
-246            android:exported="false" >
-246-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\acer\.gradle\caches\transforms-3\518e60ad8619c528bb1c0dd780112fe5\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:30:13-37
-247            <meta-data
-247-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\acer\.gradle\caches\transforms-3\518e60ad8619c528bb1c0dd780112fe5\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:31:13-33:39
-248                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-248-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\acer\.gradle\caches\transforms-3\518e60ad8619c528bb1c0dd780112fe5\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:32:17-94
-249                android:value="cct" />
-249-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\acer\.gradle\caches\transforms-3\518e60ad8619c528bb1c0dd780112fe5\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:33:17-36
-250        </service>
-251
-252        <provider
-252-->[com.squareup.picasso:picasso:2.8] C:\Users\acer\.gradle\caches\transforms-3\7808464e36ebe105813100a33fefa3d6\transformed\picasso-2.8\AndroidManifest.xml:8:9-11:40
-253            android:name="com.squareup.picasso.PicassoProvider"
-253-->[com.squareup.picasso:picasso:2.8] C:\Users\acer\.gradle\caches\transforms-3\7808464e36ebe105813100a33fefa3d6\transformed\picasso-2.8\AndroidManifest.xml:9:13-64
-254            android:authorities="med.Save.medsaveinv.com.squareup.picasso"
-254-->[com.squareup.picasso:picasso:2.8] C:\Users\acer\.gradle\caches\transforms-3\7808464e36ebe105813100a33fefa3d6\transformed\picasso-2.8\AndroidManifest.xml:10:13-72
-255            android:exported="false" />
-255-->[com.squareup.picasso:picasso:2.8] C:\Users\acer\.gradle\caches\transforms-3\7808464e36ebe105813100a33fefa3d6\transformed\picasso-2.8\AndroidManifest.xml:11:13-37
-256
-257        <service
-257-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\acer\.gradle\caches\transforms-3\cf56d9f9bb8b4f81ae88f03fab2b74fb\transformed\transport-runtime-3.1.9\AndroidManifest.xml:26:9-30:19
-258            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-258-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\acer\.gradle\caches\transforms-3\cf56d9f9bb8b4f81ae88f03fab2b74fb\transformed\transport-runtime-3.1.9\AndroidManifest.xml:27:13-117
-259            android:exported="false"
-259-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\acer\.gradle\caches\transforms-3\cf56d9f9bb8b4f81ae88f03fab2b74fb\transformed\transport-runtime-3.1.9\AndroidManifest.xml:28:13-37
-260            android:permission="android.permission.BIND_JOB_SERVICE" >
-260-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\acer\.gradle\caches\transforms-3\cf56d9f9bb8b4f81ae88f03fab2b74fb\transformed\transport-runtime-3.1.9\AndroidManifest.xml:29:13-69
-261        </service>
-262
-263        <receiver
-263-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\acer\.gradle\caches\transforms-3\cf56d9f9bb8b4f81ae88f03fab2b74fb\transformed\transport-runtime-3.1.9\AndroidManifest.xml:32:9-34:40
-264            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-264-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\acer\.gradle\caches\transforms-3\cf56d9f9bb8b4f81ae88f03fab2b74fb\transformed\transport-runtime-3.1.9\AndroidManifest.xml:33:13-132
-265            android:exported="false" />
-265-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\acer\.gradle\caches\transforms-3\cf56d9f9bb8b4f81ae88f03fab2b74fb\transformed\transport-runtime-3.1.9\AndroidManifest.xml:34:13-37
-266        <receiver
-266-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\acer\.gradle\caches\transforms-3\f92e7929540b57eb51211e4cba59a659\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
-267            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-267-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\acer\.gradle\caches\transforms-3\f92e7929540b57eb51211e4cba59a659\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
-268            android:directBootAware="false"
-268-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\acer\.gradle\caches\transforms-3\f92e7929540b57eb51211e4cba59a659\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
-269            android:enabled="true"
-269-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\acer\.gradle\caches\transforms-3\f92e7929540b57eb51211e4cba59a659\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
-270            android:exported="true"
-270-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\acer\.gradle\caches\transforms-3\f92e7929540b57eb51211e4cba59a659\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
-271            android:permission="android.permission.DUMP" >
-271-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\acer\.gradle\caches\transforms-3\f92e7929540b57eb51211e4cba59a659\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
-272            <intent-filter>
-272-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\acer\.gradle\caches\transforms-3\f92e7929540b57eb51211e4cba59a659\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
-273                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-273-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\acer\.gradle\caches\transforms-3\f92e7929540b57eb51211e4cba59a659\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
-273-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\acer\.gradle\caches\transforms-3\f92e7929540b57eb51211e4cba59a659\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
-274            </intent-filter>
-275            <intent-filter>
-275-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\acer\.gradle\caches\transforms-3\f92e7929540b57eb51211e4cba59a659\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
-276                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-276-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\acer\.gradle\caches\transforms-3\f92e7929540b57eb51211e4cba59a659\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
-276-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\acer\.gradle\caches\transforms-3\f92e7929540b57eb51211e4cba59a659\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
-277            </intent-filter>
-278            <intent-filter>
-278-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\acer\.gradle\caches\transforms-3\f92e7929540b57eb51211e4cba59a659\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
-279                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-279-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\acer\.gradle\caches\transforms-3\f92e7929540b57eb51211e4cba59a659\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
-279-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\acer\.gradle\caches\transforms-3\f92e7929540b57eb51211e4cba59a659\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
-280            </intent-filter>
-281            <intent-filter>
-281-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\acer\.gradle\caches\transforms-3\f92e7929540b57eb51211e4cba59a659\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
-282                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-282-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\acer\.gradle\caches\transforms-3\f92e7929540b57eb51211e4cba59a659\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
-282-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\acer\.gradle\caches\transforms-3\f92e7929540b57eb51211e4cba59a659\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
-283            </intent-filter>
-284        </receiver>
-285    </application>
-286
-287</manifest>
+83-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:57:9-35
+84        android:theme="@style/Theme.MedsaveInv"
+84-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:58:9-48
+85        android:usesCleartextTraffic="true" >
+85-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:59:9-44
+86        <activity
+86-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:61:9-65:20
+87            android:name="med.Save.medsaveinv.TestActivity"
+87-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:62:13-60
+88            android:exported="true" >
+88-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:63:13-36
+89        </activity>
+90        <activity
+90-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:66:9-70:56
+91            android:name="med.Save.medsaveinv.DirectActivity"
+91-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:67:13-62
+92            android:exported="false"
+92-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:68:13-37
+93            android:screenOrientation="portrait" />
+93-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:69:13-49
+94        <activity
+94-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:71:9-75:56
+95            android:name="med.Save.medsaveinv.SurveyFormActivity"
+95-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:72:13-66
+96            android:exported="false"
+96-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:73:13-37
+97            android:screenOrientation="portrait" />
+97-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:74:13-49
+98        <activity
+98-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:76:9-80:56
+99            android:name="med.Save.medsaveinv.InvestigationSearchActivity"
+99-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:77:13-75
+100            android:exported="false"
+100-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:78:13-37
+101            android:screenOrientation="portrait" />
+101-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:79:13-49
+102        <activity
+102-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:81:9-86:56
+103            android:name="med.Save.medsaveinv.LoginActivity"
+103-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:82:13-61
+104            android:exported="false"
+104-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:83:13-37
+105            android:screenOrientation="portrait"
+105-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:84:13-49
+106            android:windowSoftInputMode="adjustResize" />
+106-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:85:13-55
+107        <activity
+107-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:87:9-97:20
+108            android:name="med.Save.medsaveinv.SplashActivity"
+108-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:88:13-62
+109            android:exported="true"
+109-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:89:13-36
+110            android:screenOrientation="portrait" >
+110-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:90:13-49
+111            <intent-filter>
+111-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:92:13-96:29
+112                <action android:name="android.intent.action.MAIN" />
+112-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:93:17-69
+112-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:93:25-66
+113
+114                <category android:name="android.intent.category.LAUNCHER" />
+114-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:95:17-77
+114-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:95:27-74
+115            </intent-filter>
+116        </activity>
+117        <activity
+117-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:98:9-102:56
+118            android:name="med.Save.medsaveinv.DashBoradActivity"
+118-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:99:13-65
+119            android:exported="true"
+119-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:100:13-36
+120            android:screenOrientation="portrait" />
+120-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:101:13-49
+121        <activity
+121-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:103:9-107:56
+122            android:name="med.Save.medsaveinv.MainActivity"
+122-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:104:13-60
+123            android:exported="true"
+123-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:105:13-36
+124            android:screenOrientation="portrait" />
+124-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:106:13-49
+125
+126        <provider
+126-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:109:9-117:20
+127            android:name="androidx.core.content.FileProvider"
+127-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:110:13-62
+128            android:authorities="med.Save.medsaveinv.fileprovider"
+128-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:111:13-67
+129            android:exported="false"
+129-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:112:13-37
+130            android:grantUriPermissions="true" >
+130-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:113:13-47
+131            <meta-data
+131-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:114:13-116:54
+132                android:name="android.support.FILE_PROVIDER_PATHS"
+132-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:115:17-67
+133                android:resource="@xml/file_paths" />
+133-->I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml:116:17-51
+134        </provider>
+135
+136        <service
+136-->[com.google.firebase:firebase-crashlytics:18.6.4] C:\Users\KV RANA\.gradle\caches\transforms-3\fbcae3780e5ba7632b23da20de7c6123\transformed\firebase-crashlytics-18.6.4\AndroidManifest.xml:12:9-21:19
+137            android:name="com.google.firebase.components.ComponentDiscoveryService"
+137-->[com.google.firebase:firebase-crashlytics:18.6.4] C:\Users\KV RANA\.gradle\caches\transforms-3\fbcae3780e5ba7632b23da20de7c6123\transformed\firebase-crashlytics-18.6.4\AndroidManifest.xml:13:13-84
+138            android:directBootAware="true"
+138-->[com.google.firebase:firebase-common:20.4.2] C:\Users\KV RANA\.gradle\caches\transforms-3\ffd0009314af9ad780968b3ecb20efb9\transformed\firebase-common-20.4.2\AndroidManifest.xml:32:13-43
+139            android:exported="false" >
+139-->[com.google.firebase:firebase-crashlytics:18.6.4] C:\Users\KV RANA\.gradle\caches\transforms-3\fbcae3780e5ba7632b23da20de7c6123\transformed\firebase-crashlytics-18.6.4\AndroidManifest.xml:14:13-37
+140            <meta-data
+140-->[com.google.firebase:firebase-crashlytics:18.6.4] C:\Users\KV RANA\.gradle\caches\transforms-3\fbcae3780e5ba7632b23da20de7c6123\transformed\firebase-crashlytics-18.6.4\AndroidManifest.xml:15:13-17:85
+141                android:name="com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar"
+141-->[com.google.firebase:firebase-crashlytics:18.6.4] C:\Users\KV RANA\.gradle\caches\transforms-3\fbcae3780e5ba7632b23da20de7c6123\transformed\firebase-crashlytics-18.6.4\AndroidManifest.xml:16:17-126
+142                android:value="com.google.firebase.components.ComponentRegistrar" />
+142-->[com.google.firebase:firebase-crashlytics:18.6.4] C:\Users\KV RANA\.gradle\caches\transforms-3\fbcae3780e5ba7632b23da20de7c6123\transformed\firebase-crashlytics-18.6.4\AndroidManifest.xml:17:17-82
+143            <meta-data
+143-->[com.google.firebase:firebase-crashlytics:18.6.4] C:\Users\KV RANA\.gradle\caches\transforms-3\fbcae3780e5ba7632b23da20de7c6123\transformed\firebase-crashlytics-18.6.4\AndroidManifest.xml:18:13-20:85
+144                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+144-->[com.google.firebase:firebase-crashlytics:18.6.4] C:\Users\KV RANA\.gradle\caches\transforms-3\fbcae3780e5ba7632b23da20de7c6123\transformed\firebase-crashlytics-18.6.4\AndroidManifest.xml:19:17-115
+145                android:value="com.google.firebase.components.ComponentRegistrar" />
+145-->[com.google.firebase:firebase-crashlytics:18.6.4] C:\Users\KV RANA\.gradle\caches\transforms-3\fbcae3780e5ba7632b23da20de7c6123\transformed\firebase-crashlytics-18.6.4\AndroidManifest.xml:20:17-82
+146            <meta-data
+146-->[com.google.firebase:firebase-sessions:1.2.4] C:\Users\KV RANA\.gradle\caches\transforms-3\d770023691240508f346107e1c88bfc4\transformed\firebase-sessions-1.2.4\AndroidManifest.xml:29:13-31:85
+147                android:name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar"
+147-->[com.google.firebase:firebase-sessions:1.2.4] C:\Users\KV RANA\.gradle\caches\transforms-3\d770023691240508f346107e1c88bfc4\transformed\firebase-sessions-1.2.4\AndroidManifest.xml:30:17-117
+148                android:value="com.google.firebase.components.ComponentRegistrar" />
+148-->[com.google.firebase:firebase-sessions:1.2.4] C:\Users\KV RANA\.gradle\caches\transforms-3\d770023691240508f346107e1c88bfc4\transformed\firebase-sessions-1.2.4\AndroidManifest.xml:31:17-82
+149            <meta-data
+149-->[com.google.android.gms:play-services-measurement-api:21.6.2] C:\Users\KV RANA\.gradle\caches\transforms-3\43623bb95b862dc6440898f1b932927a\transformed\play-services-measurement-api-21.6.2\AndroidManifest.xml:37:13-39:85
+150                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+150-->[com.google.android.gms:play-services-measurement-api:21.6.2] C:\Users\KV RANA\.gradle\caches\transforms-3\43623bb95b862dc6440898f1b932927a\transformed\play-services-measurement-api-21.6.2\AndroidManifest.xml:38:17-139
+151                android:value="com.google.firebase.components.ComponentRegistrar" />
+151-->[com.google.android.gms:play-services-measurement-api:21.6.2] C:\Users\KV RANA\.gradle\caches\transforms-3\43623bb95b862dc6440898f1b932927a\transformed\play-services-measurement-api-21.6.2\AndroidManifest.xml:39:17-82
+152            <meta-data
+152-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\KV RANA\.gradle\caches\transforms-3\1eb05524e2cc5d8bf92b46dae7be1cd5\transformed\firebase-installations-17.2.0\AndroidManifest.xml:15:13-17:85
+153                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+153-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\KV RANA\.gradle\caches\transforms-3\1eb05524e2cc5d8bf92b46dae7be1cd5\transformed\firebase-installations-17.2.0\AndroidManifest.xml:16:17-130
+154                android:value="com.google.firebase.components.ComponentRegistrar" />
+154-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\KV RANA\.gradle\caches\transforms-3\1eb05524e2cc5d8bf92b46dae7be1cd5\transformed\firebase-installations-17.2.0\AndroidManifest.xml:17:17-82
+155            <meta-data
+155-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\KV RANA\.gradle\caches\transforms-3\1eb05524e2cc5d8bf92b46dae7be1cd5\transformed\firebase-installations-17.2.0\AndroidManifest.xml:18:13-20:85
+156                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+156-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\KV RANA\.gradle\caches\transforms-3\1eb05524e2cc5d8bf92b46dae7be1cd5\transformed\firebase-installations-17.2.0\AndroidManifest.xml:19:17-127
+157                android:value="com.google.firebase.components.ComponentRegistrar" />
+157-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\KV RANA\.gradle\caches\transforms-3\1eb05524e2cc5d8bf92b46dae7be1cd5\transformed\firebase-installations-17.2.0\AndroidManifest.xml:20:17-82
+158            <meta-data
+158-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\KV RANA\.gradle\caches\transforms-3\fd698361980bfe7544958754a12960b3\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
+159                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+159-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\KV RANA\.gradle\caches\transforms-3\fd698361980bfe7544958754a12960b3\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
+160                android:value="com.google.firebase.components.ComponentRegistrar" />
+160-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\KV RANA\.gradle\caches\transforms-3\fd698361980bfe7544958754a12960b3\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
+161            <meta-data
+161-->[com.google.firebase:firebase-common:20.4.2] C:\Users\KV RANA\.gradle\caches\transforms-3\ffd0009314af9ad780968b3ecb20efb9\transformed\firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
+162                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+162-->[com.google.firebase:firebase-common:20.4.2] C:\Users\KV RANA\.gradle\caches\transforms-3\ffd0009314af9ad780968b3ecb20efb9\transformed\firebase-common-20.4.2\AndroidManifest.xml:36:17-109
+163                android:value="com.google.firebase.components.ComponentRegistrar" />
+163-->[com.google.firebase:firebase-common:20.4.2] C:\Users\KV RANA\.gradle\caches\transforms-3\ffd0009314af9ad780968b3ecb20efb9\transformed\firebase-common-20.4.2\AndroidManifest.xml:37:17-82
+164            <meta-data
+164-->[com.google.firebase:firebase-datatransport:18.1.8] C:\Users\KV RANA\.gradle\caches\transforms-3\d35b2818b1caaef375d7e9a7d206f5e8\transformed\firebase-datatransport-18.1.8\AndroidManifest.xml:27:13-29:85
+165                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+165-->[com.google.firebase:firebase-datatransport:18.1.8] C:\Users\KV RANA\.gradle\caches\transforms-3\d35b2818b1caaef375d7e9a7d206f5e8\transformed\firebase-datatransport-18.1.8\AndroidManifest.xml:28:17-115
+166                android:value="com.google.firebase.components.ComponentRegistrar" />
+166-->[com.google.firebase:firebase-datatransport:18.1.8] C:\Users\KV RANA\.gradle\caches\transforms-3\d35b2818b1caaef375d7e9a7d206f5e8\transformed\firebase-datatransport-18.1.8\AndroidManifest.xml:29:17-82
+167        </service>
+168        <service
+168-->[com.google.firebase:firebase-sessions:1.2.4] C:\Users\KV RANA\.gradle\caches\transforms-3\d770023691240508f346107e1c88bfc4\transformed\firebase-sessions-1.2.4\AndroidManifest.xml:22:9-25:40
+169            android:name="com.google.firebase.sessions.SessionLifecycleService"
+169-->[com.google.firebase:firebase-sessions:1.2.4] C:\Users\KV RANA\.gradle\caches\transforms-3\d770023691240508f346107e1c88bfc4\transformed\firebase-sessions-1.2.4\AndroidManifest.xml:23:13-80
+170            android:enabled="true"
+170-->[com.google.firebase:firebase-sessions:1.2.4] C:\Users\KV RANA\.gradle\caches\transforms-3\d770023691240508f346107e1c88bfc4\transformed\firebase-sessions-1.2.4\AndroidManifest.xml:24:13-35
+171            android:exported="false" />
+171-->[com.google.firebase:firebase-sessions:1.2.4] C:\Users\KV RANA\.gradle\caches\transforms-3\d770023691240508f346107e1c88bfc4\transformed\firebase-sessions-1.2.4\AndroidManifest.xml:25:13-37
+172
+173        <property
+173-->[com.google.android.gms:play-services-measurement-api:21.6.2] C:\Users\KV RANA\.gradle\caches\transforms-3\43623bb95b862dc6440898f1b932927a\transformed\play-services-measurement-api-21.6.2\AndroidManifest.xml:30:9-32:61
+174            android:name="android.adservices.AD_SERVICES_CONFIG"
+174-->[com.google.android.gms:play-services-measurement-api:21.6.2] C:\Users\KV RANA\.gradle\caches\transforms-3\43623bb95b862dc6440898f1b932927a\transformed\play-services-measurement-api-21.6.2\AndroidManifest.xml:31:13-65
+175            android:resource="@xml/ga_ad_services_config" />
+175-->[com.google.android.gms:play-services-measurement-api:21.6.2] C:\Users\KV RANA\.gradle\caches\transforms-3\43623bb95b862dc6440898f1b932927a\transformed\play-services-measurement-api-21.6.2\AndroidManifest.xml:32:13-58
+176
+177        <provider
+177-->[com.google.firebase:firebase-common:20.4.2] C:\Users\KV RANA\.gradle\caches\transforms-3\ffd0009314af9ad780968b3ecb20efb9\transformed\firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
+178            android:name="com.google.firebase.provider.FirebaseInitProvider"
+178-->[com.google.firebase:firebase-common:20.4.2] C:\Users\KV RANA\.gradle\caches\transforms-3\ffd0009314af9ad780968b3ecb20efb9\transformed\firebase-common-20.4.2\AndroidManifest.xml:24:13-77
+179            android:authorities="med.Save.medsaveinv.firebaseinitprovider"
+179-->[com.google.firebase:firebase-common:20.4.2] C:\Users\KV RANA\.gradle\caches\transforms-3\ffd0009314af9ad780968b3ecb20efb9\transformed\firebase-common-20.4.2\AndroidManifest.xml:25:13-72
+180            android:directBootAware="true"
+180-->[com.google.firebase:firebase-common:20.4.2] C:\Users\KV RANA\.gradle\caches\transforms-3\ffd0009314af9ad780968b3ecb20efb9\transformed\firebase-common-20.4.2\AndroidManifest.xml:26:13-43
+181            android:exported="false"
+181-->[com.google.firebase:firebase-common:20.4.2] C:\Users\KV RANA\.gradle\caches\transforms-3\ffd0009314af9ad780968b3ecb20efb9\transformed\firebase-common-20.4.2\AndroidManifest.xml:27:13-37
+182            android:initOrder="100" />
+182-->[com.google.firebase:firebase-common:20.4.2] C:\Users\KV RANA\.gradle\caches\transforms-3\ffd0009314af9ad780968b3ecb20efb9\transformed\firebase-common-20.4.2\AndroidManifest.xml:28:13-36
+183
+184        <receiver
+184-->[com.google.android.gms:play-services-measurement:21.6.2] C:\Users\KV RANA\.gradle\caches\transforms-3\bb54daee9cae379de68e27f46d8dc619\transformed\play-services-measurement-21.6.2\AndroidManifest.xml:29:9-33:20
+185            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+185-->[com.google.android.gms:play-services-measurement:21.6.2] C:\Users\KV RANA\.gradle\caches\transforms-3\bb54daee9cae379de68e27f46d8dc619\transformed\play-services-measurement-21.6.2\AndroidManifest.xml:30:13-85
+186            android:enabled="true"
+186-->[com.google.android.gms:play-services-measurement:21.6.2] C:\Users\KV RANA\.gradle\caches\transforms-3\bb54daee9cae379de68e27f46d8dc619\transformed\play-services-measurement-21.6.2\AndroidManifest.xml:31:13-35
+187            android:exported="false" >
+187-->[com.google.android.gms:play-services-measurement:21.6.2] C:\Users\KV RANA\.gradle\caches\transforms-3\bb54daee9cae379de68e27f46d8dc619\transformed\play-services-measurement-21.6.2\AndroidManifest.xml:32:13-37
+188        </receiver>
+189
+190        <service
+190-->[com.google.android.gms:play-services-measurement:21.6.2] C:\Users\KV RANA\.gradle\caches\transforms-3\bb54daee9cae379de68e27f46d8dc619\transformed\play-services-measurement-21.6.2\AndroidManifest.xml:35:9-38:40
+191            android:name="com.google.android.gms.measurement.AppMeasurementService"
+191-->[com.google.android.gms:play-services-measurement:21.6.2] C:\Users\KV RANA\.gradle\caches\transforms-3\bb54daee9cae379de68e27f46d8dc619\transformed\play-services-measurement-21.6.2\AndroidManifest.xml:36:13-84
+192            android:enabled="true"
+192-->[com.google.android.gms:play-services-measurement:21.6.2] C:\Users\KV RANA\.gradle\caches\transforms-3\bb54daee9cae379de68e27f46d8dc619\transformed\play-services-measurement-21.6.2\AndroidManifest.xml:37:13-35
+193            android:exported="false" />
+193-->[com.google.android.gms:play-services-measurement:21.6.2] C:\Users\KV RANA\.gradle\caches\transforms-3\bb54daee9cae379de68e27f46d8dc619\transformed\play-services-measurement-21.6.2\AndroidManifest.xml:38:13-37
+194        <service
+194-->[com.google.android.gms:play-services-measurement:21.6.2] C:\Users\KV RANA\.gradle\caches\transforms-3\bb54daee9cae379de68e27f46d8dc619\transformed\play-services-measurement-21.6.2\AndroidManifest.xml:39:9-43:72
+195            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+195-->[com.google.android.gms:play-services-measurement:21.6.2] C:\Users\KV RANA\.gradle\caches\transforms-3\bb54daee9cae379de68e27f46d8dc619\transformed\play-services-measurement-21.6.2\AndroidManifest.xml:40:13-87
+196            android:enabled="true"
+196-->[com.google.android.gms:play-services-measurement:21.6.2] C:\Users\KV RANA\.gradle\caches\transforms-3\bb54daee9cae379de68e27f46d8dc619\transformed\play-services-measurement-21.6.2\AndroidManifest.xml:41:13-35
+197            android:exported="false"
+197-->[com.google.android.gms:play-services-measurement:21.6.2] C:\Users\KV RANA\.gradle\caches\transforms-3\bb54daee9cae379de68e27f46d8dc619\transformed\play-services-measurement-21.6.2\AndroidManifest.xml:42:13-37
+198            android:permission="android.permission.BIND_JOB_SERVICE" />
+198-->[com.google.android.gms:play-services-measurement:21.6.2] C:\Users\KV RANA\.gradle\caches\transforms-3\bb54daee9cae379de68e27f46d8dc619\transformed\play-services-measurement-21.6.2\AndroidManifest.xml:43:13-69
+199
+200        <uses-library
+200-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\KV RANA\.gradle\caches\transforms-3\2b307cc8d4323bccca83a46f505743eb\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:23:9-25:40
+201            android:name="android.ext.adservices"
+201-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\KV RANA\.gradle\caches\transforms-3\2b307cc8d4323bccca83a46f505743eb\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:24:13-50
+202            android:required="false" />
+202-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\KV RANA\.gradle\caches\transforms-3\2b307cc8d4323bccca83a46f505743eb\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:25:13-37
+203
+204        <receiver
+204-->[com.google.android.gms:play-services-cast-framework:21.4.0] C:\Users\KV RANA\.gradle\caches\transforms-3\110e4711e793f8846d7bda6a37b97831\transformed\play-services-cast-framework-21.4.0\AndroidManifest.xml:19:9-21:40
+205            android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver"
+205-->[com.google.android.gms:play-services-cast-framework:21.4.0] C:\Users\KV RANA\.gradle\caches\transforms-3\110e4711e793f8846d7bda6a37b97831\transformed\play-services-cast-framework-21.4.0\AndroidManifest.xml:20:13-91
+206            android:exported="false" />
+206-->[com.google.android.gms:play-services-cast-framework:21.4.0] C:\Users\KV RANA\.gradle\caches\transforms-3\110e4711e793f8846d7bda6a37b97831\transformed\play-services-cast-framework-21.4.0\AndroidManifest.xml:21:13-37
+207
+208        <service
+208-->[com.google.android.gms:play-services-cast-framework:21.4.0] C:\Users\KV RANA\.gradle\caches\transforms-3\110e4711e793f8846d7bda6a37b97831\transformed\play-services-cast-framework-21.4.0\AndroidManifest.xml:23:9-25:40
+209            android:name="com.google.android.gms.cast.framework.ReconnectionService"
+209-->[com.google.android.gms:play-services-cast-framework:21.4.0] C:\Users\KV RANA\.gradle\caches\transforms-3\110e4711e793f8846d7bda6a37b97831\transformed\play-services-cast-framework-21.4.0\AndroidManifest.xml:24:13-85
+210            android:exported="false" />
+210-->[com.google.android.gms:play-services-cast-framework:21.4.0] C:\Users\KV RANA\.gradle\caches\transforms-3\110e4711e793f8846d7bda6a37b97831\transformed\play-services-cast-framework-21.4.0\AndroidManifest.xml:25:13-37
+211
+212        <activity
+212-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\KV RANA\.gradle\caches\transforms-3\31c1a73aca54d5cc6f2615f2aa5cc35a\transformed\play-services-base-18.3.0\AndroidManifest.xml:20:9-22:45
+213            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+213-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\KV RANA\.gradle\caches\transforms-3\31c1a73aca54d5cc6f2615f2aa5cc35a\transformed\play-services-base-18.3.0\AndroidManifest.xml:20:19-85
+214            android:exported="false"
+214-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\KV RANA\.gradle\caches\transforms-3\31c1a73aca54d5cc6f2615f2aa5cc35a\transformed\play-services-base-18.3.0\AndroidManifest.xml:22:19-43
+215            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+215-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\KV RANA\.gradle\caches\transforms-3\31c1a73aca54d5cc6f2615f2aa5cc35a\transformed\play-services-base-18.3.0\AndroidManifest.xml:21:19-78
+216
+217        <meta-data
+217-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\KV RANA\.gradle\caches\transforms-3\9fac5631ee5e941fe5301bf3f4c3bd1b\transformed\play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
+218            android:name="com.google.android.gms.version"
+218-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\KV RANA\.gradle\caches\transforms-3\9fac5631ee5e941fe5301bf3f4c3bd1b\transformed\play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
+219            android:value="@integer/google_play_services_version" />
+219-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\KV RANA\.gradle\caches\transforms-3\9fac5631ee5e941fe5301bf3f4c3bd1b\transformed\play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
+220
+221        <provider
+221-->[androidx.emoji2:emoji2:1.2.0] C:\Users\KV RANA\.gradle\caches\transforms-3\1ae0b85c62c3b15a988538c8a169a247\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+222            android:name="androidx.startup.InitializationProvider"
+222-->[androidx.emoji2:emoji2:1.2.0] C:\Users\KV RANA\.gradle\caches\transforms-3\1ae0b85c62c3b15a988538c8a169a247\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+223            android:authorities="med.Save.medsaveinv.androidx-startup"
+223-->[androidx.emoji2:emoji2:1.2.0] C:\Users\KV RANA\.gradle\caches\transforms-3\1ae0b85c62c3b15a988538c8a169a247\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+224            android:exported="false" >
+224-->[androidx.emoji2:emoji2:1.2.0] C:\Users\KV RANA\.gradle\caches\transforms-3\1ae0b85c62c3b15a988538c8a169a247\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+225            <meta-data
+225-->[androidx.emoji2:emoji2:1.2.0] C:\Users\KV RANA\.gradle\caches\transforms-3\1ae0b85c62c3b15a988538c8a169a247\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+226                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+226-->[androidx.emoji2:emoji2:1.2.0] C:\Users\KV RANA\.gradle\caches\transforms-3\1ae0b85c62c3b15a988538c8a169a247\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+227                android:value="androidx.startup" />
+227-->[androidx.emoji2:emoji2:1.2.0] C:\Users\KV RANA\.gradle\caches\transforms-3\1ae0b85c62c3b15a988538c8a169a247\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+228            <meta-data
+228-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\KV RANA\.gradle\caches\transforms-3\0ead152d252527d1ae21d7e800144469\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+229                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+229-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\KV RANA\.gradle\caches\transforms-3\0ead152d252527d1ae21d7e800144469\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+230                android:value="androidx.startup" />
+230-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\KV RANA\.gradle\caches\transforms-3\0ead152d252527d1ae21d7e800144469\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+231            <meta-data
+231-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\KV RANA\.gradle\caches\transforms-3\f92e7929540b57eb51211e4cba59a659\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+232                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+232-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\KV RANA\.gradle\caches\transforms-3\f92e7929540b57eb51211e4cba59a659\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+233                android:value="androidx.startup" />
+233-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\KV RANA\.gradle\caches\transforms-3\f92e7929540b57eb51211e4cba59a659\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+234        </provider>
+235
+236        <uses-library
+236-->[androidx.window:window:1.0.0] C:\Users\KV RANA\.gradle\caches\transforms-3\814bef9a78b9ae2da35dad19e5124f8b\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+237            android:name="androidx.window.extensions"
+237-->[androidx.window:window:1.0.0] C:\Users\KV RANA\.gradle\caches\transforms-3\814bef9a78b9ae2da35dad19e5124f8b\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+238            android:required="false" />
+238-->[androidx.window:window:1.0.0] C:\Users\KV RANA\.gradle\caches\transforms-3\814bef9a78b9ae2da35dad19e5124f8b\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+239        <uses-library
+239-->[androidx.window:window:1.0.0] C:\Users\KV RANA\.gradle\caches\transforms-3\814bef9a78b9ae2da35dad19e5124f8b\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+240            android:name="androidx.window.sidecar"
+240-->[androidx.window:window:1.0.0] C:\Users\KV RANA\.gradle\caches\transforms-3\814bef9a78b9ae2da35dad19e5124f8b\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+241            android:required="false" />
+241-->[androidx.window:window:1.0.0] C:\Users\KV RANA\.gradle\caches\transforms-3\814bef9a78b9ae2da35dad19e5124f8b\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+242
+243        <service
+243-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\KV RANA\.gradle\caches\transforms-3\518e60ad8619c528bb1c0dd780112fe5\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:28:9-34:19
+244            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+244-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\KV RANA\.gradle\caches\transforms-3\518e60ad8619c528bb1c0dd780112fe5\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:29:13-103
+245            android:exported="false" >
+245-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\KV RANA\.gradle\caches\transforms-3\518e60ad8619c528bb1c0dd780112fe5\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:30:13-37
+246            <meta-data
+246-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\KV RANA\.gradle\caches\transforms-3\518e60ad8619c528bb1c0dd780112fe5\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:31:13-33:39
+247                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+247-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\KV RANA\.gradle\caches\transforms-3\518e60ad8619c528bb1c0dd780112fe5\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:32:17-94
+248                android:value="cct" />
+248-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\KV RANA\.gradle\caches\transforms-3\518e60ad8619c528bb1c0dd780112fe5\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:33:17-36
+249        </service>
+250
+251        <provider
+251-->[com.squareup.picasso:picasso:2.8] C:\Users\KV RANA\.gradle\caches\transforms-3\7808464e36ebe105813100a33fefa3d6\transformed\picasso-2.8\AndroidManifest.xml:8:9-11:40
+252            android:name="com.squareup.picasso.PicassoProvider"
+252-->[com.squareup.picasso:picasso:2.8] C:\Users\KV RANA\.gradle\caches\transforms-3\7808464e36ebe105813100a33fefa3d6\transformed\picasso-2.8\AndroidManifest.xml:9:13-64
+253            android:authorities="med.Save.medsaveinv.com.squareup.picasso"
+253-->[com.squareup.picasso:picasso:2.8] C:\Users\KV RANA\.gradle\caches\transforms-3\7808464e36ebe105813100a33fefa3d6\transformed\picasso-2.8\AndroidManifest.xml:10:13-72
+254            android:exported="false" />
+254-->[com.squareup.picasso:picasso:2.8] C:\Users\KV RANA\.gradle\caches\transforms-3\7808464e36ebe105813100a33fefa3d6\transformed\picasso-2.8\AndroidManifest.xml:11:13-37
+255
+256        <service
+256-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\KV RANA\.gradle\caches\transforms-3\cf56d9f9bb8b4f81ae88f03fab2b74fb\transformed\transport-runtime-3.1.9\AndroidManifest.xml:26:9-30:19
+257            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+257-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\KV RANA\.gradle\caches\transforms-3\cf56d9f9bb8b4f81ae88f03fab2b74fb\transformed\transport-runtime-3.1.9\AndroidManifest.xml:27:13-117
+258            android:exported="false"
+258-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\KV RANA\.gradle\caches\transforms-3\cf56d9f9bb8b4f81ae88f03fab2b74fb\transformed\transport-runtime-3.1.9\AndroidManifest.xml:28:13-37
+259            android:permission="android.permission.BIND_JOB_SERVICE" >
+259-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\KV RANA\.gradle\caches\transforms-3\cf56d9f9bb8b4f81ae88f03fab2b74fb\transformed\transport-runtime-3.1.9\AndroidManifest.xml:29:13-69
+260        </service>
+261
+262        <receiver
+262-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\KV RANA\.gradle\caches\transforms-3\cf56d9f9bb8b4f81ae88f03fab2b74fb\transformed\transport-runtime-3.1.9\AndroidManifest.xml:32:9-34:40
+263            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+263-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\KV RANA\.gradle\caches\transforms-3\cf56d9f9bb8b4f81ae88f03fab2b74fb\transformed\transport-runtime-3.1.9\AndroidManifest.xml:33:13-132
+264            android:exported="false" />
+264-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\KV RANA\.gradle\caches\transforms-3\cf56d9f9bb8b4f81ae88f03fab2b74fb\transformed\transport-runtime-3.1.9\AndroidManifest.xml:34:13-37
+265        <receiver
+265-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\KV RANA\.gradle\caches\transforms-3\f92e7929540b57eb51211e4cba59a659\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+266            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+266-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\KV RANA\.gradle\caches\transforms-3\f92e7929540b57eb51211e4cba59a659\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+267            android:directBootAware="false"
+267-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\KV RANA\.gradle\caches\transforms-3\f92e7929540b57eb51211e4cba59a659\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+268            android:enabled="true"
+268-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\KV RANA\.gradle\caches\transforms-3\f92e7929540b57eb51211e4cba59a659\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+269            android:exported="true"
+269-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\KV RANA\.gradle\caches\transforms-3\f92e7929540b57eb51211e4cba59a659\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+270            android:permission="android.permission.DUMP" >
+270-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\KV RANA\.gradle\caches\transforms-3\f92e7929540b57eb51211e4cba59a659\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+271            <intent-filter>
+271-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\KV RANA\.gradle\caches\transforms-3\f92e7929540b57eb51211e4cba59a659\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+272                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+272-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\KV RANA\.gradle\caches\transforms-3\f92e7929540b57eb51211e4cba59a659\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+272-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\KV RANA\.gradle\caches\transforms-3\f92e7929540b57eb51211e4cba59a659\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+273            </intent-filter>
+274            <intent-filter>
+274-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\KV RANA\.gradle\caches\transforms-3\f92e7929540b57eb51211e4cba59a659\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+275                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+275-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\KV RANA\.gradle\caches\transforms-3\f92e7929540b57eb51211e4cba59a659\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+275-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\KV RANA\.gradle\caches\transforms-3\f92e7929540b57eb51211e4cba59a659\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+276            </intent-filter>
+277            <intent-filter>
+277-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\KV RANA\.gradle\caches\transforms-3\f92e7929540b57eb51211e4cba59a659\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+278                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+278-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\KV RANA\.gradle\caches\transforms-3\f92e7929540b57eb51211e4cba59a659\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+278-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\KV RANA\.gradle\caches\transforms-3\f92e7929540b57eb51211e4cba59a659\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+279            </intent-filter>
+280            <intent-filter>
+280-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\KV RANA\.gradle\caches\transforms-3\f92e7929540b57eb51211e4cba59a659\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+281                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+281-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\KV RANA\.gradle\caches\transforms-3\f92e7929540b57eb51211e4cba59a659\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+281-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\KV RANA\.gradle\caches\transforms-3\f92e7929540b57eb51211e4cba59a659\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+282            </intent-filter>
+283        </receiver>
+284    </application>
+285
+286</manifest>

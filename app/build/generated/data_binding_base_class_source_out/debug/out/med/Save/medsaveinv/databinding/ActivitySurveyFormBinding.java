@@ -128,6 +128,9 @@ public final class ActivitySurveyFormBinding implements ViewBinding {
   public final LinearLayout llTwo;
 
   @NonNull
+  public final TextView newDate;
+
+  @NonNull
   public final RelativeLayout rll;
 
   @NonNull
@@ -211,11 +214,12 @@ public final class ActivitySurveyFormBinding implements ViewBinding {
       @NonNull EditText etVeriPatientPhotoMatched, @NonNull EditText etVeriPatientSignature,
       @NonNull EditText etVeriPatientonBed, @NonNull ImageView imgBack,
       @NonNull ImageView imgLogout, @NonNull LinearLayout ll, @NonNull LinearLayout llOne,
-      @NonNull LinearLayout llTwo, @NonNull RelativeLayout rll, @NonNull Spinner spinnerDocIDCard,
-      @NonNull Spinner spinnerDocIndoreCase, @NonNull Spinner spinnerDocPreAuth,
-      @NonNull Spinner spinnerFirstYrPolicy, @NonNull Spinner spinnerModeofTratment,
-      @NonNull Spinner spinnerRoomType, @NonNull Spinner spinnerTypeofClaim,
-      @NonNull Spinner spinnerVeriHospReg, @NonNull Spinner spinnerVeriPatientAbleDisSymptoms,
+      @NonNull LinearLayout llTwo, @NonNull TextView newDate, @NonNull RelativeLayout rll,
+      @NonNull Spinner spinnerDocIDCard, @NonNull Spinner spinnerDocIndoreCase,
+      @NonNull Spinner spinnerDocPreAuth, @NonNull Spinner spinnerFirstYrPolicy,
+      @NonNull Spinner spinnerModeofTratment, @NonNull Spinner spinnerRoomType,
+      @NonNull Spinner spinnerTypeofClaim, @NonNull Spinner spinnerVeriHospReg,
+      @NonNull Spinner spinnerVeriPatientAbleDisSymptoms,
       @NonNull Spinner spinnerVeriPatientAddDetails, @NonNull Spinner spinnerVeriPatientAgeMAtched,
       @NonNull Spinner spinnerVeriPatientApperedDisco,
       @NonNull Spinner spinnerVeriPatientLineTreatment,
@@ -259,6 +263,7 @@ public final class ActivitySurveyFormBinding implements ViewBinding {
     this.ll = ll;
     this.llOne = llOne;
     this.llTwo = llTwo;
+    this.newDate = newDate;
     this.rll = rll;
     this.spinnerDocIDCard = spinnerDocIDCard;
     this.spinnerDocIndoreCase = spinnerDocIndoreCase;
@@ -515,6 +520,12 @@ public final class ActivitySurveyFormBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.newDate;
+      TextView newDate = ViewBindings.findChildViewById(rootView, id);
+      if (newDate == null) {
+        break missingId;
+      }
+
       id = R.id.rll;
       RelativeLayout rll = ViewBindings.findChildViewById(rootView, id);
       if (rll == null) {
@@ -659,7 +670,7 @@ public final class ActivitySurveyFormBinding implements ViewBinding {
           etInvestigatorMob, etNameAndAdd, etNoOfBed, etPolicyNo, etRelationInsured, etReqAmount,
           etRoomRent, etSex, etSumInsured, etTLCWBC, etTemp, etVeriPatientAddDetails,
           etVeriPatientAgeMAtched, etVeriPatientPhotoMatched, etVeriPatientSignature,
-          etVeriPatientonBed, imgBack, imgLogout, ll, llOne, llTwo, rll, spinnerDocIDCard,
+          etVeriPatientonBed, imgBack, imgLogout, ll, llOne, llTwo, newDate, rll, spinnerDocIDCard,
           spinnerDocIndoreCase, spinnerDocPreAuth, spinnerFirstYrPolicy, spinnerModeofTratment,
           spinnerRoomType, spinnerTypeofClaim, spinnerVeriHospReg,
           spinnerVeriPatientAbleDisSymptoms, spinnerVeriPatientAddDetails,

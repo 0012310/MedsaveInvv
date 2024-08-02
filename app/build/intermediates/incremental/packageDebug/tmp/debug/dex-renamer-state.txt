@@ -1,13 +1,13 @@
-#Tue Jul 23 14:07:03 IST 2024
-base.0=D\:\\Karmveer Singh Rana\\INV\\MedsaveInv-master\\MedsaveInv-master\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=D\:\\Karmveer Singh Rana\\INV\\MedsaveInv-master\\MedsaveInv-master\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=D\:\\Karmveer Singh Rana\\INV\\MedsaveInv-master\\MedsaveInv-master\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
-base.3=D\:\\Karmveer Singh Rana\\INV\\MedsaveInv-master\\MedsaveInv-master\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
-base.4=D\:\\Karmveer Singh Rana\\INV\\MedsaveInv-master\\MedsaveInv-master\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\6\\classes.dex
-base.5=D\:\\Karmveer Singh Rana\\INV\\MedsaveInv-master\\MedsaveInv-master\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
-base.6=D\:\\Karmveer Singh Rana\\INV\\MedsaveInv-master\\MedsaveInv-master\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
-base.7=D\:\\Karmveer Singh Rana\\INV\\MedsaveInv-master\\MedsaveInv-master\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
-base.8=D\:\\Karmveer Singh Rana\\INV\\MedsaveInv-master\\MedsaveInv-master\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes4.dex
+#Fri Aug 02 23:28:43 IST 2024
+base.0=I\:\\Sonu Yadavv\\Sonu Yadav\\Medsave Inv App\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=I\:\\Sonu Yadavv\\Sonu Yadav\\Medsave Inv App\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=I\:\\Sonu Yadavv\\Sonu Yadav\\Medsave Inv App\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
+base.3=I\:\\Sonu Yadavv\\Sonu Yadav\\Medsave Inv App\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
+base.4=I\:\\Sonu Yadavv\\Sonu Yadav\\Medsave Inv App\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\6\\classes.dex
+base.5=I\:\\Sonu Yadavv\\Sonu Yadav\\Medsave Inv App\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
+base.6=I\:\\Sonu Yadavv\\Sonu Yadav\\Medsave Inv App\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+base.7=I\:\\Sonu Yadavv\\Sonu Yadav\\Medsave Inv App\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
+base.8=I\:\\Sonu Yadavv\\Sonu Yadav\\Medsave Inv App\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes4.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=11/classes.dex

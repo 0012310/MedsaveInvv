@@ -105,6 +105,7 @@ id llparent
 id nav_graph
 id nav_host_fragment_content_survey_form
 id nav_view
+id newDate
 id profileImage
 id progressBar
 id progressLayout

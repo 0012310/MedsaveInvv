@@ -374,7 +374,6 @@
                     </TextView>
 
                     <TextView
-                        android:gravity="center_vertical"
                         android:id="@+id/etDateofAddmission"
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/etsize"
@@ -382,6 +381,7 @@
                         android:layout_marginTop="10dp"
                         android:layout_marginEnd="20dp"
                         android:background="@drawable/edittextblue"
+                        android:gravity="center_vertical"
                         android:hint="Enter Date(DD/MM/YYYY)"
                         android:paddingStart="@dimen/paddingstart"
                         android:paddingEnd="@dimen/paddingstart"
@@ -401,7 +401,6 @@
                     </TextView>
 
                     <TextView
-                        android:gravity="center_vertical"
                         android:id="@+id/etDateofDis"
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/etsize"
@@ -409,6 +408,7 @@
                         android:layout_marginTop="10dp"
                         android:layout_marginEnd="20dp"
                         android:background="@drawable/edittextblue"
+                        android:gravity="center_vertical"
                         android:hint="Enter Date(DD/MM/YYYY)"
                         android:paddingStart="@dimen/paddingstart"
                         android:paddingEnd="@dimen/paddingstart"
@@ -505,7 +505,6 @@
                     </TextView>
 
                     <EditText
-                        android:inputType="number"
                         android:id="@+id/etRoomRent"
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/etsize"
@@ -513,6 +512,7 @@
                         android:layout_marginTop="10dp"
                         android:layout_marginEnd="20dp"
                         android:background="@drawable/edittextblue"
+                        android:inputType="number"
                         android:paddingStart="@dimen/paddingstart"
                         android:paddingEnd="@dimen/paddingstart"
                         android:textColor="@color/black"
@@ -570,6 +570,37 @@
                         android:paddingEnd="@dimen/paddingstart"
                         android:textColor="@color/black"
                         android:textSize="@dimen/inputsizesm" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="start"
+                        android:text="Date"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/inputsizesm">
+
+                    </TextView>
+
+
+                    <TextView
+                        android:id="@+id/newDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/etsize"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@drawable/edittextblue"
+                        android:gravity="center_vertical"
+                        android:hint="Enter Date(DD/MM/YYYY)"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:textColorHint="@color/black">
+
+                    </TextView>
+
+
 
                     <androidx.appcompat.widget.AppCompatButton
                         android:id="@+id/btnNext"
@@ -740,9 +771,9 @@
                         android:layout_marginTop="10dp"
                         android:layout_marginEnd="20dp"
                         android:background="@drawable/edittextblue"
+                        android:inputType="number"
                         android:paddingStart="@dimen/paddingstart"
                         android:paddingEnd="@dimen/paddingstart"
-                        android:inputType="number"
                         android:textColor="@color/black"
                         android:textSize="@dimen/inputsizesm" />
 
@@ -1241,7 +1272,6 @@
                     </TextView>
 
                     <EditText
-                        android:maxLength="5"
                         android:id="@+id/etTemp"
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/etsize"
@@ -1249,6 +1279,7 @@
                         android:layout_marginTop="10dp"
                         android:layout_marginEnd="20dp"
                         android:background="@drawable/edittextblue"
+                        android:maxLength="5"
                         android:paddingStart="@dimen/paddingstart"
                         android:paddingEnd="@dimen/paddingstart"
                         android:textColor="@color/black"
@@ -1267,7 +1298,6 @@
                     </TextView>
 
                     <EditText
-                        android:maxLength="7"
                         android:id="@+id/etBP"
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/etsize"
@@ -1275,6 +1305,7 @@
                         android:layout_marginTop="10dp"
                         android:layout_marginEnd="20dp"
                         android:background="@drawable/edittextblue"
+                        android:maxLength="7"
                         android:paddingStart="@dimen/paddingstart"
                         android:paddingEnd="@dimen/paddingstart"
                         android:textColor="@color/black"
@@ -1293,8 +1324,6 @@
                     </TextView>
 
                     <EditText
-                        android:inputType="number"
-                        android:maxLength="3"
                         android:id="@+id/etBloodSugar"
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/etsize"
@@ -1302,6 +1331,8 @@
                         android:layout_marginTop="10dp"
                         android:layout_marginEnd="20dp"
                         android:background="@drawable/edittextblue"
+                        android:inputType="number"
+                        android:maxLength="3"
                         android:paddingStart="@dimen/paddingstart"
                         android:paddingEnd="@dimen/paddingstart"
                         android:textColor="@color/black"
