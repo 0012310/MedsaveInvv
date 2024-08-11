@@ -1,3 +1,0 @@
-med.Save.medsaveinv.test
-style WhiteBackgroundDialogTheme
-style WhiteBackgroundTheme

@@ -14,8 +14,8 @@ android {
         applicationId "med.Save.medsaveinv"
         minSdk 24
         targetSdk 34
-        versionCode 2007
-        versionName "2.0.0.7"
+        versionCode 2008
+        versionName "2.0.0.8"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }

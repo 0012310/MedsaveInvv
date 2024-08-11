@@ -20,6 +20,7 @@
     <dimen name="inputsizesm">14dp</dimen>
     <dimen name="paddingstart">10dp</dimen>
     <string name="app_name">MedsaveInv</string>
+    <string name="cancelBtn">CANCEL</string>
     <string name="com.google.firebase.crashlytics.mapping_file_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">00000000000000000000000000000000</string>
     <string name="first_fragment_label">First Fragment</string>
     <string name="gcm_defaultSenderId" translatable="false">593340333727</string>
@@ -65,13 +66,17 @@
     </string>
     <string name="navigation_drawer_close">Close navigation Drawer</string>
     <string name="navigation_drawer_open">Open navigation Drawer</string>
+    <string name="newVersionTitle">New Version Update</string>
     <string name="next">Next</string>
     <string name="password">Password</string>
     <string name="previous">Previous</string>
     <string name="project_id" translatable="false">medsaveinv</string>
     <string name="second_fragment_label">Second Fragment</string>
     <string name="title_activity_survey_form">SurveyFormActivity</string>
+    <string name="updateBtn">UPDATE</string>
     <string name="userid">User ID</string>
+    <string name="versionEnd">"is available on play store. Please update your Medsave Inv App to get latest features."</string>
+    <string name="versionStr">"New Version "</string>
     <style name="Base.Theme.MedsaveInv" parent="Theme.Material3.DayNight.NoActionBar">
         
         <item name="colorPrimary">@color/newprimarycolor</item>

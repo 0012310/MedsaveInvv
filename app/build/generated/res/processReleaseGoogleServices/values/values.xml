@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">593340333727</string>
+    <string name="google_api_key" translatable="false">AIzaSyCHcLIpSnuRmjsZRbz5Jezeiq32oXaE0Mo</string>
+    <string name="google_app_id" translatable="false">1:593340333727:android:32dad0ae07cddab70decaa</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCHcLIpSnuRmjsZRbz5Jezeiq32oXaE0Mo</string>
+    <string name="google_storage_bucket" translatable="false">medsaveinv.appspot.com</string>
+    <string name="project_id" translatable="false">medsaveinv</string>
+</resources>

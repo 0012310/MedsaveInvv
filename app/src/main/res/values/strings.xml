@@ -54,5 +54,10 @@
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
 
+    <string name="versionStr">"New Version "</string>
+    <string name="versionEnd">"is available on play store. Please update your Medsave Inv App to get latest features."</string>
+    <string name="newVersionTitle">New Version Update</string>
+    <string name="updateBtn">UPDATE</string>
+    <string name="cancelBtn">CANCEL</string>
 </resources>
 
