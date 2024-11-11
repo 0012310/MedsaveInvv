@@ -4,11 +4,18 @@ import android.Manifest
 import android.app.Activity
 import android.app.AlertDialog
 import android.app.ProgressDialog
+
+import android.graphics.Typeface
+import android.text.Layout
+import android.text.StaticLayout
+import android.text.TextPaint
 import android.content.Context
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
+import android.graphics.Canvas
+import android.graphics.Paint
 import android.location.Geocoder
 import android.location.Location
 import android.net.Uri
@@ -30,6 +37,7 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
+import android.graphics.Color
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.core.content.FileProvider
@@ -43,6 +51,9 @@ import com.google.android.gms.location.LocationServices
 
 import med.Save.medsaveinv.DataBase.SharedPreferenceUtils
 import com.google.android.material.bottomsheet.BottomSheetDialog
+import com.google.zxing.BarcodeFormat
+import com.google.zxing.WriterException
+import com.google.zxing.qrcode.QRCodeWriter
 import org.json.JSONException
 import org.json.JSONObject
 import java.io.ByteArrayOutputStream
@@ -97,7 +108,6 @@ class DirectActivity : AppCompatActivity() {
     val images = ArrayList<Uri>()
 
     private lateinit var fusedLocationClient: FusedLocationProviderClient
-
     // Here new code for upload images
 
     private val pickImages =
@@ -270,8 +280,14 @@ class DirectActivity : AppCompatActivity() {
                 val geocoder = Geocoder(this, Locale.getDefault())
                 val addresses = geocoder.getFromLocation(lat, lon, 1)
                 val address = addresses?.get(0)?.getAddressLine(0)
-                tvLocation.text = address
-                //   Toast.makeText(this, ""+address, Toast.LENGTH_SHORT).show()
+
+                val sdf = SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.getDefault())
+                val currentTime = sdf.format(Date())
+
+                tvLocation.text = address + "\n" +
+                        "Lat " + lat + "\n" +
+                        "Long " + lon + "\n" +
+                        "Time: " + currentTime
 
 
             }
@@ -329,8 +345,10 @@ class DirectActivity : AppCompatActivity() {
             postData.put("ImageData", latestPhoto)
             postData.put("fileno", sharedPreferences.getStringValue("fileNo", ""))
             postData.put("userName", sharedPreferences.getStringValue("username", ""))
-            Log.d("Image_Req_DP", postData.toString())
-            osw?.write("Image_Req_DP  $postData\n".toByteArray())
+
+            Log.d("Image_Req_DP", sharedPreferences.getStringValue("username", "") + msg)
+         //   osw?.write("Image_Req_DP  $postData\n".toByteArray())
+            osw?.write("Image_Req_DP  $latestPhoto\n".toByteArray())
         } catch (e: JSONException) {
             e.printStackTrace()
         }
@@ -864,30 +882,104 @@ class DirectActivity : AppCompatActivity() {
     @Deprecated("Deprecated in Java")
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
-        if (requestCode == CAPTURE_IMAGE_REQUEST && resultCode == Activity.RESULT_OK) {
-            val myBitmap = BitmapFactory.decodeFile(photoFile!!.absolutePath)
-            imageClicked.setImageBitmap(myBitmap)
-            if (requestPermissionsLocation()) {
-                getLastLocation()
+            if (requestCode == CAPTURE_IMAGE_REQUEST && resultCode == RESULT_OK) {
+                val myBitmap = BitmapFactory.decodeFile(photoFile!!.absolutePath)
+
+                // Ensure location fetching and bitmap update happens after location is available
+                var locationInfo = ""
+                if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+                    requestPermissionsLocation()
+                    return
+                }
+
+                fusedLocationClient.lastLocation.addOnSuccessListener { location: Location? ->
+                    location?.let {
+                        val lat = location.latitude
+                        val lon = location.longitude
+
+                        val geocoder = Geocoder(this, Locale.getDefault())
+                        val addresses = geocoder.getFromLocation(lat, lon, 1)
+                        val address = addresses?.get(0)?.getAddressLine(0) ?: "Unknown location"
+
+                        val sdf = SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.getDefault())
+                        val currentTime = sdf.format(Date())
+
+
+
+                        // Construct location and timestamp information
+                        locationInfo = "$address\nLat $lat\nLong $lon\nTime: $currentTime"
+
+
+                        // Create QR code of the location info
+                        val qrCodeBitmap = generateQRCode(locationInfo)
+
+
+                        // Create a mutable copy of the bitmap
+                        val mutableBitmap = myBitmap.copy(Bitmap.Config.ARGB_8888, true)
+                        val canvas = Canvas(mutableBitmap)
+
+                        // Prepare the text paint for overlaying the text
+                        val textPaint = TextPaint().apply {
+                            color = Color.GREEN // Set the text color
+                            textSize = 60f // Increased text size
+                            isAntiAlias = true // Enable anti-aliasing for smooth text
+                            style = Paint.Style.FILL // Fill the text area
+                            typeface = Typeface.create(Typeface.DEFAULT, Typeface.BOLD) // Bold text
+                            setShadowLayer(10f, 10f, 10f, Color.BLACK) // Add shadow for better visibility
+                        }
+
+                        // Use StaticLayout to draw multiline text
+                        val textLayout = StaticLayout(
+                            locationInfo,
+                            textPaint,
+                            mutableBitmap.width - 100, // Width for the layout
+                            Layout.Alignment.ALIGN_NORMAL,
+                            1.0f, // Spacing multiplier
+                            0f, // Additional spacing
+                            false // Include padding
+                        )
+
+
+
+                        // Draw the text layout on the canvas
+                        canvas.save()
+                        canvas.translate(50f, mutableBitmap.height - textLayout.height - 50f) // Positioning
+                        textLayout.draw(canvas)
+                        canvas.restore()
+
+
+                        // Draw the QR code on the right side of the location text
+                        qrCodeBitmap?.let { qrBitmap ->
+                            val qrX = mutableBitmap.width - qrBitmap.width - 50f // Positioning on the right side
+                            val qrY = mutableBitmap.height - qrBitmap.height - textLayout.height - 50f
+                            canvas.drawBitmap(qrBitmap, qrX, qrY, null)
+                        }
+
+                        // Set the modified bitmap (with text) to the ImageView
+                        imageClicked.setImageBitmap(mutableBitmap)  // Correct bitmap assignment
+
+                        // Encode the modified bitmap to Base64 for upload or further processing
+                        val bytes = ByteArrayOutputStream()
+                        mutableBitmap.compress(Bitmap.CompressFormat.JPEG, 30, bytes)
+                        val byteArr = bytes.toByteArray()
+                        latestPhoto = Base64.encodeToString(byteArr, Base64.DEFAULT)
+
+                        // Upload or further processing
+                        if (docType == "MoreDocumnets") {
+                            callApitoUploadMoreDocImageClick(mutableBitmap, latestPhoto)
+                        } else {
+                            imagearrow.visibility = View.VISIBLE
+                        }
+                    }
+                }
+
+                // Request location if necessary
+                if (requestPermissionsLocation()) {
+                    getLastLocation()
+                }
             }
 
 
-            if (docType == "MoreDocumnets") {
-                val bytes = ByteArrayOutputStream()
-                myBitmap.compress(Bitmap.CompressFormat.JPEG, 30, bytes)
-                val byteArr = bytes.toByteArray()
-                latestPhoto = Base64.encodeToString(byteArr, Base64.DEFAULT)
-                callApitoUploadMoreDocImageClick(myBitmap, latestPhoto)
-            } else {
-                val bytes = ByteArrayOutputStream()
-                myBitmap.compress(Bitmap.CompressFormat.JPEG, 30, bytes)
-                val byteArr = bytes.toByteArray()
-                latestPhoto = Base64.encodeToString(byteArr, Base64.DEFAULT)
-                imagearrow.visibility = View.VISIBLE
-            }
-
-
-        }
         else if (requestCode == IMAGE_CHOOSE && resultCode == RESULT_OK) {
             if (data != null) {
                 if (docType == "MoreDocumnets") {
@@ -903,26 +995,97 @@ class DirectActivity : AppCompatActivity() {
                         e.printStackTrace()
                     }
                     callApitoUploadMoreDocImageGallery(data.data, latestPhoto)
-                } else {
+                }
+                else {
                     try {
-                        val bitmap =
-                            MediaStore.Images.Media.getBitmap(contentResolver, data.data)
+                        val bitmap = MediaStore.Images.Media.getBitmap(contentResolver, data.data)
                         val stream = ByteArrayOutputStream()
                         bitmap.compress(Bitmap.CompressFormat.JPEG, 30, stream)
 
                         val bytes = stream.toByteArray()
                         latestPhoto = Base64.encodeToString(bytes, Base64.DEFAULT)
-                        //                callDialog(latestPhoto)
+
+                        // Create a mutable bitmap to draw text on it
+                        val mutableBitmap = bitmap.copy(Bitmap.Config.ARGB_8888, true) // Changed myBitmap to bitmap here
+                        val canvas = Canvas(mutableBitmap)
+
+                        // Create a TextPaint object for drawing the text
+                        val textPaint = TextPaint().apply {
+                            color = Color.GREEN // Set the text color
+                            textSize = 60f // Increased text size
+                            isAntiAlias = true // Enable anti-aliasing for smooth text
+                            style = Paint.Style.FILL // Fill the text area
+                            typeface = Typeface.create(Typeface.DEFAULT, Typeface.BOLD) // Set text to bold
+                            setShadowLayer(10f, 10f, 10f, Color.BLACK) // Add shadow for better visibility
+                        }
+
+                        // Ensure location fetching happens before drawing text
+                        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+                            requestPermissionsLocation()
+                            return
+                        }
+
+                        fusedLocationClient.lastLocation.addOnSuccessListener { location: Location? ->
+                            location?.let {
+                                val lat = location.latitude
+                                val lon = location.longitude
+
+                                val geocoder = Geocoder(this, Locale.getDefault())
+                                val addresses = geocoder.getFromLocation(lat, lon, 1)
+                                val address = addresses?.get(0)?.getAddressLine(0)
+
+                                val sdf = SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.getDefault())
+                                val currentTime = sdf.format(Date())
+
+                                // Update location text after fetching
+                                val locationnn = "$address\nLat: $lat\nLong: $lon\nTime: $currentTime"
+
+                                val qrCodeBitmap = generateQRCode(locationnn)
+
+                                // Create a StaticLayout for multiline text
+                                val textLayout = StaticLayout(
+                                    locationnn,
+                                    textPaint,
+                                    mutableBitmap.width - 100, // Width for the layout
+                                    Layout.Alignment.ALIGN_NORMAL,
+                                    1.0f, // Spacing multiplier
+                                    0f, // Additional spacing
+                                    false // Include padding
+                                )
+
+                                // Draw the text layout on the canvas
+                                canvas.save()
+                                canvas.translate(50f, mutableBitmap.height - textLayout.height - 50f) // Positioning
+                                textLayout.draw(canvas)
+                                canvas.restore()
+
+
+                                qrCodeBitmap?.let { qrBitmap ->
+                                    val qrX = mutableBitmap.width - qrBitmap.width - 50f // Positioning on the right side
+                                    val qrY = mutableBitmap.height - qrBitmap.height - textLayout.height - 50f
+                                    canvas.drawBitmap(qrBitmap, qrX, qrY, null)
+                                }
+                                // Set the modified bitmap (with text) to the ImageView
+                                imageClicked.setImageBitmap(mutableBitmap)
+
+                                val bytes = ByteArrayOutputStream()
+                                mutableBitmap.compress(Bitmap.CompressFormat.JPEG, 30, bytes)
+                                val byteArr = bytes.toByteArray()
+                                latestPhoto = Base64.encodeToString(byteArr, Base64.DEFAULT)
+                                imagearrow.visibility = View.VISIBLE
+                            }
+                        }
+
                     } catch (e: IOException) {
                         e.printStackTrace()
                     }
-                    imageClicked.setImageURI(data.data)
-                    imagearrow.visibility = View.VISIBLE
                 }
 
             }
-        } else if (requestCode == PICK_CODE && resultCode == RESULT_OK) {
-            if (resultCode == Activity.RESULT_OK) {
+        }
+
+            else if (requestCode == PICK_CODE && resultCode == RESULT_OK) {
+            if (resultCode == RESULT_OK) {
                 if (data?.clipData != null) {
                     btnUploadMulti.visibility = View.VISIBLE
                     val count = data.clipData?.itemCount!!
@@ -964,5 +1127,22 @@ class DirectActivity : AppCompatActivity() {
         }
 
     }
+
+    fun generateQRCode(data: String): Bitmap? {
+        val size = 400 // QR code dimensions
+        try {
+            val bitMatrix = QRCodeWriter().encode(data, BarcodeFormat.QR_CODE, size, size)
+            val qrBitmap = Bitmap.createBitmap(size, size, Bitmap.Config.ARGB_8888)
+            for (x in 0 until size) {
+                for (y in 0 until size) {
+                    qrBitmap.setPixel(x, y, if (bitMatrix[x, y]) Color.BLACK else Color.WHITE)
+                }
+            }
+            return qrBitmap
+        } catch (e: WriterException) {
+            e.printStackTrace()
+            return null
+        }
 }
+    }
 

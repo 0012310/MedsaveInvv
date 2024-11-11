@@ -22,6 +22,11 @@ MERGED from [com.google.android.gms:play-services-measurement-api:21.6.2] C:\Use
 MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\KV RANA\.gradle\caches\transforms-3\1eb05524e2cc5d8bf92b46dae7be1cd5\transformed\firebase-installations-17.2.0\AndroidManifest.xml:2:1-24:12
 MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\KV RANA\.gradle\caches\transforms-3\fd698361980bfe7544958754a12960b3\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:2:1-18:12
 MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\KV RANA\.gradle\caches\transforms-3\ffd0009314af9ad780968b3ecb20efb9\transformed\firebase-common-20.4.2\AndroidManifest.xml:15:1-41:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.4] C:\Users\KV RANA\.gradle\caches\transforms-3\b3972c885a084a130e19a06da9ef4e52\transformed\ui-graphics-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.4] C:\Users\KV RANA\.gradle\caches\transforms-3\1cf6eb7b5ddda196404e75244c1d3ff8\transformed\ui-geometry-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.7.4] C:\Users\KV RANA\.gradle\caches\transforms-3\ec26eba7f14356bfce76f6aa5c7c0b9c\transformed\ui-util-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.4] C:\Users\KV RANA\.gradle\caches\transforms-3\1dbca0c51602670c9d85e5c625908f02\transformed\ui-unit-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.7.4] C:\Users\KV RANA\.gradle\caches\transforms-3\d3c503f481cc4f74952564628a44b2c8\transformed\runtime-release\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.datastore:datastore-preferences:1.0.0] C:\Users\KV RANA\.gradle\caches\transforms-3\16490de38f0898dd58458cb3a0fb5f48\transformed\datastore-preferences-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.datastore:datastore:1.0.0] C:\Users\KV RANA\.gradle\caches\transforms-3\fec9c9173df842441a7ffb826db831b5\transformed\datastore-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-measurement:21.6.2] C:\Users\KV RANA\.gradle\caches\transforms-3\bb54daee9cae379de68e27f46d8dc619\transformed\play-services-measurement-21.6.2\AndroidManifest.xml:17:1-46:12
@@ -62,6 +67,7 @@ MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\KV RANA\
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\KV RANA\.gradle\caches\transforms-3\cba4511a765b4d77271bf2a3fc48e956\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\KV RANA\.gradle\caches\transforms-3\93c70b61083e65513b520b33a080b2d1\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.media:media:1.6.0] C:\Users\KV RANA\.gradle\caches\transforms-3\5d4ce79044c798ab66e6c428685f8f2a\transformed\media-1.6.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\KV RANA\.gradle\caches\transforms-3\1742fcaa7ca4aed70097ffb9acfef297\transformed\graphics-path-1.0.1\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.palette:palette:1.0.0] C:\Users\KV RANA\.gradle\caches\transforms-3\0449b9c1c4285baaa0b1e323da525584\transformed\palette-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\KV RANA\.gradle\caches\transforms-3\503411e8927b79448c41b11644dec5b3\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\KV RANA\.gradle\caches\transforms-3\b2bf5b08e9f88a4f51559a0391eaf6d0\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -106,7 +112,7 @@ MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\KV RANA\.gradle\cac
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\KV RANA\.gradle\caches\transforms-3\b69091a453a9d1dfcf597216005f2726\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\KV RANA\.gradle\caches\transforms-3\01ccc89d714618c82010ec3d373b2feb\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\KV RANA\.gradle\caches\transforms-3\7708d108dd5909afc037b94890e40ecf\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\KV RANA\.gradle\caches\transforms-3\faad6c4fd84bddfc4dfb149e141eec55\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\KV RANA\.gradle\caches\transforms-3\f63a7288d722ade52dbc634088729642\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
 	package
 		INJECTED from I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml
 	android:versionName
@@ -450,6 +456,16 @@ MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\KV RANA\.g
 MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\KV RANA\.gradle\caches\transforms-3\fd698361980bfe7544958754a12960b3\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\KV RANA\.gradle\caches\transforms-3\ffd0009314af9ad780968b3ecb20efb9\transformed\firebase-common-20.4.2\AndroidManifest.xml:19:5-44
 MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\KV RANA\.gradle\caches\transforms-3\ffd0009314af9ad780968b3ecb20efb9\transformed\firebase-common-20.4.2\AndroidManifest.xml:19:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.4] C:\Users\KV RANA\.gradle\caches\transforms-3\b3972c885a084a130e19a06da9ef4e52\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.4] C:\Users\KV RANA\.gradle\caches\transforms-3\b3972c885a084a130e19a06da9ef4e52\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.4] C:\Users\KV RANA\.gradle\caches\transforms-3\1cf6eb7b5ddda196404e75244c1d3ff8\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.4] C:\Users\KV RANA\.gradle\caches\transforms-3\1cf6eb7b5ddda196404e75244c1d3ff8\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.4] C:\Users\KV RANA\.gradle\caches\transforms-3\ec26eba7f14356bfce76f6aa5c7c0b9c\transformed\ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.4] C:\Users\KV RANA\.gradle\caches\transforms-3\ec26eba7f14356bfce76f6aa5c7c0b9c\transformed\ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.4] C:\Users\KV RANA\.gradle\caches\transforms-3\1dbca0c51602670c9d85e5c625908f02\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.4] C:\Users\KV RANA\.gradle\caches\transforms-3\1dbca0c51602670c9d85e5c625908f02\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.4] C:\Users\KV RANA\.gradle\caches\transforms-3\d3c503f481cc4f74952564628a44b2c8\transformed\runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.4] C:\Users\KV RANA\.gradle\caches\transforms-3\d3c503f481cc4f74952564628a44b2c8\transformed\runtime-release\AndroidManifest.xml:5:5-44
 MERGED from [androidx.datastore:datastore-preferences:1.0.0] C:\Users\KV RANA\.gradle\caches\transforms-3\16490de38f0898dd58458cb3a0fb5f48\transformed\datastore-preferences-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.datastore:datastore-preferences:1.0.0] C:\Users\KV RANA\.gradle\caches\transforms-3\16490de38f0898dd58458cb3a0fb5f48\transformed\datastore-preferences-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.datastore:datastore:1.0.0] C:\Users\KV RANA\.gradle\caches\transforms-3\fec9c9173df842441a7ffb826db831b5\transformed\datastore-1.0.0\AndroidManifest.xml:20:5-22:41
@@ -530,6 +546,8 @@ MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\KV RANA\.gra
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\KV RANA\.gradle\caches\transforms-3\93c70b61083e65513b520b33a080b2d1\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.media:media:1.6.0] C:\Users\KV RANA\.gradle\caches\transforms-3\5d4ce79044c798ab66e6c428685f8f2a\transformed\media-1.6.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.media:media:1.6.0] C:\Users\KV RANA\.gradle\caches\transforms-3\5d4ce79044c798ab66e6c428685f8f2a\transformed\media-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\KV RANA\.gradle\caches\transforms-3\1742fcaa7ca4aed70097ffb9acfef297\transformed\graphics-path-1.0.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\KV RANA\.gradle\caches\transforms-3\1742fcaa7ca4aed70097ffb9acfef297\transformed\graphics-path-1.0.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.palette:palette:1.0.0] C:\Users\KV RANA\.gradle\caches\transforms-3\0449b9c1c4285baaa0b1e323da525584\transformed\palette-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.palette:palette:1.0.0] C:\Users\KV RANA\.gradle\caches\transforms-3\0449b9c1c4285baaa0b1e323da525584\transformed\palette-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\KV RANA\.gradle\caches\transforms-3\503411e8927b79448c41b11644dec5b3\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
@@ -618,8 +636,8 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\KV RANA\.gradle\caches\transforms-3\01ccc89d714618c82010ec3d373b2feb\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\KV RANA\.gradle\caches\transforms-3\7708d108dd5909afc037b94890e40ecf\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\KV RANA\.gradle\caches\transforms-3\7708d108dd5909afc037b94890e40ecf\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\KV RANA\.gradle\caches\transforms-3\faad6c4fd84bddfc4dfb149e141eec55\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\KV RANA\.gradle\caches\transforms-3\faad6c4fd84bddfc4dfb149e141eec55\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\KV RANA\.gradle\caches\transforms-3\f63a7288d722ade52dbc634088729642\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\KV RANA\.gradle\caches\transforms-3\f63a7288d722ade52dbc634088729642\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
 	android:targetSdkVersion
 		INJECTED from I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\AndroidManifest.xml
 	android:minSdkVersion

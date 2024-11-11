@@ -2015,6 +2015,7 @@
     <item name="ghost_view" type="id"/>
     <item name="ghost_view_holder" type="id"/>
     <item name="glide_custom_view_target_tag" type="id"/>
+    <item name="hide_graphics_layer_in_inspector_tag" type="id"/>
     <item name="home" type="id"/>
     <item name="item_touch_helper_previous_elevation" type="id"/>
     <item name="line1" type="id"/>

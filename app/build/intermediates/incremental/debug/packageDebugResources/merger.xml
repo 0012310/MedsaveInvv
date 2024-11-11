@@ -3,7 +3,7 @@
         <item>Select User Type</item>
         <item>MedSave</item>
         <item>Agency</item>
-    </string-array><string name="title_activity_survey_form">SurveyFormActivity</string><string name="first_fragment_label">First Fragment</string><string name="second_fragment_label">Second Fragment</string><string name="next">Next</string><string name="previous">Previous</string><string name="versionStr">"New Version "</string><string name="versionEnd">"is available on play store. Please update your Medsave Inv App to get latest features."</string><string name="newVersionTitle">New Version Update</string><string name="updateBtn">UPDATE</string><string name="cancelBtn">CANCEL</string><string name="lorem_ipsum">
+    </string-array><string name="title_activity_survey_form">SurveyFormActivity</string><string name="first_fragment_label">First Fragment</string><string name="second_fragment_label">Second Fragment</string><string name="next">Next</string><string name="previous">Previous</string><string name="lorem_ipsum">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
         volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
         dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
@@ -38,14 +38,14 @@
         sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
         libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
-    </string></file><file path="I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\res\values\themes.xml" qualifiers=""><style name="Base.Theme.MedsaveInv" parent="Theme.Material3.DayNight.NoActionBar">
+    </string><string name="versionStr">"New Version "</string><string name="versionEnd">"is available on play store. Please update your Medsave Inv App to get latest features."</string><string name="newVersionTitle">New Version Update</string><string name="updateBtn">UPDATE</string><string name="cancelBtn">CANCEL</string></file><file path="I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\res\values\themes.xml" qualifiers=""><style name="Base.Theme.MedsaveInv" parent="Theme.Material3.DayNight.NoActionBar">
         
         <item name="colorPrimary">@color/newprimarycolor</item>
     </style><style name="Theme.MedsaveInv" parent="Base.Theme.MedsaveInv"/></file><file path="I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\res\values-land\dimens.xml" qualifiers="land"><dimen name="fab_margin">48dp</dimen></file><file path="I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\res\values-night\dimens.xml" qualifiers="night-v8"><dimen name="etsize">52dp</dimen><dimen name="btnheight">52dp</dimen></file><file path="I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\res\values-night\strings.xml" qualifiers="night-v8"><string name="app_name">MedsaveInv</string><string name="navigation_drawer_open">Open navigation Drawer</string><string name="navigation_drawer_close">Close navigation Drawer</string><string name="userid">User ID</string><string name="password">Password</string><string-array name="user_type">
         <item>Select User Type</item>
         <item>MedSave</item>
         <item>Agency</item>
-    </string-array><string name="title_activity_survey_form">SurveyFormActivity</string><string name="first_fragment_label">First Fragment</string><string name="second_fragment_label">Second Fragment</string><string name="next">Next</string><string name="previous">Previous</string><string name="versionStr">"New Version "</string><string name="versionEnd">"is available on play store. Please update your Medsave Inv App to get latest features."</string><string name="newVersionTitle">New Version Update</string><string name="updateBtn">UPDATE</string><string name="cancelBtn">CANCEL</string><string name="lorem_ipsum">
+    </string-array><string name="title_activity_survey_form">SurveyFormActivity</string><string name="first_fragment_label">First Fragment</string><string name="second_fragment_label">Second Fragment</string><string name="next">Next</string><string name="previous">Previous</string><string name="lorem_ipsum">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
         volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
         dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
@@ -80,7 +80,7 @@
         sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
         libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
-    </string></file><file path="I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\res\values-night\themes.xml" qualifiers="night-v8"><style name="Base.Theme.MedsaveInv" parent="Theme.Material3.DayNight.NoActionBar">
+    </string><string name="versionStr">"New Version "</string><string name="versionEnd">"is available on play store. Please update your Medsave Inv App to get latest features."</string><string name="newVersionTitle">New Version Update</string><string name="updateBtn">UPDATE</string><string name="cancelBtn">CANCEL</string></file><file path="I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\res\values-night\themes.xml" qualifiers="night-v8"><style name="Base.Theme.MedsaveInv" parent="Theme.Material3.DayNight.NoActionBar">
         
         
     </style></file><file path="I:\Sonu Yadavv\Sonu Yadav\Medsave Inv App\app\src\main\res\values-v23\themes.xml" qualifiers="v23"><style name="Theme.MedsaveInv" parent="Base.Theme.MedsaveInv">

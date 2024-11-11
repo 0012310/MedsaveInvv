@@ -30,7 +30,6 @@
                                202305180B011RH02574-->
 
             <EditText
-                android:text="20230518B011RH02574"
                 android:id="@+id/etFileNo"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/etsize"

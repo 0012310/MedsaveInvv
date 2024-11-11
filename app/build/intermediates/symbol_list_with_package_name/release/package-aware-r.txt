@@ -4003,6 +4003,7 @@ id group_divider
 id grouping
 id groups
 id header_title
+id hide_graphics_layer_in_inspector_tag
 id hide_ime_id
 id hideable
 id home
