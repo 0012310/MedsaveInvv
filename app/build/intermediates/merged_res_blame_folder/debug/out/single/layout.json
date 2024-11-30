@@ -68,10 +68,6 @@
         "source": "med.Save.medsaveinv.app-main-73:/layout/activity_investigation_search.xml"
     },
     {
-        "merged": "med.Save.medsaveinv.app-mergeDebugResources-70:/layout/activity_survey_form.xml",
-        "source": "med.Save.medsaveinv.app-main-73:/layout/activity_survey_form.xml"
-    },
-    {
         "merged": "C:\\Users\\KV RANA\\.gradle\\daemon\\8.0\\med.Save.medsaveinv.app-mergeDebugResources-70:\\layout\\activity_main.xml",
         "source": "C:\\Users\\KV RANA\\.gradle\\daemon\\8.0\\med.Save.medsaveinv.app-main-73:\\layout\\activity_main.xml"
     },
